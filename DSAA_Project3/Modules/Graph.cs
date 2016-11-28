@@ -6,7 +6,7 @@ namespace DSAA_Project3
 {
     public abstract class GraphElem { }
 
-    public class Loc : GraphElem
+    public class Vertex : GraphElem
     {
         public string code;
         public string name;
@@ -15,71 +15,71 @@ namespace DSAA_Project3
         public string type;
         public PictureBox picDot;
 
-        public Loc() { }
-        public Loc(string newName, string newEngName)
+        public Vertex() { }
+        public Vertex(string newName, string newEngName)
         {
             name = newName;
             engName = newEngName;
         }
 
-        public bool Equals(Loc target)
+        public bool Equals(Vertex target)
         {
             return (code == target.code);
         }
     }
 
-    public class locDB
+    public class VertexCollection
     {
-        public List<Loc> locList;
+        public List<Vertex> locList;
 
-        public locDB()
+        public VertexCollection()
         {
-            locList = new List<Loc>();
+            locList = new List<Vertex>();
         }
 
-        public locDB(string path)
+        public VertexCollection(string path)
         {
-            locList = new List<Loc>();
-            initLocList(path);
+            locList = new List<Vertex>();
+            initVertexList(path);
         }
 
-        public void initLocList(string path)
+        public void initVertexList(string path)
         {
-            XmlDocument locDB = new XmlDocument();
+            XmlDocument VertexCollection = new XmlDocument();
             try
             {
-                locDB.Load(path);
+                VertexCollection.Load(path);
             }
             catch (System.IO.FileNotFoundException)
             {
                 throw;
             }
 
-            XmlNode rootNode = locDB.SelectSingleNode("Locations");
+            XmlNode rootNode = VertexCollection.SelectSingleNode("Locations");
             XmlNodeList nodeList = rootNode.ChildNodes;
 
             foreach (XmlNode item in nodeList)
             {
-                Loc nowLoc = new Loc();
+                Vertex nowVertex = new Vertex();
                 XmlElement nowElement = (XmlElement)item;
 
-                nowLoc.code = nowElement.SelectSingleNode("Code").InnerText;
-                nowLoc.name = nowElement.SelectSingleNode("Name").InnerText;
-                nowLoc.engName = nowElement.SelectSingleNode("EngName").InnerText;
-                nowLoc.intro = nowElement.SelectSingleNode("Intro").InnerText;
-                nowLoc.type = nowElement.GetAttribute("Type").ToString();
+                nowVertex.code = nowElement.SelectSingleNode("Code").InnerText;
+                nowVertex.name = nowElement.SelectSingleNode("Name").InnerText;
+                nowVertex.engName = nowElement.SelectSingleNode("EngName").InnerText;
+                nowVertex.intro = nowElement.SelectSingleNode("Intro").InnerText;
+                nowVertex.type = nowElement.GetAttribute("Type").ToString();
 
-                locList.Add(nowLoc);
+                locList.Add(nowVertex);
             }
         }
     }
 
-    public class Edge: GraphElem
+    public class Edge : GraphElem
     {
         public string id;
         public bool isDir;
-        public Loc v1;
-        public Loc v2;
+        public Vertex v1;
+        public Vertex v2;
         public int len;
         public PictureBox picEdge;
 
@@ -91,24 +91,24 @@ namespace DSAA_Project3
         }
     }
 
-    public class Edges
+    public class EdgeCollection
     {
         public List<Edge> edgeList = new List<Edge>();
 
-        public Edges() { }
-        public Edges(string path)
+        public EdgeCollection() { }
+        public EdgeCollection(string path)
         {
-            XmlDocument locDB = new XmlDocument();
+            XmlDocument VertexCollection = new XmlDocument();
             try
             {
-                locDB.Load(path);
+                VertexCollection.Load(path);
             }
             catch (System.IO.FileNotFoundException)
             {
                 throw;
             }
 
-            XmlNode rootNode = locDB.SelectSingleNode("GraphEdges");
+            XmlNode rootNode = VertexCollection.SelectSingleNode("GraphEdgeCollection");
             XmlNodeList nodeList = rootNode.ChildNodes;
 
             foreach (XmlNode item in nodeList)
@@ -117,8 +117,8 @@ namespace DSAA_Project3
                 XmlElement nowElement = (XmlElement)item;
 
                 nowEdge.id = nowElement.GetAttribute("id").ToString();
-                nowEdge.v1 = Program.db.locList.Find(delegate (Loc l) { return l.code == (nowElement.GetAttribute("v1")); });
-                nowEdge.v2 = Program.db.locList.Find(delegate (Loc l) { return l.code == (nowElement.GetAttribute("v2")); });
+                nowEdge.v1 = Program.db.locList.Find(delegate (Vertex l) { return l.code == (nowElement.GetAttribute("v1")); });
+                nowEdge.v2 = Program.db.locList.Find(delegate (Vertex l) { return l.code == (nowElement.GetAttribute("v2")); });
                 nowEdge.len = int.Parse(nowElement.GetAttribute("len"));
 
                 edgeList.Add(nowEdge);
@@ -147,8 +147,37 @@ namespace DSAA_Project3
 
     public class Graph
     {
-        public locDB vtxCollection;
-        public Edges
+        public VertexCollection vtxCollection;
+        public EdgeCollection egdCollection;
+        public int[,] adjMat; 
+
+        public Graph() { }
+
+        public Graph(VertexCollection vc, EdgeCollection ec)
+        {
+            vtxCollection = vc;
+            egdCollection = ec;
+            adjMat = new int[vc.locList.Count, vc.locList.Count];
+
+            for (int i = 0; i < vc.locList.Count; i++)
+            {
+                for (int j = 0; j < vc.locList.Count; j++) { adjMat[i, j] = 0; }
+            }
+
+            this.genAdjMat();
+        }
+
+        public void genAdjMat()
+        {
+            foreach (Edge item in egdCollection.edgeList)
+            {
+                adjMat[(vtxCollection.locList.FindIndex(delegate (Vertex v) { return v == item.v1; })), (vtxCollection.locList.FindIndex(delegate (Vertex v) { return v == item.v2; }))] = item.len;
+                if (item.isDir == false)
+                {
+                    adjMat[(vtxCollection.locList.FindIndex(delegate (Vertex v) { return v == item.v2; })), (vtxCollection.locList.FindIndex(delegate (Vertex v) { return v == item.v1; }))] = item.len;
+                }
+            }
+        }
     }
 
 }

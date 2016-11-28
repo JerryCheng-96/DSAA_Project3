@@ -5,8 +5,9 @@ namespace DSAA_Project3
 {
     static class Program
     {
-        public static locDB db;
-        public static Edges edgeDB;
+        public static VertexCollection db;
+        public static EdgeCollection edgeDB;
+        public static Graph theGraph;
 
         /// <summary>
         /// 应用程序的主入口点。
@@ -14,8 +15,9 @@ namespace DSAA_Project3
         [STAThread]
         static void Main()
         {
-            db = new locDB(Application.StartupPath + "..\\DBs\\LocationDB.xml");
-            edgeDB = new Edges(Application.StartupPath + "..\\DBs\\Edge.xml");
+            db = new VertexCollection(Application.StartupPath + "..\\DBs\\LocationDB.xml");
+            edgeDB = new EdgeCollection(Application.StartupPath + "..\\DBs\\Edge.xml");
+            theGraph = new Graph(db, edgeDB);
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);

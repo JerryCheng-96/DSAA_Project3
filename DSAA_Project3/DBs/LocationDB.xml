@@ -66,14 +66,6 @@
     <ImgAdd>Gym</ImgAdd>
   </loc>
 
-  <loc Type="生活">
-    <Code>Dorm1</Code>
-    <Name>一舍</Name>
-    <EngName>Dorm. #1</EngName>
-    <Intro></Intro>
-    <ImgAdd>Dorm1</ImgAdd>
-  </loc>
-
   <loc Type="教学">
     <Code>ShawBd</Code>
     <Name>综合楼</Name>
