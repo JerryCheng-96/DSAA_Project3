@@ -15,7 +15,6 @@ namespace DSAA_Project3
         public string engName;
         public string intro;
         public string type;
-        public string imgAdd;
         public PictureBox picDot;
 
         public Loc() { }
@@ -58,7 +57,6 @@ namespace DSAA_Project3
                 throw;
             }
 
-
             XmlNode rootNode = locDB.SelectSingleNode("Locations");
             XmlNodeList nodeList = rootNode.ChildNodes;
 
@@ -71,7 +69,6 @@ namespace DSAA_Project3
                 nowLoc.name = nowElement.SelectSingleNode("Name").InnerText;
                 nowLoc.engName = nowElement.SelectSingleNode("EngName").InnerText;
                 nowLoc.intro = nowElement.SelectSingleNode("Intro").InnerText;
-                nowLoc.imgAdd = nowElement.SelectSingleNode("ImgAdd").InnerText;
                 nowLoc.type = nowElement.GetAttribute("Type").ToString();
 
                 locList.Add(nowLoc);

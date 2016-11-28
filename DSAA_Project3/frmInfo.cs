@@ -25,7 +25,7 @@ namespace DSAA_Project3
             lEngName.Text = locToDisp.engName;
             lInfo.Text = locToDisp.intro;
             lType.Text = locToDisp.type;
-            pictureBox1.Image = Properties.InfoImage.FindImg(locToDisp.imgAdd);
+            pictureBox1.Image = Properties.InfoImage.FindImg(locToDisp.code);
         }
         
         public void updateContent(Loc locToDisp)
@@ -42,7 +42,7 @@ namespace DSAA_Project3
             lEngName.Text = locToDisp.engName;
             lInfo.Text = locToDisp.intro;
             lType.Text = locToDisp.type;
-            pictureBox1.Image = Properties.InfoImage.FindImg(locToDisp.imgAdd);            
+            pictureBox1.Image = Properties.InfoImage.FindImg(locToDisp.code);            
         }
 
         private void button1_Click(object sender, EventArgs e)

@@ -5,7 +5,7 @@
     <Name>青春广场</Name>
     <EngName>Youth Square</EngName>
     <Intro>The introduction to Youth Square.</Intro>
-    <ImgAdd>Youth_Square</ImgAdd>
+    <ImgAdd>YSq</ImgAdd>
   </loc>
   
   <loc Type="地标">
@@ -13,7 +13,7 @@
     <Name>不高山</Name>
     <EngName>Bugao Mountain</EngName>
     <Intro>The introduction to Bugao Mountain.</Intro>
-    <ImgAdd>Bugao</ImgAdd>
+    <ImgAdd>BGMt</ImgAdd>
   </loc>
 
   <loc Type="教学">
@@ -33,7 +33,7 @@
   </loc>
 
   <loc Type="大门">
-    <Code>EastGate</Code>
+    <Code>EGate</Code>
     <Name>东门</Name>
     <EngName>East Gate</EngName>
     <Intro></Intro>

@@ -19,28 +19,14 @@ namespace DSAA_Project3
             InitializeComponent();
             infoWindow = new frmInfo();
 
-            #region Set Button Style
-            SetBtnStyle(btnColArt);
-            SetBtnStyle(btnBGMt);
-            SetBtnStyle(btnETC);
-            SetBtnStyle(btnCAE);
-            SetBtnStyle(btnYSq);
-            SetBtnStyle(btnColPE);
-            SetBtnStyle(btnDorm1);
-            SetBtnStyle(btnSHos);
-            SetBtnStyle(btnDorm21);
-            SetBtnStyle(btnSWGate);
-            SetBtnStyle(btnLib);
-            SetBtnStyle(btnTBd1);
-            SetBtnStyle(btnEx2);
-            SetBtnStyle(btnSSCplx);
-            SetBtnStyle(btnShawBd);
-            SetBtnStyle(btnSGate);
-            SetBtnStyle(btnEx1);
-            SetBtnStyle(btnGym);
-            SetBtnStyle(btnSEGate);
-            SetBtnStyle(btnEGate);
-            #endregion
+            foreach (Loc l in Program.db.locList)
+            {
+                Control[] button = Controls.Find("btn" + l.code, true);
+                foreach (Button item in button) { SetBtnStyle(item); }
+
+                Control[] LocPicBox = Controls.Find(l.code + "_d", true);
+                foreach (PictureBox item in LocPicBox) { l.picDot = item; }
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -105,7 +91,7 @@ namespace DSAA_Project3
 
         private void btnEGate_Click(object sender, EventArgs e)
         {
-            showInfoWindow("EastGate");
+            showInfoWindow("EGate");
         }
 
         private void btnDorm1_Click(object sender, EventArgs e)

@@ -58,6 +58,7 @@
     <Compile Include="frmMain.Designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="Edges.cs" />
     <Compile Include="Loc.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -151,7 +152,9 @@
     <None Include="Resources\Metro_LowRes.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Edge.xml" />
+    <Content Include="Edge.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <None Include="Resources\Red.jpg" />
     <None Include="Resources\Purple.jpg" />
     <None Include="Resources\Green.jpg" />
@@ -166,7 +169,6 @@
     <Content Include="LocationDB.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <None Include="ShadeCast.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

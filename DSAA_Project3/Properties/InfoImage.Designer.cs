@@ -73,9 +73,9 @@ namespace DSAA_Project3.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap EastGate {
+        internal static System.Drawing.Bitmap EGate {
             get {
-                object obj = ResourceManager.GetObject("EastGate", resourceCulture);
+                object obj = ResourceManager.GetObject("EGate", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -130,6 +130,9 @@ namespace DSAA_Project3.Properties {
             }
         }
 
+        /// <summary>
+        ///   按资源名称查找
+        /// </summary>
         internal static System.Drawing.Bitmap FindImg(string name)
         {
             object obj = ResourceManager.GetObject(name, resourceCulture);
