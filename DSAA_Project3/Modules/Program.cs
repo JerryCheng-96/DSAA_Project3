@@ -17,8 +17,8 @@ namespace DSAA_Project3
         [STAThread]
         static void Main()
         {
-            db = new locDB(Application.StartupPath + "\\LocationDB.xml");
-            edgeDB = new Edges(Application.StartupPath + "\\Edge.xml");
+            db = new locDB(Application.StartupPath + "..\\DBs\\LocationDB.xml");
+            edgeDB = new Edges(Application.StartupPath + "..\\DBs\\Edge.xml");
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
