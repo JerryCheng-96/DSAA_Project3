@@ -58,6 +58,12 @@
     <Compile Include="Forms\frmMain.Designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\frmRoute.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmRoute.Designer.cs">
+      <DependentUpon>frmRoute.cs</DependentUpon>
+    </Compile>
     <Compile Include="Modules\Graph.cs" />
     <Compile Include="Modules\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
