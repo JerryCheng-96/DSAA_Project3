@@ -5,30 +5,6 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSAA_Project3", "DSAA_Project3\DSAA_Project3.csproj", "{D1F46A6F-9123-4CE9-9D21-E055C4F2CF53}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Img", "Img", "{DA59C8EA-E75C-44C2-B52E-E2CC86A6B446}"
-	ProjectSection(SolutionItems) = preProject
-		Metro.jpg = Metro.jpg
-		Metro_HighRes.jpg = Metro_HighRes.jpg
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arrow", "Arrow", "{4EF2A171-B5F0-49DB-8E3E-D3407FF9256F}"
-	ProjectSection(SolutionItems) = preProject
-		Arrow_0_Down.jpg = Arrow_0_Down.jpg
-		Arrow_0_Up.jpg = Arrow_0_Up.jpg
-		Arrow_1_Down.jpg = Arrow_1_Down.jpg
-		Arrow_1_Up.jpg = Arrow_1_Up.jpg
-		Arrow_2_Down.jpg = Arrow_2_Down.jpg
-		Arrow_2_Up.jpg = Arrow_2_Up.jpg
-		Arrow_3_Down.jpg = Arrow_3_Down.jpg
-		Arrow_3_Up.jpg = Arrow_3_Up.jpg
-		Arrow_4_Down.jpg = Arrow_4_Down.jpg
-		Arrow_4_Up.jpg = Arrow_4_Up.jpg
-		Arrow_Down.jpg = Arrow_Down.jpg
-		Arrow_Left.jpg = Arrow_Left.jpg
-		Arrow_Right.jpg = Arrow_Right.jpg
-		Arrow_Up.jpg = Arrow_Up.jpg
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,8 +18,5 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{4EF2A171-B5F0-49DB-8E3E-D3407FF9256F} = {DA59C8EA-E75C-44C2-B52E-E2CC86A6B446}
 	EndGlobalSection
 EndGlobal
