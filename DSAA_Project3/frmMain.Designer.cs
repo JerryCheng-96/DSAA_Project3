@@ -29,22 +29,22 @@
         private void InitializeComponent()
         {
             this.btnColArt = new System.Windows.Forms.Button();
-            this.btnBuGao = new System.Windows.Forms.Button();
-            this.btnTrCtr = new System.Windows.Forms.Button();
-            this.btnColAE = new System.Windows.Forms.Button();
-            this.btnYouthSqr = new System.Windows.Forms.Button();
+            this.btnBGMt = new System.Windows.Forms.Button();
+            this.btnETC = new System.Windows.Forms.Button();
+            this.btnCAE = new System.Windows.Forms.Button();
+            this.btnYSq = new System.Windows.Forms.Button();
             this.btnColPE = new System.Windows.Forms.Button();
             this.btnDorm1 = new System.Windows.Forms.Button();
-            this.btnHospital = new System.Windows.Forms.Button();
+            this.btnSHos = new System.Windows.Forms.Button();
             this.btnDorm21 = new System.Windows.Forms.Button();
             this.btnSWGate = new System.Windows.Forms.Button();
             this.btnLib = new System.Windows.Forms.Button();
-            this.btn1Bd = new System.Windows.Forms.Button();
-            this.btn2Ex = new System.Windows.Forms.Button();
-            this.btnSSComplex = new System.Windows.Forms.Button();
+            this.btnTBd1 = new System.Windows.Forms.Button();
+            this.btnEx2 = new System.Windows.Forms.Button();
+            this.btnSSCplx = new System.Windows.Forms.Button();
             this.btnShawBd = new System.Windows.Forms.Button();
             this.btnSGate = new System.Windows.Forms.Button();
-            this.btn1Ex = new System.Windows.Forms.Button();
+            this.btnEx1 = new System.Windows.Forms.Button();
             this.btnGym = new System.Windows.Forms.Button();
             this.btnSEGate = new System.Windows.Forms.Button();
             this.btnEGate = new System.Windows.Forms.Button();
@@ -77,23 +77,23 @@
             this.routeArrow_4_ = new System.Windows.Forms.PictureBox();
             this.routeArrow_5_ = new System.Windows.Forms.PictureBox();
             this.Dorm21_d = new System.Windows.Forms.PictureBox();
-            this.Hos_d = new System.Windows.Forms.PictureBox();
+            this.SHos_d = new System.Windows.Forms.PictureBox();
             this.Dorm1_d = new System.Windows.Forms.PictureBox();
-            this.Bugao_d = new System.Windows.Forms.PictureBox();
+            this.BGMt_d = new System.Windows.Forms.PictureBox();
             this.ColArt_d = new System.Windows.Forms.PictureBox();
-            this.YouthSquare_d = new System.Windows.Forms.PictureBox();
+            this.YSq_d = new System.Windows.Forms.PictureBox();
             this.ColPE_d = new System.Windows.Forms.PictureBox();
             this.SWGate_d = new System.Windows.Forms.PictureBox();
             this.ETC_d = new System.Windows.Forms.PictureBox();
             this.CAE_d = new System.Windows.Forms.PictureBox();
             this.Lib_d = new System.Windows.Forms.PictureBox();
-            this.TBd_d = new System.Windows.Forms.PictureBox();
-            this.Ex2Bd_d = new System.Windows.Forms.PictureBox();
+            this.TBd1_d = new System.Windows.Forms.PictureBox();
+            this.Ex2_d = new System.Windows.Forms.PictureBox();
             this.SSC_d = new System.Windows.Forms.PictureBox();
             this.Gym_d = new System.Windows.Forms.PictureBox();
             this.EGate_d = new System.Windows.Forms.PictureBox();
             this.ShawBd_d = new System.Windows.Forms.PictureBox();
-            this.Ex1Bd_d = new System.Windows.Forms.PictureBox();
+            this.Ex1_d = new System.Windows.Forms.PictureBox();
             this.SGate_d = new System.Windows.Forms.PictureBox();
             this.SEGate_d = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.picMaskHelp)).BeginInit();
@@ -123,23 +123,23 @@
             ((System.ComponentModel.ISupportInitialize)(this.routeArrow_4_)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.routeArrow_5_)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Dorm21_d)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Hos_d)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SHos_d)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Dorm1_d)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Bugao_d)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BGMt_d)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ColArt_d)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.YouthSquare_d)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.YSq_d)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ColPE_d)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SWGate_d)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ETC_d)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CAE_d)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Lib_d)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TBd_d)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Ex2Bd_d)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TBd1_d)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ex2_d)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SSC_d)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Gym_d)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.EGate_d)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ShawBd_d)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Ex1Bd_d)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ex1_d)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SGate_d)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SEGate_d)).BeginInit();
             this.SuspendLayout();
@@ -159,65 +159,65 @@
             this.btnColArt.MouseEnter += new System.EventHandler(this.btnColArt_MouseEnter);
             this.btnColArt.MouseLeave += new System.EventHandler(this.btnColArt_MouseLeave);
             // 
-            // btnBuGao
+            // btnBGMt
             // 
-            this.btnBuGao.BackColor = System.Drawing.Color.Transparent;
-            this.btnBuGao.FlatAppearance.BorderSize = 0;
-            this.btnBuGao.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBuGao.Location = new System.Drawing.Point(264, 9);
-            this.btnBuGao.Margin = new System.Windows.Forms.Padding(2);
-            this.btnBuGao.Name = "btnBuGao";
-            this.btnBuGao.Size = new System.Drawing.Size(143, 100);
-            this.btnBuGao.TabIndex = 1;
-            this.btnBuGao.UseVisualStyleBackColor = false;
-            this.btnBuGao.Click += new System.EventHandler(this.btnBuGao_Click);
-            this.btnBuGao.MouseEnter += new System.EventHandler(this.btnBuGao_MouseEnter);
-            this.btnBuGao.MouseLeave += new System.EventHandler(this.btnBuGao_MouseLeave);
+            this.btnBGMt.BackColor = System.Drawing.Color.Transparent;
+            this.btnBGMt.FlatAppearance.BorderSize = 0;
+            this.btnBGMt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBGMt.Location = new System.Drawing.Point(264, 9);
+            this.btnBGMt.Margin = new System.Windows.Forms.Padding(2);
+            this.btnBGMt.Name = "btnBGMt";
+            this.btnBGMt.Size = new System.Drawing.Size(143, 100);
+            this.btnBGMt.TabIndex = 1;
+            this.btnBGMt.UseVisualStyleBackColor = false;
+            this.btnBGMt.Click += new System.EventHandler(this.btnBuGao_Click);
+            this.btnBGMt.MouseEnter += new System.EventHandler(this.btnBuGao_MouseEnter);
+            this.btnBGMt.MouseLeave += new System.EventHandler(this.btnBuGao_MouseLeave);
             // 
-            // btnTrCtr
+            // btnETC
             // 
-            this.btnTrCtr.BackColor = System.Drawing.Color.Transparent;
-            this.btnTrCtr.FlatAppearance.BorderSize = 0;
-            this.btnTrCtr.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTrCtr.Location = new System.Drawing.Point(416, 9);
-            this.btnTrCtr.Margin = new System.Windows.Forms.Padding(2);
-            this.btnTrCtr.Name = "btnTrCtr";
-            this.btnTrCtr.Size = new System.Drawing.Size(296, 98);
-            this.btnTrCtr.TabIndex = 2;
-            this.btnTrCtr.UseVisualStyleBackColor = false;
-            this.btnTrCtr.Click += new System.EventHandler(this.btnTrCtr_Click);
-            this.btnTrCtr.MouseEnter += new System.EventHandler(this.btnTrCtr_MouseEnter);
-            this.btnTrCtr.MouseLeave += new System.EventHandler(this.btnTrCtr_MouseLeave);
+            this.btnETC.BackColor = System.Drawing.Color.Transparent;
+            this.btnETC.FlatAppearance.BorderSize = 0;
+            this.btnETC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnETC.Location = new System.Drawing.Point(416, 9);
+            this.btnETC.Margin = new System.Windows.Forms.Padding(2);
+            this.btnETC.Name = "btnETC";
+            this.btnETC.Size = new System.Drawing.Size(296, 98);
+            this.btnETC.TabIndex = 2;
+            this.btnETC.UseVisualStyleBackColor = false;
+            this.btnETC.Click += new System.EventHandler(this.btnTrCtr_Click);
+            this.btnETC.MouseEnter += new System.EventHandler(this.btnTrCtr_MouseEnter);
+            this.btnETC.MouseLeave += new System.EventHandler(this.btnTrCtr_MouseLeave);
             // 
-            // btnColAE
+            // btnCAE
             // 
-            this.btnColAE.BackColor = System.Drawing.Color.Transparent;
-            this.btnColAE.FlatAppearance.BorderSize = 0;
-            this.btnColAE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnColAE.Location = new System.Drawing.Point(535, 131);
-            this.btnColAE.Margin = new System.Windows.Forms.Padding(2);
-            this.btnColAE.Name = "btnColAE";
-            this.btnColAE.Size = new System.Drawing.Size(388, 98);
-            this.btnColAE.TabIndex = 3;
-            this.btnColAE.UseVisualStyleBackColor = false;
-            this.btnColAE.Click += new System.EventHandler(this.btnColAE_Click);
-            this.btnColAE.MouseEnter += new System.EventHandler(this.btnColAE_MouseEnter);
-            this.btnColAE.MouseLeave += new System.EventHandler(this.btnColAE_MouseLeave);
+            this.btnCAE.BackColor = System.Drawing.Color.Transparent;
+            this.btnCAE.FlatAppearance.BorderSize = 0;
+            this.btnCAE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCAE.Location = new System.Drawing.Point(535, 131);
+            this.btnCAE.Margin = new System.Windows.Forms.Padding(2);
+            this.btnCAE.Name = "btnCAE";
+            this.btnCAE.Size = new System.Drawing.Size(388, 98);
+            this.btnCAE.TabIndex = 3;
+            this.btnCAE.UseVisualStyleBackColor = false;
+            this.btnCAE.Click += new System.EventHandler(this.btnColAE_Click);
+            this.btnCAE.MouseEnter += new System.EventHandler(this.btnColAE_MouseEnter);
+            this.btnCAE.MouseLeave += new System.EventHandler(this.btnColAE_MouseLeave);
             // 
-            // btnYouthSqr
+            // btnYSq
             // 
-            this.btnYouthSqr.BackColor = System.Drawing.Color.Transparent;
-            this.btnYouthSqr.FlatAppearance.BorderSize = 0;
-            this.btnYouthSqr.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnYouthSqr.Location = new System.Drawing.Point(264, 305);
-            this.btnYouthSqr.Margin = new System.Windows.Forms.Padding(2);
-            this.btnYouthSqr.Name = "btnYouthSqr";
-            this.btnYouthSqr.Size = new System.Drawing.Size(180, 95);
-            this.btnYouthSqr.TabIndex = 4;
-            this.btnYouthSqr.UseVisualStyleBackColor = false;
-            this.btnYouthSqr.Click += new System.EventHandler(this.btnYouthSqr_Click);
-            this.btnYouthSqr.MouseEnter += new System.EventHandler(this.btnYouthSqr_MouseEnter);
-            this.btnYouthSqr.MouseLeave += new System.EventHandler(this.btnYouthSqr_MouseLeave);
+            this.btnYSq.BackColor = System.Drawing.Color.Transparent;
+            this.btnYSq.FlatAppearance.BorderSize = 0;
+            this.btnYSq.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnYSq.Location = new System.Drawing.Point(264, 305);
+            this.btnYSq.Margin = new System.Windows.Forms.Padding(2);
+            this.btnYSq.Name = "btnYSq";
+            this.btnYSq.Size = new System.Drawing.Size(180, 95);
+            this.btnYSq.TabIndex = 4;
+            this.btnYSq.UseVisualStyleBackColor = false;
+            this.btnYSq.Click += new System.EventHandler(this.btnYouthSqr_Click);
+            this.btnYSq.MouseEnter += new System.EventHandler(this.btnYouthSqr_MouseEnter);
+            this.btnYSq.MouseLeave += new System.EventHandler(this.btnYouthSqr_MouseLeave);
             // 
             // btnColPE
             // 
@@ -249,20 +249,20 @@
             this.btnDorm1.MouseEnter += new System.EventHandler(this.btnDorm1_MouseEnter);
             this.btnDorm1.MouseLeave += new System.EventHandler(this.btnDorm1_MouseLeave);
             // 
-            // btnHospital
+            // btnSHos
             // 
-            this.btnHospital.BackColor = System.Drawing.Color.Transparent;
-            this.btnHospital.FlatAppearance.BorderSize = 0;
-            this.btnHospital.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHospital.Location = new System.Drawing.Point(11, 300);
-            this.btnHospital.Margin = new System.Windows.Forms.Padding(2);
-            this.btnHospital.Name = "btnHospital";
-            this.btnHospital.Size = new System.Drawing.Size(160, 57);
-            this.btnHospital.TabIndex = 7;
-            this.btnHospital.UseVisualStyleBackColor = false;
-            this.btnHospital.Click += new System.EventHandler(this.btnHospital_Click);
-            this.btnHospital.MouseEnter += new System.EventHandler(this.btnHospital_MouseEnter);
-            this.btnHospital.MouseLeave += new System.EventHandler(this.btnHospital_MouseLeave);
+            this.btnSHos.BackColor = System.Drawing.Color.Transparent;
+            this.btnSHos.FlatAppearance.BorderSize = 0;
+            this.btnSHos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSHos.Location = new System.Drawing.Point(11, 300);
+            this.btnSHos.Margin = new System.Windows.Forms.Padding(2);
+            this.btnSHos.Name = "btnSHos";
+            this.btnSHos.Size = new System.Drawing.Size(160, 57);
+            this.btnSHos.TabIndex = 7;
+            this.btnSHos.UseVisualStyleBackColor = false;
+            this.btnSHos.Click += new System.EventHandler(this.btnHospital_Click);
+            this.btnSHos.MouseEnter += new System.EventHandler(this.btnHospital_MouseEnter);
+            this.btnSHos.MouseLeave += new System.EventHandler(this.btnHospital_MouseLeave);
             // 
             // btnDorm21
             // 
@@ -309,50 +309,50 @@
             this.btnLib.MouseEnter += new System.EventHandler(this.btnLib_MouseEnter);
             this.btnLib.MouseLeave += new System.EventHandler(this.btnLib_MouseLeave);
             // 
-            // btn1Bd
+            // btnTBd1
             // 
-            this.btn1Bd.BackColor = System.Drawing.Color.Transparent;
-            this.btn1Bd.FlatAppearance.BorderSize = 0;
-            this.btn1Bd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn1Bd.Location = new System.Drawing.Point(529, 424);
-            this.btn1Bd.Margin = new System.Windows.Forms.Padding(2);
-            this.btn1Bd.Name = "btn1Bd";
-            this.btn1Bd.Size = new System.Drawing.Size(151, 114);
-            this.btn1Bd.TabIndex = 11;
-            this.btn1Bd.UseVisualStyleBackColor = false;
-            this.btn1Bd.Click += new System.EventHandler(this.btn1Bd_Click);
-            this.btn1Bd.MouseEnter += new System.EventHandler(this.btn1Bd_MouseEnter);
-            this.btn1Bd.MouseLeave += new System.EventHandler(this.btn1Bd_MouseLeave);
+            this.btnTBd1.BackColor = System.Drawing.Color.Transparent;
+            this.btnTBd1.FlatAppearance.BorderSize = 0;
+            this.btnTBd1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTBd1.Location = new System.Drawing.Point(529, 424);
+            this.btnTBd1.Margin = new System.Windows.Forms.Padding(2);
+            this.btnTBd1.Name = "btnTBd1";
+            this.btnTBd1.Size = new System.Drawing.Size(151, 114);
+            this.btnTBd1.TabIndex = 11;
+            this.btnTBd1.UseVisualStyleBackColor = false;
+            this.btnTBd1.Click += new System.EventHandler(this.btn1Bd_Click);
+            this.btnTBd1.MouseEnter += new System.EventHandler(this.btn1Bd_MouseEnter);
+            this.btnTBd1.MouseLeave += new System.EventHandler(this.btn1Bd_MouseLeave);
             // 
-            // btn2Ex
+            // btnEx2
             // 
-            this.btn2Ex.BackColor = System.Drawing.Color.Transparent;
-            this.btn2Ex.FlatAppearance.BorderSize = 0;
-            this.btn2Ex.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn2Ex.Location = new System.Drawing.Point(680, 253);
-            this.btn2Ex.Margin = new System.Windows.Forms.Padding(2);
-            this.btn2Ex.Name = "btn2Ex";
-            this.btn2Ex.Size = new System.Drawing.Size(112, 104);
-            this.btn2Ex.TabIndex = 12;
-            this.btn2Ex.UseVisualStyleBackColor = false;
-            this.btn2Ex.Click += new System.EventHandler(this.btn2Ex_Click);
-            this.btn2Ex.MouseEnter += new System.EventHandler(this.btn2Ex_MouseEnter);
-            this.btn2Ex.MouseLeave += new System.EventHandler(this.btn2Ex_MouseLeave);
+            this.btnEx2.BackColor = System.Drawing.Color.Transparent;
+            this.btnEx2.FlatAppearance.BorderSize = 0;
+            this.btnEx2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEx2.Location = new System.Drawing.Point(680, 253);
+            this.btnEx2.Margin = new System.Windows.Forms.Padding(2);
+            this.btnEx2.Name = "btnEx2";
+            this.btnEx2.Size = new System.Drawing.Size(112, 104);
+            this.btnEx2.TabIndex = 12;
+            this.btnEx2.UseVisualStyleBackColor = false;
+            this.btnEx2.Click += new System.EventHandler(this.btn2Ex_Click);
+            this.btnEx2.MouseEnter += new System.EventHandler(this.btn2Ex_MouseEnter);
+            this.btnEx2.MouseLeave += new System.EventHandler(this.btn2Ex_MouseLeave);
             // 
-            // btnSSComplex
+            // btnSSCplx
             // 
-            this.btnSSComplex.BackColor = System.Drawing.Color.Transparent;
-            this.btnSSComplex.FlatAppearance.BorderSize = 0;
-            this.btnSSComplex.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSSComplex.Location = new System.Drawing.Point(830, 251);
-            this.btnSSComplex.Margin = new System.Windows.Forms.Padding(2);
-            this.btnSSComplex.Name = "btnSSComplex";
-            this.btnSSComplex.Size = new System.Drawing.Size(228, 103);
-            this.btnSSComplex.TabIndex = 13;
-            this.btnSSComplex.UseVisualStyleBackColor = false;
-            this.btnSSComplex.Click += new System.EventHandler(this.btnSSComplex_Click);
-            this.btnSSComplex.MouseEnter += new System.EventHandler(this.btnSSComplex_MouseEnter);
-            this.btnSSComplex.MouseLeave += new System.EventHandler(this.btnSSComplex_MouseLeave);
+            this.btnSSCplx.BackColor = System.Drawing.Color.Transparent;
+            this.btnSSCplx.FlatAppearance.BorderSize = 0;
+            this.btnSSCplx.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSSCplx.Location = new System.Drawing.Point(830, 251);
+            this.btnSSCplx.Margin = new System.Windows.Forms.Padding(2);
+            this.btnSSCplx.Name = "btnSSCplx";
+            this.btnSSCplx.Size = new System.Drawing.Size(228, 103);
+            this.btnSSCplx.TabIndex = 13;
+            this.btnSSCplx.UseVisualStyleBackColor = false;
+            this.btnSSCplx.Click += new System.EventHandler(this.btnSSComplex_Click);
+            this.btnSSCplx.MouseEnter += new System.EventHandler(this.btnSSComplex_MouseEnter);
+            this.btnSSCplx.MouseLeave += new System.EventHandler(this.btnSSComplex_MouseLeave);
             // 
             // btnShawBd
             // 
@@ -384,20 +384,20 @@
             this.btnSGate.MouseEnter += new System.EventHandler(this.btnSGate_MouseEnter);
             this.btnSGate.MouseLeave += new System.EventHandler(this.btnSGate_MouseLeave);
             // 
-            // btn1Ex
+            // btnEx1
             // 
-            this.btn1Ex.BackColor = System.Drawing.Color.Transparent;
-            this.btn1Ex.FlatAppearance.BorderSize = 0;
-            this.btn1Ex.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn1Ex.Location = new System.Drawing.Point(831, 428);
-            this.btn1Ex.Margin = new System.Windows.Forms.Padding(2);
-            this.btn1Ex.Name = "btn1Ex";
-            this.btn1Ex.Size = new System.Drawing.Size(123, 88);
-            this.btn1Ex.TabIndex = 16;
-            this.btn1Ex.UseVisualStyleBackColor = false;
-            this.btn1Ex.Click += new System.EventHandler(this.btn1Ex_Click);
-            this.btn1Ex.MouseEnter += new System.EventHandler(this.btn1Ex_MouseEnter);
-            this.btn1Ex.MouseLeave += new System.EventHandler(this.btn1Ex_MouseLeave);
+            this.btnEx1.BackColor = System.Drawing.Color.Transparent;
+            this.btnEx1.FlatAppearance.BorderSize = 0;
+            this.btnEx1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEx1.Location = new System.Drawing.Point(831, 428);
+            this.btnEx1.Margin = new System.Windows.Forms.Padding(2);
+            this.btnEx1.Name = "btnEx1";
+            this.btnEx1.Size = new System.Drawing.Size(123, 88);
+            this.btnEx1.TabIndex = 16;
+            this.btnEx1.UseVisualStyleBackColor = false;
+            this.btnEx1.Click += new System.EventHandler(this.btn1Ex_Click);
+            this.btnEx1.MouseEnter += new System.EventHandler(this.btn1Ex_MouseEnter);
+            this.btnEx1.MouseLeave += new System.EventHandler(this.btn1Ex_MouseLeave);
             // 
             // btnGym
             // 
@@ -763,15 +763,15 @@
             this.Dorm21_d.TabIndex = 48;
             this.Dorm21_d.TabStop = false;
             // 
-            // Hos_d
+            // SHos_d
             // 
-            this.Hos_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Hos_d.Location = new System.Drawing.Point(129, 318);
-            this.Hos_d.Margin = new System.Windows.Forms.Padding(2);
-            this.Hos_d.Name = "Hos_d";
-            this.Hos_d.Size = new System.Drawing.Size(20, 20);
-            this.Hos_d.TabIndex = 49;
-            this.Hos_d.TabStop = false;
+            this.SHos_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.SHos_d.Location = new System.Drawing.Point(129, 318);
+            this.SHos_d.Margin = new System.Windows.Forms.Padding(2);
+            this.SHos_d.Name = "SHos_d";
+            this.SHos_d.Size = new System.Drawing.Size(20, 20);
+            this.SHos_d.TabIndex = 49;
+            this.SHos_d.TabStop = false;
             // 
             // Dorm1_d
             // 
@@ -783,15 +783,15 @@
             this.Dorm1_d.TabIndex = 50;
             this.Dorm1_d.TabStop = false;
             // 
-            // Bugao_d
+            // BGMt_d
             // 
-            this.Bugao_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Bugao_d.Location = new System.Drawing.Point(278, 72);
-            this.Bugao_d.Margin = new System.Windows.Forms.Padding(2);
-            this.Bugao_d.Name = "Bugao_d";
-            this.Bugao_d.Size = new System.Drawing.Size(20, 20);
-            this.Bugao_d.TabIndex = 51;
-            this.Bugao_d.TabStop = false;
+            this.BGMt_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BGMt_d.Location = new System.Drawing.Point(278, 72);
+            this.BGMt_d.Margin = new System.Windows.Forms.Padding(2);
+            this.BGMt_d.Name = "BGMt_d";
+            this.BGMt_d.Size = new System.Drawing.Size(20, 20);
+            this.BGMt_d.TabIndex = 51;
+            this.BGMt_d.TabStop = false;
             // 
             // ColArt_d
             // 
@@ -803,15 +803,15 @@
             this.ColArt_d.TabIndex = 52;
             this.ColArt_d.TabStop = false;
             // 
-            // YouthSquare_d
+            // YSq_d
             // 
-            this.YouthSquare_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.YouthSquare_d.Location = new System.Drawing.Point(278, 318);
-            this.YouthSquare_d.Margin = new System.Windows.Forms.Padding(2);
-            this.YouthSquare_d.Name = "YouthSquare_d";
-            this.YouthSquare_d.Size = new System.Drawing.Size(20, 20);
-            this.YouthSquare_d.TabIndex = 53;
-            this.YouthSquare_d.TabStop = false;
+            this.YSq_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.YSq_d.Location = new System.Drawing.Point(278, 318);
+            this.YSq_d.Margin = new System.Windows.Forms.Padding(2);
+            this.YSq_d.Name = "YSq_d";
+            this.YSq_d.Size = new System.Drawing.Size(20, 20);
+            this.YSq_d.TabIndex = 53;
+            this.YSq_d.TabStop = false;
             // 
             // ColPE_d
             // 
@@ -863,25 +863,25 @@
             this.Lib_d.TabIndex = 58;
             this.Lib_d.TabStop = false;
             // 
-            // TBd_d
+            // TBd1_d
             // 
-            this.TBd_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.TBd_d.Location = new System.Drawing.Point(546, 441);
-            this.TBd_d.Margin = new System.Windows.Forms.Padding(2);
-            this.TBd_d.Name = "TBd_d";
-            this.TBd_d.Size = new System.Drawing.Size(20, 20);
-            this.TBd_d.TabIndex = 59;
-            this.TBd_d.TabStop = false;
+            this.TBd1_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.TBd1_d.Location = new System.Drawing.Point(546, 441);
+            this.TBd1_d.Margin = new System.Windows.Forms.Padding(2);
+            this.TBd1_d.Name = "TBd1_d";
+            this.TBd1_d.Size = new System.Drawing.Size(20, 20);
+            this.TBd1_d.TabIndex = 59;
+            this.TBd1_d.TabStop = false;
             // 
-            // Ex2Bd_d
+            // Ex2_d
             // 
-            this.Ex2Bd_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Ex2Bd_d.Location = new System.Drawing.Point(692, 318);
-            this.Ex2Bd_d.Margin = new System.Windows.Forms.Padding(2);
-            this.Ex2Bd_d.Name = "Ex2Bd_d";
-            this.Ex2Bd_d.Size = new System.Drawing.Size(20, 20);
-            this.Ex2Bd_d.TabIndex = 60;
-            this.Ex2Bd_d.TabStop = false;
+            this.Ex2_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Ex2_d.Location = new System.Drawing.Point(692, 318);
+            this.Ex2_d.Margin = new System.Windows.Forms.Padding(2);
+            this.Ex2_d.Name = "Ex2_d";
+            this.Ex2_d.Size = new System.Drawing.Size(20, 20);
+            this.Ex2_d.TabIndex = 60;
+            this.Ex2_d.TabStop = false;
             // 
             // SSC_d
             // 
@@ -923,15 +923,15 @@
             this.ShawBd_d.TabIndex = 64;
             this.ShawBd_d.TabStop = false;
             // 
-            // Ex1Bd_d
+            // Ex1_d
             // 
-            this.Ex1Bd_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Ex1Bd_d.Location = new System.Drawing.Point(840, 441);
-            this.Ex1Bd_d.Margin = new System.Windows.Forms.Padding(2);
-            this.Ex1Bd_d.Name = "Ex1Bd_d";
-            this.Ex1Bd_d.Size = new System.Drawing.Size(20, 20);
-            this.Ex1Bd_d.TabIndex = 65;
-            this.Ex1Bd_d.TabStop = false;
+            this.Ex1_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Ex1_d.Location = new System.Drawing.Point(840, 441);
+            this.Ex1_d.Margin = new System.Windows.Forms.Padding(2);
+            this.Ex1_d.Name = "Ex1_d";
+            this.Ex1_d.Size = new System.Drawing.Size(20, 20);
+            this.Ex1_d.TabIndex = 65;
+            this.Ex1_d.TabStop = false;
             // 
             // SGate_d
             // 
@@ -963,25 +963,25 @@
             this.ClientSize = new System.Drawing.Size(1256, 644);
             this.Controls.Add(this.SEGate_d);
             this.Controls.Add(this.SGate_d);
-            this.Controls.Add(this.Ex1Bd_d);
+            this.Controls.Add(this.Ex1_d);
             this.Controls.Add(this.ShawBd_d);
             this.Controls.Add(this.EGate_d);
             this.Controls.Add(this.Gym_d);
             this.Controls.Add(this.SSC_d);
-            this.Controls.Add(this.Ex2Bd_d);
-            this.Controls.Add(this.TBd_d);
+            this.Controls.Add(this.Ex2_d);
+            this.Controls.Add(this.TBd1_d);
             this.Controls.Add(this.Lib_d);
             this.Controls.Add(this.CAE_d);
             this.Controls.Add(this.ETC_d);
             this.Controls.Add(this.SWGate_d);
             this.Controls.Add(this.ColPE_d);
-            this.Controls.Add(this.YouthSquare_d);
+            this.Controls.Add(this.YSq_d);
             this.Controls.Add(this.ColArt_d);
-            this.Controls.Add(this.Bugao_d);
+            this.Controls.Add(this.BGMt_d);
             this.Controls.Add(this.Dorm1_d);
-            this.Controls.Add(this.Hos_d);
+            this.Controls.Add(this.SHos_d);
             this.Controls.Add(this.Dorm21_d);
-            this.Controls.Add(this.btnBuGao);
+            this.Controls.Add(this.btnBGMt);
             this.Controls.Add(this.routeArrow_3_);
             this.Controls.Add(this.routeArrow_2_);
             this.Controls.Add(this.routeArrow_1_);
@@ -1007,21 +1007,21 @@
             this.Controls.Add(this.btnEGate);
             this.Controls.Add(this.btnSEGate);
             this.Controls.Add(this.btnGym);
-            this.Controls.Add(this.btn1Ex);
+            this.Controls.Add(this.btnEx1);
             this.Controls.Add(this.btnSGate);
             this.Controls.Add(this.btnShawBd);
-            this.Controls.Add(this.btnSSComplex);
-            this.Controls.Add(this.btn2Ex);
-            this.Controls.Add(this.btn1Bd);
+            this.Controls.Add(this.btnSSCplx);
+            this.Controls.Add(this.btnEx2);
+            this.Controls.Add(this.btnTBd1);
             this.Controls.Add(this.btnLib);
             this.Controls.Add(this.btnSWGate);
             this.Controls.Add(this.btnDorm21);
-            this.Controls.Add(this.btnHospital);
+            this.Controls.Add(this.btnSHos);
             this.Controls.Add(this.btnDorm1);
             this.Controls.Add(this.btnColPE);
-            this.Controls.Add(this.btnYouthSqr);
-            this.Controls.Add(this.btnColAE);
-            this.Controls.Add(this.btnTrCtr);
+            this.Controls.Add(this.btnYSq);
+            this.Controls.Add(this.btnCAE);
+            this.Controls.Add(this.btnETC);
             this.Controls.Add(this.btnColArt);
             this.Controls.Add(this.routeArrow5);
             this.Controls.Add(this.routeArrow6);
@@ -1061,23 +1061,23 @@
             ((System.ComponentModel.ISupportInitialize)(this.routeArrow_4_)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.routeArrow_5_)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Dorm21_d)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Hos_d)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SHos_d)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Dorm1_d)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Bugao_d)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BGMt_d)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ColArt_d)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.YouthSquare_d)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.YSq_d)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ColPE_d)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SWGate_d)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ETC_d)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CAE_d)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Lib_d)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TBd_d)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Ex2Bd_d)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TBd1_d)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ex2_d)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SSC_d)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Gym_d)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.EGate_d)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ShawBd_d)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Ex1Bd_d)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ex1_d)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SGate_d)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SEGate_d)).EndInit();
             this.ResumeLayout(false);
@@ -1087,22 +1087,22 @@
         #endregion
 
         private System.Windows.Forms.Button btnColArt;
-        private System.Windows.Forms.Button btnBuGao;
-        private System.Windows.Forms.Button btnTrCtr;
-        private System.Windows.Forms.Button btnColAE;
-        private System.Windows.Forms.Button btnYouthSqr;
+        private System.Windows.Forms.Button btnBGMt;
+        private System.Windows.Forms.Button btnETC;
+        private System.Windows.Forms.Button btnCAE;
+        private System.Windows.Forms.Button btnYSq;
         private System.Windows.Forms.Button btnColPE;
         private System.Windows.Forms.Button btnDorm1;
-        private System.Windows.Forms.Button btnHospital;
+        private System.Windows.Forms.Button btnSHos;
         private System.Windows.Forms.Button btnDorm21;
         private System.Windows.Forms.Button btnSWGate;
         private System.Windows.Forms.Button btnLib;
-        private System.Windows.Forms.Button btn1Bd;
-        private System.Windows.Forms.Button btn2Ex;
-        private System.Windows.Forms.Button btnSSComplex;
+        private System.Windows.Forms.Button btnTBd1;
+        private System.Windows.Forms.Button btnEx2;
+        private System.Windows.Forms.Button btnSSCplx;
         private System.Windows.Forms.Button btnShawBd;
         private System.Windows.Forms.Button btnSGate;
-        private System.Windows.Forms.Button btn1Ex;
+        private System.Windows.Forms.Button btnEx1;
         private System.Windows.Forms.Button btnGym;
         private System.Windows.Forms.Button btnSEGate;
         private System.Windows.Forms.Button btnEGate;
@@ -1135,23 +1135,23 @@
         private System.Windows.Forms.PictureBox routeArrow_4_;
         private System.Windows.Forms.PictureBox routeArrow_5_;
         private System.Windows.Forms.PictureBox Dorm21_d;
-        private System.Windows.Forms.PictureBox Hos_d;
+        private System.Windows.Forms.PictureBox SHos_d;
         private System.Windows.Forms.PictureBox Dorm1_d;
-        private System.Windows.Forms.PictureBox Bugao_d;
+        private System.Windows.Forms.PictureBox BGMt_d;
         private System.Windows.Forms.PictureBox ColArt_d;
-        private System.Windows.Forms.PictureBox YouthSquare_d;
+        private System.Windows.Forms.PictureBox YSq_d;
         private System.Windows.Forms.PictureBox ColPE_d;
         private System.Windows.Forms.PictureBox SWGate_d;
         private System.Windows.Forms.PictureBox ETC_d;
         private System.Windows.Forms.PictureBox CAE_d;
         private System.Windows.Forms.PictureBox Lib_d;
-        private System.Windows.Forms.PictureBox TBd_d;
-        private System.Windows.Forms.PictureBox Ex2Bd_d;
+        private System.Windows.Forms.PictureBox TBd1_d;
+        private System.Windows.Forms.PictureBox Ex2_d;
         private System.Windows.Forms.PictureBox SSC_d;
         private System.Windows.Forms.PictureBox Gym_d;
         private System.Windows.Forms.PictureBox EGate_d;
         private System.Windows.Forms.PictureBox ShawBd_d;
-        private System.Windows.Forms.PictureBox Ex1Bd_d;
+        private System.Windows.Forms.PictureBox Ex1_d;
         private System.Windows.Forms.PictureBox SGate_d;
         private System.Windows.Forms.PictureBox SEGate_d;
     }
