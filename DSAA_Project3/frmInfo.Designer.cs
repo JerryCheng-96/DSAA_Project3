@@ -69,7 +69,7 @@
             this.lName.Font = new System.Drawing.Font("Microsoft YaHei UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.lName.Location = new System.Drawing.Point(6, 231);
             this.lName.Name = "lName";
-            this.lName.Size = new System.Drawing.Size(128, 46);
+            this.lName.Size = new System.Drawing.Size(171, 62);
             this.lName.TabIndex = 3;
             this.lName.Text = "不高山";
             this.lName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -81,7 +81,7 @@
             this.lEngName.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lEngName.Location = new System.Drawing.Point(8, 265);
             this.lEngName.Name = "lEngName";
-            this.lEngName.Size = new System.Drawing.Size(174, 27);
+            this.lEngName.Size = new System.Drawing.Size(227, 36);
             this.lEngName.TabIndex = 4;
             this.lEngName.Text = "Bugao Moutain";
             this.lEngName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -91,9 +91,9 @@
             this.lType.AutoSize = true;
             this.lType.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lType.ForeColor = System.Drawing.Color.DarkGray;
-            this.lType.Location = new System.Drawing.Point(247, 234);
+            this.lType.Location = new System.Drawing.Point(250, 234);
             this.lType.Name = "lType";
-            this.lType.Size = new System.Drawing.Size(38, 31);
+            this.lType.Size = new System.Drawing.Size(50, 41);
             this.lType.TabIndex = 5;
             this.lType.Text = "楼";
             this.lType.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -106,7 +106,7 @@
             this.lInfo.Location = new System.Drawing.Point(11, 299);
             this.lInfo.MaximumSize = new System.Drawing.Size(280, 0);
             this.lInfo.Name = "lInfo";
-            this.lInfo.Size = new System.Drawing.Size(0, 27);
+            this.lInfo.Size = new System.Drawing.Size(0, 35);
             this.lInfo.TabIndex = 6;
             // 
             // pictureBox1

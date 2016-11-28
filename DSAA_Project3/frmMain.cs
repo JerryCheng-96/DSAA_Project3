@@ -181,5 +181,30 @@ namespace DSAA_Project3
         private void btnSEGate_MouseLeave(object sender, EventArgs e) { btnSEGate.FlatAppearance.BorderSize = 0; }
         private void btnEGate_MouseLeave(object sender, EventArgs e) { btnEGate.FlatAppearance.BorderSize = 0; }
         #endregion
+
+        private void routeArrow3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void routeArrow4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void routeArrow1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void routeArrow7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmMain_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
