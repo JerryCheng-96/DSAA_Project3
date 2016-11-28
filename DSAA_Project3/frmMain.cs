@@ -139,26 +139,26 @@ namespace DSAA_Project3
 
         // The MouseEnter and MouseLeave
         #region MouseEnter and MouseLeave
-        private void btnColArt_MouseEnter(object sender, EventArgs e) { btnColArt.FlatAppearance.BorderColor = Color.Black; btnColArt.FlatAppearance.BorderSize = 1; }
-        private void btnBuGao_MouseEnter(object sender, EventArgs e) { btnBuGao.FlatAppearance.BorderColor = Color.Black; btnBuGao.FlatAppearance.BorderSize = 1; }
-        private void btnTrCtr_MouseEnter(object sender, EventArgs e) { btnTrCtr.FlatAppearance.BorderColor = Color.Black; btnTrCtr.FlatAppearance.BorderSize = 1; }
-        private void btnColAE_MouseEnter(object sender, EventArgs e) { btnColAE.FlatAppearance.BorderColor = Color.Black; btnColAE.FlatAppearance.BorderSize = 1; }
-        private void btnYouthSqr_MouseEnter(object sender, EventArgs e) { btnYouthSqr.FlatAppearance.BorderColor = Color.Black; btnYouthSqr.FlatAppearance.BorderSize = 1; }
-        private void btnColPE_MouseEnter(object sender, EventArgs e) { btnColPE.FlatAppearance.BorderColor = Color.Black; btnColPE.FlatAppearance.BorderSize = 1; }
-        private void btnDorm1_MouseEnter(object sender, EventArgs e) { btnDorm1.FlatAppearance.BorderColor = Color.Black; btnDorm1.FlatAppearance.BorderSize = 1; }
-        private void btnHospital_MouseEnter(object sender, EventArgs e) { btnHospital.FlatAppearance.BorderColor = Color.Black; btnHospital.FlatAppearance.BorderSize = 1; }
-        private void btnDorm21_MouseEnter(object sender, EventArgs e) { btnDorm21.FlatAppearance.BorderColor = Color.Black; btnDorm21.FlatAppearance.BorderSize = 1; }
-        private void btnSWGate_MouseEnter(object sender, EventArgs e) { btnSWGate.FlatAppearance.BorderColor = Color.Black; btnSWGate.FlatAppearance.BorderSize = 1; }
-        private void btnLib_MouseEnter(object sender, EventArgs e) { btnLib.FlatAppearance.BorderColor = Color.Black; btnLib.FlatAppearance.BorderSize = 1; }
-        private void btn1Bd_MouseEnter(object sender, EventArgs e) { btn1Bd.FlatAppearance.BorderColor = Color.Black; btn1Bd.FlatAppearance.BorderSize = 1; }
-        private void btn2Ex_MouseEnter(object sender, EventArgs e) { btn2Ex.FlatAppearance.BorderColor = Color.Black; btn2Ex.FlatAppearance.BorderSize = 1; }
-        private void btnSSComplex_MouseEnter(object sender, EventArgs e) { btnSSComplex.FlatAppearance.BorderColor = Color.Black; btnSSComplex.FlatAppearance.BorderSize = 1; }
-        private void btnShawBd_MouseEnter(object sender, EventArgs e) { btnShawBd.FlatAppearance.BorderColor = Color.Black; btnShawBd.FlatAppearance.BorderSize = 1; }
-        private void btnSGate_MouseEnter(object sender, EventArgs e) { btnSGate.FlatAppearance.BorderColor = Color.Black; btnSGate.FlatAppearance.BorderSize = 1; }
-        private void btn1Ex_MouseEnter(object sender, EventArgs e) { btn1Ex.FlatAppearance.BorderColor = Color.Black; btn1Ex.FlatAppearance.BorderSize = 1; }
-        private void btnGym_MouseEnter(object sender, EventArgs e) { btnGym.FlatAppearance.BorderColor = Color.Black; btnGym.FlatAppearance.BorderSize = 1; }
-        private void btnSEGate_MouseEnter(object sender, EventArgs e) { btnSEGate.FlatAppearance.BorderColor = Color.Black; btnSEGate.FlatAppearance.BorderSize = 1; }
-        private void btnEGate_MouseEnter(object sender, EventArgs e) { btnEGate.FlatAppearance.BorderColor = Color.Black; btnEGate.FlatAppearance.BorderSize = 1; }
+        private void btnColArt_MouseEnter(object sender, EventArgs e) { btnColArt.FlatAppearance.BorderColor = Color.Gray; btnColArt.FlatAppearance.BorderSize = 1; }
+        private void btnBuGao_MouseEnter(object sender, EventArgs e) { btnBuGao.FlatAppearance.BorderColor = Color.Gray; btnBuGao.FlatAppearance.BorderSize = 1; }
+        private void btnTrCtr_MouseEnter(object sender, EventArgs e) { btnTrCtr.FlatAppearance.BorderColor = Color.Gray; btnTrCtr.FlatAppearance.BorderSize = 1; }
+        private void btnColAE_MouseEnter(object sender, EventArgs e) { btnColAE.FlatAppearance.BorderColor = Color.Gray; btnColAE.FlatAppearance.BorderSize = 1; }
+        private void btnYouthSqr_MouseEnter(object sender, EventArgs e) { btnYouthSqr.FlatAppearance.BorderColor = Color.Gray; btnYouthSqr.FlatAppearance.BorderSize = 1; }
+        private void btnColPE_MouseEnter(object sender, EventArgs e) { btnColPE.FlatAppearance.BorderColor = Color.Gray; btnColPE.FlatAppearance.BorderSize = 1; }
+        private void btnDorm1_MouseEnter(object sender, EventArgs e) { btnDorm1.FlatAppearance.BorderColor = Color.Gray; btnDorm1.FlatAppearance.BorderSize = 1; }
+        private void btnHospital_MouseEnter(object sender, EventArgs e) { btnHospital.FlatAppearance.BorderColor = Color.Gray; btnHospital.FlatAppearance.BorderSize = 1; }
+        private void btnDorm21_MouseEnter(object sender, EventArgs e) { btnDorm21.FlatAppearance.BorderColor = Color.Gray; btnDorm21.FlatAppearance.BorderSize = 1; }
+        private void btnSWGate_MouseEnter(object sender, EventArgs e) { btnSWGate.FlatAppearance.BorderColor = Color.Gray; btnSWGate.FlatAppearance.BorderSize = 1; }
+        private void btnLib_MouseEnter(object sender, EventArgs e) { btnLib.FlatAppearance.BorderColor = Color.Gray; btnLib.FlatAppearance.BorderSize = 1; }
+        private void btn1Bd_MouseEnter(object sender, EventArgs e) { btn1Bd.FlatAppearance.BorderColor = Color.Gray; btn1Bd.FlatAppearance.BorderSize = 1; }
+        private void btn2Ex_MouseEnter(object sender, EventArgs e) { btn2Ex.FlatAppearance.BorderColor = Color.Gray; btn2Ex.FlatAppearance.BorderSize = 1; }
+        private void btnSSComplex_MouseEnter(object sender, EventArgs e) { btnSSComplex.FlatAppearance.BorderColor = Color.Gray; btnSSComplex.FlatAppearance.BorderSize = 1; }
+        private void btnShawBd_MouseEnter(object sender, EventArgs e) { btnShawBd.FlatAppearance.BorderColor = Color.Gray; btnShawBd.FlatAppearance.BorderSize = 1; }
+        private void btnSGate_MouseEnter(object sender, EventArgs e) { btnSGate.FlatAppearance.BorderColor = Color.Gray; btnSGate.FlatAppearance.BorderSize = 1; }
+        private void btn1Ex_MouseEnter(object sender, EventArgs e) { btn1Ex.FlatAppearance.BorderColor = Color.Gray; btn1Ex.FlatAppearance.BorderSize = 1; }
+        private void btnGym_MouseEnter(object sender, EventArgs e) { btnGym.FlatAppearance.BorderColor = Color.Gray; btnGym.FlatAppearance.BorderSize = 1; }
+        private void btnSEGate_MouseEnter(object sender, EventArgs e) { btnSEGate.FlatAppearance.BorderColor = Color.Gray; btnSEGate.FlatAppearance.BorderSize = 1; }
+        private void btnEGate_MouseEnter(object sender, EventArgs e) { btnEGate.FlatAppearance.BorderColor = Color.Gray; btnEGate.FlatAppearance.BorderSize = 1; }
 
         private void btnColArt_MouseLeave(object sender, EventArgs e) { btnColArt.FlatAppearance.BorderSize = 0; }
         private void btnBuGao_MouseLeave(object sender, EventArgs e) { btnBuGao.FlatAppearance.BorderSize = 0; }
