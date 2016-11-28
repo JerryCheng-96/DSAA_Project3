@@ -171,12 +171,19 @@ namespace DSAA_Project3
         {
             foreach (Edge item in egdCollection.edgeList)
             {
-                adjMat[(vtxCollection.locList.FindIndex(delegate (Vertex v) { return v == item.v1; })), (vtxCollection.locList.FindIndex(delegate (Vertex v) { return v == item.v2; }))] = item.len;
+                adjMat[(vtxCollection.locList.FindIndex(delegate (Vertex v) { return v == item.v1; })), 
+                    (vtxCollection.locList.FindIndex(delegate (Vertex v) { return v == item.v2; }))] = item.len;
                 if (item.isDir == false)
                 {
-                    adjMat[(vtxCollection.locList.FindIndex(delegate (Vertex v) { return v == item.v2; })), (vtxCollection.locList.FindIndex(delegate (Vertex v) { return v == item.v1; }))] = item.len;
+                    adjMat[(vtxCollection.locList.FindIndex(delegate (Vertex v) { return v == item.v2; })), 
+                        (vtxCollection.locList.FindIndex(delegate (Vertex v) { return v == item.v1; }))] = item.len;
                 }
             }
+        }
+
+        public Route routeFromTo(Vertex start, Vertex end)
+        {
+            return null;
         }
     }
 
