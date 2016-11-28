@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace DSAA_Project3
@@ -26,6 +20,12 @@ namespace DSAA_Project3
 
                 Control[] LocPicBox = Controls.Find(l.code + "_d", true);
                 foreach (PictureBox item in LocPicBox) { l.picDot = item; }
+            }
+
+            foreach (Edge e in Program.edgeDB.edgeList)
+            {
+                Control[] picBox = Controls.Find("routeArrow" + e.id, true);
+                foreach (PictureBox item in picBox) { e.picEdge = item; }
             }
         }
 
@@ -52,11 +52,6 @@ namespace DSAA_Project3
             btn.FlatAppearance.BorderSize = 0;
             btn.FlatAppearance.MouseOverBackColor = Color.Transparent;
             btn.FlatAppearance.MouseDownBackColor = Color.Transparent;
-        }
-
-        private void AssignPicDot()
-        {
-            Program.db.locList.Find(delegate (Loc l) { return l.code == "ColArt"; }).picDot = ColArt_d;
         }
 
         public void showInfoWindow(string name)
