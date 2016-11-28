@@ -17,7 +17,7 @@ namespace DSAA_Project3
             InitializeComponent();
         }
 
-        public frmInfo(loc locToDisp)
+        public frmInfo(Loc locToDisp)
         {
             InitializeComponent();
             this.Text = locToDisp.name;
@@ -28,7 +28,7 @@ namespace DSAA_Project3
             pictureBox1.Image = Properties.InfoImage.FindImg(locToDisp.imgAdd);
         }
         
-        public void updateContent(loc locToDisp)
+        public void updateContent(Loc locToDisp)
         {
             this.Text = "";
             lName.Text = "";

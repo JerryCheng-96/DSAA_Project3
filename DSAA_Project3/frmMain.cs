@@ -58,21 +58,19 @@ namespace DSAA_Project3
             
         }
 
-        private void SetBtnStyle(Button btn)  //在Form1_Load时候调用
+        private void SetBtnStyle(Button btn)
         {
+            btn.FlatStyle = FlatStyle.Flat;
+            btn.ForeColor = Color.Transparent;
+            btn.BackColor = Color.Transparent;
+            btn.FlatAppearance.BorderSize = 0;
+            btn.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            btn.FlatAppearance.MouseDownBackColor = Color.Transparent;
+        }
 
-            btn.FlatStyle = FlatStyle.Flat;//样式
-
-            btn.ForeColor = Color.Transparent;//前景
-
-            btn.BackColor = Color.Transparent;//去背景
-
-            btn.FlatAppearance.BorderSize = 0;//去边线
-
-            btn.FlatAppearance.MouseOverBackColor = Color.Transparent;//鼠标经过
-
-            btn.FlatAppearance.MouseDownBackColor = Color.Transparent;//鼠标按下
-
+        private void AssignPicDot()
+        {
+            Program.db.locList.Find(delegate (Loc l) { return l.code == "ColArt"; }).picDot = ColArt_d;
         }
 
         public void showInfoWindow(string name)
@@ -80,13 +78,13 @@ namespace DSAA_Project3
             GC.Collect();
             try
             {
-                infoWindow.updateContent(Program.db.locList.Find(delegate (loc l) { return l.code == name; }));
+                infoWindow.updateContent(Program.db.locList.Find(delegate (Loc l) { return l.code == name; }));
                 infoWindow.Show();
             }
             catch (ObjectDisposedException)
             {
                 infoWindow = new frmInfo();
-                infoWindow.updateContent(Program.db.locList.Find(delegate (loc l) { return l.code == name; }));
+                infoWindow.updateContent(Program.db.locList.Find(delegate (Loc l) { return l.code == name; }));
                 infoWindow.Show();
             }
             infoWindow.Activate();
@@ -135,6 +133,66 @@ namespace DSAA_Project3
             showInfoWindow("Gym");
         }
 
+        private void btnDorm21_Click(object sender, EventArgs e)
+        {
+            showInfoWindow("Dorm21");
+        }
+
+        private void btnHospital_Click(object sender, EventArgs e)
+        {
+            showInfoWindow("SHos");
+        }
+
+        private void btnBuGao_Click(object sender, EventArgs e)
+        {
+            showInfoWindow("BGMt");
+        }
+
+        private void btnYouthSqr_Click(object sender, EventArgs e)
+        {
+            showInfoWindow("YSq");
+        }
+
+        private void btnColPE_Click(object sender, EventArgs e)
+        {
+            showInfoWindow("ColPE");
+        }
+
+        private void btnTrCtr_Click(object sender, EventArgs e)
+        {
+            showInfoWindow("ETC");
+        }
+
+        private void btnColAE_Click(object sender, EventArgs e)
+        {
+            showInfoWindow("CAE");
+        }
+
+        private void btn2Ex_Click(object sender, EventArgs e)
+        {
+            showInfoWindow("Ex2");
+        }
+
+        private void btn1Ex_Click(object sender, EventArgs e)
+        {
+            showInfoWindow("Ex1");
+        }
+
+        private void btnSWGate_Click(object sender, EventArgs e)
+        {
+            showInfoWindow("SWGate");
+        }
+
+        private void btnSGate_Click(object sender, EventArgs e)
+        {
+            showInfoWindow("SGate");
+        }
+
+        private void btnSEGate_Click(object sender, EventArgs e)
+        {
+            showInfoWindow("SEGate");
+        }
+
         #endregion
 
         // The MouseEnter and MouseLeave
@@ -180,31 +238,6 @@ namespace DSAA_Project3
         private void btnGym_MouseLeave(object sender, EventArgs e) { btnGym.FlatAppearance.BorderSize = 0; }
         private void btnSEGate_MouseLeave(object sender, EventArgs e) { btnSEGate.FlatAppearance.BorderSize = 0; }
         private void btnEGate_MouseLeave(object sender, EventArgs e) { btnEGate.FlatAppearance.BorderSize = 0; }
-        #endregion
-
-        private void routeArrow3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void routeArrow4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void routeArrow1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void routeArrow7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void frmMain_Load(object sender, EventArgs e)
-        {
-
-        }
+        #endregion       
     }
 }

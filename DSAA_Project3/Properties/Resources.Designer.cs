@@ -213,6 +213,16 @@ namespace DSAA_Project3.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        internal static System.Drawing.Bitmap Green {
+            get {
+                object obj = ResourceManager.GetObject("Green", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         internal static System.Drawing.Bitmap Metro {
             get {
                 object obj = ResourceManager.GetObject("Metro", resourceCulture);
@@ -246,6 +256,26 @@ namespace DSAA_Project3.Properties {
         internal static System.Drawing.Bitmap Metro_New {
             get {
                 object obj = ResourceManager.GetObject("Metro_New", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap Purple {
+            get {
+                object obj = ResourceManager.GetObject("Purple", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap Red {
+            get {
+                object obj = ResourceManager.GetObject("Red", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

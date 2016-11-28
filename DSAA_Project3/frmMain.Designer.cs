@@ -74,8 +74,28 @@
             this.routeArrow_1_ = new System.Windows.Forms.PictureBox();
             this.routeArrow_2_ = new System.Windows.Forms.PictureBox();
             this.routeArrow_3_ = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.routeArrow_4_ = new System.Windows.Forms.PictureBox();
+            this.routeArrow_5_ = new System.Windows.Forms.PictureBox();
+            this.Dorm21_d = new System.Windows.Forms.PictureBox();
+            this.Hos_d = new System.Windows.Forms.PictureBox();
+            this.Dorm1_d = new System.Windows.Forms.PictureBox();
+            this.Bugao_d = new System.Windows.Forms.PictureBox();
+            this.ColArt_d = new System.Windows.Forms.PictureBox();
+            this.YouthSquare_d = new System.Windows.Forms.PictureBox();
+            this.ColPE_d = new System.Windows.Forms.PictureBox();
+            this.SWGate_d = new System.Windows.Forms.PictureBox();
+            this.ETC_d = new System.Windows.Forms.PictureBox();
+            this.CAE_d = new System.Windows.Forms.PictureBox();
+            this.Lib_d = new System.Windows.Forms.PictureBox();
+            this.TBd_d = new System.Windows.Forms.PictureBox();
+            this.Ex2Bd_d = new System.Windows.Forms.PictureBox();
+            this.SSC_d = new System.Windows.Forms.PictureBox();
+            this.Gym_d = new System.Windows.Forms.PictureBox();
+            this.EGate_d = new System.Windows.Forms.PictureBox();
+            this.ShawBd_d = new System.Windows.Forms.PictureBox();
+            this.Ex1Bd_d = new System.Windows.Forms.PictureBox();
+            this.SGate_d = new System.Windows.Forms.PictureBox();
+            this.SEGate_d = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.picMaskHelp)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.routeArrow1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.routeArrow2)).BeginInit();
@@ -100,8 +120,28 @@
             ((System.ComponentModel.ISupportInitialize)(this.routeArrow_1_)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.routeArrow_2_)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.routeArrow_3_)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.routeArrow_4_)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.routeArrow_5_)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Dorm21_d)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Hos_d)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Dorm1_d)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Bugao_d)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ColArt_d)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.YouthSquare_d)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ColPE_d)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SWGate_d)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ETC_d)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CAE_d)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Lib_d)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TBd_d)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ex2Bd_d)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SSC_d)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Gym_d)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EGate_d)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ShawBd_d)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ex1Bd_d)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SGate_d)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SEGate_d)).BeginInit();
             this.SuspendLayout();
             // 
             // btnColArt
@@ -130,6 +170,7 @@
             this.btnBuGao.Size = new System.Drawing.Size(143, 100);
             this.btnBuGao.TabIndex = 1;
             this.btnBuGao.UseVisualStyleBackColor = false;
+            this.btnBuGao.Click += new System.EventHandler(this.btnBuGao_Click);
             this.btnBuGao.MouseEnter += new System.EventHandler(this.btnBuGao_MouseEnter);
             this.btnBuGao.MouseLeave += new System.EventHandler(this.btnBuGao_MouseLeave);
             // 
@@ -144,6 +185,7 @@
             this.btnTrCtr.Size = new System.Drawing.Size(296, 98);
             this.btnTrCtr.TabIndex = 2;
             this.btnTrCtr.UseVisualStyleBackColor = false;
+            this.btnTrCtr.Click += new System.EventHandler(this.btnTrCtr_Click);
             this.btnTrCtr.MouseEnter += new System.EventHandler(this.btnTrCtr_MouseEnter);
             this.btnTrCtr.MouseLeave += new System.EventHandler(this.btnTrCtr_MouseLeave);
             // 
@@ -158,6 +200,7 @@
             this.btnColAE.Size = new System.Drawing.Size(388, 98);
             this.btnColAE.TabIndex = 3;
             this.btnColAE.UseVisualStyleBackColor = false;
+            this.btnColAE.Click += new System.EventHandler(this.btnColAE_Click);
             this.btnColAE.MouseEnter += new System.EventHandler(this.btnColAE_MouseEnter);
             this.btnColAE.MouseLeave += new System.EventHandler(this.btnColAE_MouseLeave);
             // 
@@ -172,6 +215,7 @@
             this.btnYouthSqr.Size = new System.Drawing.Size(180, 95);
             this.btnYouthSqr.TabIndex = 4;
             this.btnYouthSqr.UseVisualStyleBackColor = false;
+            this.btnYouthSqr.Click += new System.EventHandler(this.btnYouthSqr_Click);
             this.btnYouthSqr.MouseEnter += new System.EventHandler(this.btnYouthSqr_MouseEnter);
             this.btnYouthSqr.MouseLeave += new System.EventHandler(this.btnYouthSqr_MouseLeave);
             // 
@@ -186,6 +230,7 @@
             this.btnColPE.Size = new System.Drawing.Size(180, 57);
             this.btnColPE.TabIndex = 5;
             this.btnColPE.UseVisualStyleBackColor = false;
+            this.btnColPE.Click += new System.EventHandler(this.btnColPE_Click);
             this.btnColPE.MouseEnter += new System.EventHandler(this.btnColPE_MouseEnter);
             this.btnColPE.MouseLeave += new System.EventHandler(this.btnColPE_MouseLeave);
             // 
@@ -215,6 +260,7 @@
             this.btnHospital.Size = new System.Drawing.Size(160, 57);
             this.btnHospital.TabIndex = 7;
             this.btnHospital.UseVisualStyleBackColor = false;
+            this.btnHospital.Click += new System.EventHandler(this.btnHospital_Click);
             this.btnHospital.MouseEnter += new System.EventHandler(this.btnHospital_MouseEnter);
             this.btnHospital.MouseLeave += new System.EventHandler(this.btnHospital_MouseLeave);
             // 
@@ -229,6 +275,7 @@
             this.btnDorm21.Size = new System.Drawing.Size(168, 57);
             this.btnDorm21.TabIndex = 8;
             this.btnDorm21.UseVisualStyleBackColor = false;
+            this.btnDorm21.Click += new System.EventHandler(this.btnDorm21_Click);
             this.btnDorm21.MouseEnter += new System.EventHandler(this.btnDorm21_MouseEnter);
             this.btnDorm21.MouseLeave += new System.EventHandler(this.btnDorm21_MouseLeave);
             // 
@@ -243,6 +290,7 @@
             this.btnSWGate.Size = new System.Drawing.Size(194, 84);
             this.btnSWGate.TabIndex = 9;
             this.btnSWGate.UseVisualStyleBackColor = false;
+            this.btnSWGate.Click += new System.EventHandler(this.btnSWGate_Click);
             this.btnSWGate.MouseEnter += new System.EventHandler(this.btnSWGate_MouseEnter);
             this.btnSWGate.MouseLeave += new System.EventHandler(this.btnSWGate_MouseLeave);
             // 
@@ -287,6 +335,7 @@
             this.btn2Ex.Size = new System.Drawing.Size(112, 104);
             this.btn2Ex.TabIndex = 12;
             this.btn2Ex.UseVisualStyleBackColor = false;
+            this.btn2Ex.Click += new System.EventHandler(this.btn2Ex_Click);
             this.btn2Ex.MouseEnter += new System.EventHandler(this.btn2Ex_MouseEnter);
             this.btn2Ex.MouseLeave += new System.EventHandler(this.btn2Ex_MouseLeave);
             // 
@@ -331,6 +380,7 @@
             this.btnSGate.Size = new System.Drawing.Size(151, 88);
             this.btnSGate.TabIndex = 15;
             this.btnSGate.UseVisualStyleBackColor = false;
+            this.btnSGate.Click += new System.EventHandler(this.btnSGate_Click);
             this.btnSGate.MouseEnter += new System.EventHandler(this.btnSGate_MouseEnter);
             this.btnSGate.MouseLeave += new System.EventHandler(this.btnSGate_MouseLeave);
             // 
@@ -345,6 +395,7 @@
             this.btn1Ex.Size = new System.Drawing.Size(123, 88);
             this.btn1Ex.TabIndex = 16;
             this.btn1Ex.UseVisualStyleBackColor = false;
+            this.btn1Ex.Click += new System.EventHandler(this.btn1Ex_Click);
             this.btn1Ex.MouseEnter += new System.EventHandler(this.btn1Ex_MouseEnter);
             this.btn1Ex.MouseLeave += new System.EventHandler(this.btn1Ex_MouseLeave);
             // 
@@ -374,6 +425,7 @@
             this.btnSEGate.Size = new System.Drawing.Size(233, 88);
             this.btnSEGate.TabIndex = 18;
             this.btnSEGate.UseVisualStyleBackColor = false;
+            this.btnSEGate.Click += new System.EventHandler(this.btnSEGate_Click);
             this.btnSEGate.MouseEnter += new System.EventHandler(this.btnSEGate_MouseEnter);
             this.btnSEGate.MouseLeave += new System.EventHandler(this.btnSEGate_MouseLeave);
             // 
@@ -437,7 +489,6 @@
             this.routeArrow1.Size = new System.Drawing.Size(30, 30);
             this.routeArrow1.TabIndex = 23;
             this.routeArrow1.TabStop = false;
-            this.routeArrow1.Click += new System.EventHandler(this.routeArrow1_Click);
             // 
             // routeArrow2
             // 
@@ -459,7 +510,6 @@
             this.routeArrow3.Size = new System.Drawing.Size(30, 30);
             this.routeArrow3.TabIndex = 25;
             this.routeArrow3.TabStop = false;
-            this.routeArrow3.Click += new System.EventHandler(this.routeArrow3_Click);
             // 
             // routeArrow4
             // 
@@ -471,7 +521,6 @@
             this.routeArrow4.Size = new System.Drawing.Size(30, 30);
             this.routeArrow4.TabIndex = 26;
             this.routeArrow4.TabStop = false;
-            this.routeArrow4.Click += new System.EventHandler(this.routeArrow4_Click);
             // 
             // routeArrow5
             // 
@@ -505,7 +554,6 @@
             this.routeArrow7.Size = new System.Drawing.Size(30, 30);
             this.routeArrow7.TabIndex = 29;
             this.routeArrow7.TabStop = false;
-            this.routeArrow7.Click += new System.EventHandler(this.routeArrow7_Click);
             // 
             // routeArrow8
             // 
@@ -565,7 +613,6 @@
             // routeArrow_3
             // 
             this.routeArrow_3.BackColor = System.Drawing.Color.Transparent;
-            this.routeArrow_3.BackgroundImage = global::DSAA_Project3.Properties.Resources.Arrow_Right;
             this.routeArrow_3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.routeArrow_3.Location = new System.Drawing.Point(394, 106);
             this.routeArrow_3.Margin = new System.Windows.Forms.Padding(2);
@@ -684,27 +731,227 @@
             this.routeArrow_3_.TabIndex = 45;
             this.routeArrow_3_.TabStop = false;
             // 
-            // pictureBox1
+            // routeArrow_4_
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(927, 353);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(27, 27);
-            this.pictureBox1.TabIndex = 46;
-            this.pictureBox1.TabStop = false;
+            this.routeArrow_4_.BackColor = System.Drawing.Color.Transparent;
+            this.routeArrow_4_.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.routeArrow_4_.Location = new System.Drawing.Point(927, 353);
+            this.routeArrow_4_.Margin = new System.Windows.Forms.Padding(2);
+            this.routeArrow_4_.Name = "routeArrow_4_";
+            this.routeArrow_4_.Size = new System.Drawing.Size(27, 27);
+            this.routeArrow_4_.TabIndex = 46;
+            this.routeArrow_4_.TabStop = false;
             // 
-            // pictureBox2
+            // routeArrow_5_
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(1080, 404);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(27, 27);
-            this.pictureBox2.TabIndex = 47;
-            this.pictureBox2.TabStop = false;
+            this.routeArrow_5_.BackColor = System.Drawing.Color.Transparent;
+            this.routeArrow_5_.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.routeArrow_5_.Location = new System.Drawing.Point(1080, 404);
+            this.routeArrow_5_.Margin = new System.Windows.Forms.Padding(2);
+            this.routeArrow_5_.Name = "routeArrow_5_";
+            this.routeArrow_5_.Size = new System.Drawing.Size(27, 27);
+            this.routeArrow_5_.TabIndex = 47;
+            this.routeArrow_5_.TabStop = false;
+            // 
+            // Dorm21_d
+            // 
+            this.Dorm21_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Dorm21_d.Location = new System.Drawing.Point(129, 195);
+            this.Dorm21_d.Margin = new System.Windows.Forms.Padding(2);
+            this.Dorm21_d.Name = "Dorm21_d";
+            this.Dorm21_d.Size = new System.Drawing.Size(20, 20);
+            this.Dorm21_d.TabIndex = 48;
+            this.Dorm21_d.TabStop = false;
+            // 
+            // Hos_d
+            // 
+            this.Hos_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Hos_d.Location = new System.Drawing.Point(129, 318);
+            this.Hos_d.Margin = new System.Windows.Forms.Padding(2);
+            this.Hos_d.Name = "Hos_d";
+            this.Hos_d.Size = new System.Drawing.Size(20, 20);
+            this.Hos_d.TabIndex = 49;
+            this.Hos_d.TabStop = false;
+            // 
+            // Dorm1_d
+            // 
+            this.Dorm1_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Dorm1_d.Location = new System.Drawing.Point(129, 441);
+            this.Dorm1_d.Margin = new System.Windows.Forms.Padding(2);
+            this.Dorm1_d.Name = "Dorm1_d";
+            this.Dorm1_d.Size = new System.Drawing.Size(20, 20);
+            this.Dorm1_d.TabIndex = 50;
+            this.Dorm1_d.TabStop = false;
+            // 
+            // Bugao_d
+            // 
+            this.Bugao_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Bugao_d.Location = new System.Drawing.Point(278, 72);
+            this.Bugao_d.Margin = new System.Windows.Forms.Padding(2);
+            this.Bugao_d.Name = "Bugao_d";
+            this.Bugao_d.Size = new System.Drawing.Size(20, 20);
+            this.Bugao_d.TabIndex = 51;
+            this.Bugao_d.TabStop = false;
+            // 
+            // ColArt_d
+            // 
+            this.ColArt_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ColArt_d.Location = new System.Drawing.Point(278, 195);
+            this.ColArt_d.Margin = new System.Windows.Forms.Padding(2);
+            this.ColArt_d.Name = "ColArt_d";
+            this.ColArt_d.Size = new System.Drawing.Size(20, 20);
+            this.ColArt_d.TabIndex = 52;
+            this.ColArt_d.TabStop = false;
+            // 
+            // YouthSquare_d
+            // 
+            this.YouthSquare_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.YouthSquare_d.Location = new System.Drawing.Point(278, 318);
+            this.YouthSquare_d.Margin = new System.Windows.Forms.Padding(2);
+            this.YouthSquare_d.Name = "YouthSquare_d";
+            this.YouthSquare_d.Size = new System.Drawing.Size(20, 20);
+            this.YouthSquare_d.TabIndex = 53;
+            this.YouthSquare_d.TabStop = false;
+            // 
+            // ColPE_d
+            // 
+            this.ColPE_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ColPE_d.Location = new System.Drawing.Point(278, 441);
+            this.ColPE_d.Margin = new System.Windows.Forms.Padding(2);
+            this.ColPE_d.Name = "ColPE_d";
+            this.ColPE_d.Size = new System.Drawing.Size(20, 20);
+            this.ColPE_d.TabIndex = 54;
+            this.ColPE_d.TabStop = false;
+            // 
+            // SWGate_d
+            // 
+            this.SWGate_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.SWGate_d.Location = new System.Drawing.Point(278, 564);
+            this.SWGate_d.Margin = new System.Windows.Forms.Padding(2);
+            this.SWGate_d.Name = "SWGate_d";
+            this.SWGate_d.Size = new System.Drawing.Size(20, 20);
+            this.SWGate_d.TabIndex = 55;
+            this.SWGate_d.TabStop = false;
+            // 
+            // ETC_d
+            // 
+            this.ETC_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ETC_d.Location = new System.Drawing.Point(427, 72);
+            this.ETC_d.Margin = new System.Windows.Forms.Padding(2);
+            this.ETC_d.Name = "ETC_d";
+            this.ETC_d.Size = new System.Drawing.Size(20, 20);
+            this.ETC_d.TabIndex = 56;
+            this.ETC_d.TabStop = false;
+            // 
+            // CAE_d
+            // 
+            this.CAE_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.CAE_d.Location = new System.Drawing.Point(546, 195);
+            this.CAE_d.Margin = new System.Windows.Forms.Padding(2);
+            this.CAE_d.Name = "CAE_d";
+            this.CAE_d.Size = new System.Drawing.Size(20, 20);
+            this.CAE_d.TabIndex = 57;
+            this.CAE_d.TabStop = false;
+            // 
+            // Lib_d
+            // 
+            this.Lib_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Lib_d.Location = new System.Drawing.Point(546, 318);
+            this.Lib_d.Margin = new System.Windows.Forms.Padding(2);
+            this.Lib_d.Name = "Lib_d";
+            this.Lib_d.Size = new System.Drawing.Size(20, 20);
+            this.Lib_d.TabIndex = 58;
+            this.Lib_d.TabStop = false;
+            // 
+            // TBd_d
+            // 
+            this.TBd_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.TBd_d.Location = new System.Drawing.Point(546, 441);
+            this.TBd_d.Margin = new System.Windows.Forms.Padding(2);
+            this.TBd_d.Name = "TBd_d";
+            this.TBd_d.Size = new System.Drawing.Size(20, 20);
+            this.TBd_d.TabIndex = 59;
+            this.TBd_d.TabStop = false;
+            // 
+            // Ex2Bd_d
+            // 
+            this.Ex2Bd_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Ex2Bd_d.Location = new System.Drawing.Point(692, 318);
+            this.Ex2Bd_d.Margin = new System.Windows.Forms.Padding(2);
+            this.Ex2Bd_d.Name = "Ex2Bd_d";
+            this.Ex2Bd_d.Size = new System.Drawing.Size(20, 20);
+            this.Ex2Bd_d.TabIndex = 60;
+            this.Ex2Bd_d.TabStop = false;
+            // 
+            // SSC_d
+            // 
+            this.SSC_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.SSC_d.Location = new System.Drawing.Point(840, 318);
+            this.SSC_d.Margin = new System.Windows.Forms.Padding(2);
+            this.SSC_d.Name = "SSC_d";
+            this.SSC_d.Size = new System.Drawing.Size(20, 20);
+            this.SSC_d.TabIndex = 61;
+            this.SSC_d.TabStop = false;
+            // 
+            // Gym_d
+            // 
+            this.Gym_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Gym_d.Location = new System.Drawing.Point(990, 441);
+            this.Gym_d.Margin = new System.Windows.Forms.Padding(2);
+            this.Gym_d.Name = "Gym_d";
+            this.Gym_d.Size = new System.Drawing.Size(20, 20);
+            this.Gym_d.TabIndex = 62;
+            this.Gym_d.TabStop = false;
+            // 
+            // EGate_d
+            // 
+            this.EGate_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.EGate_d.Location = new System.Drawing.Point(1145, 318);
+            this.EGate_d.Margin = new System.Windows.Forms.Padding(2);
+            this.EGate_d.Name = "EGate_d";
+            this.EGate_d.Size = new System.Drawing.Size(20, 20);
+            this.EGate_d.TabIndex = 63;
+            this.EGate_d.TabStop = false;
+            // 
+            // ShawBd_d
+            // 
+            this.ShawBd_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ShawBd_d.Location = new System.Drawing.Point(692, 441);
+            this.ShawBd_d.Margin = new System.Windows.Forms.Padding(2);
+            this.ShawBd_d.Name = "ShawBd_d";
+            this.ShawBd_d.Size = new System.Drawing.Size(20, 20);
+            this.ShawBd_d.TabIndex = 64;
+            this.ShawBd_d.TabStop = false;
+            // 
+            // Ex1Bd_d
+            // 
+            this.Ex1Bd_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Ex1Bd_d.Location = new System.Drawing.Point(840, 441);
+            this.Ex1Bd_d.Margin = new System.Windows.Forms.Padding(2);
+            this.Ex1Bd_d.Name = "Ex1Bd_d";
+            this.Ex1Bd_d.Size = new System.Drawing.Size(20, 20);
+            this.Ex1Bd_d.TabIndex = 65;
+            this.Ex1Bd_d.TabStop = false;
+            // 
+            // SGate_d
+            // 
+            this.SGate_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.SGate_d.Location = new System.Drawing.Point(692, 564);
+            this.SGate_d.Margin = new System.Windows.Forms.Padding(2);
+            this.SGate_d.Name = "SGate_d";
+            this.SGate_d.Size = new System.Drawing.Size(20, 20);
+            this.SGate_d.TabIndex = 66;
+            this.SGate_d.TabStop = false;
+            // 
+            // SEGate_d
+            // 
+            this.SEGate_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.SEGate_d.Location = new System.Drawing.Point(990, 564);
+            this.SEGate_d.Margin = new System.Windows.Forms.Padding(2);
+            this.SEGate_d.Name = "SEGate_d";
+            this.SEGate_d.Size = new System.Drawing.Size(20, 20);
+            this.SEGate_d.TabIndex = 67;
+            this.SEGate_d.TabStop = false;
             // 
             // frmMain
             // 
@@ -714,6 +961,26 @@
             this.BackgroundImage = global::DSAA_Project3.Properties.Resources.Metro_New;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1256, 644);
+            this.Controls.Add(this.SEGate_d);
+            this.Controls.Add(this.SGate_d);
+            this.Controls.Add(this.Ex1Bd_d);
+            this.Controls.Add(this.ShawBd_d);
+            this.Controls.Add(this.EGate_d);
+            this.Controls.Add(this.Gym_d);
+            this.Controls.Add(this.SSC_d);
+            this.Controls.Add(this.Ex2Bd_d);
+            this.Controls.Add(this.TBd_d);
+            this.Controls.Add(this.Lib_d);
+            this.Controls.Add(this.CAE_d);
+            this.Controls.Add(this.ETC_d);
+            this.Controls.Add(this.SWGate_d);
+            this.Controls.Add(this.ColPE_d);
+            this.Controls.Add(this.YouthSquare_d);
+            this.Controls.Add(this.ColArt_d);
+            this.Controls.Add(this.Bugao_d);
+            this.Controls.Add(this.Dorm1_d);
+            this.Controls.Add(this.Hos_d);
+            this.Controls.Add(this.Dorm21_d);
             this.Controls.Add(this.btnBuGao);
             this.Controls.Add(this.routeArrow_3_);
             this.Controls.Add(this.routeArrow_2_);
@@ -760,14 +1027,13 @@
             this.Controls.Add(this.routeArrow6);
             this.Controls.Add(this.routeArrow8);
             this.Controls.Add(this.routeArrow_6);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.routeArrow_4_);
+            this.Controls.Add(this.routeArrow_5_);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.Name = "frmMain";
             this.Text = "江安数字平面图";
-            this.Load += new System.EventHandler(this.frmMain_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picMaskHelp)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.routeArrow1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.routeArrow2)).EndInit();
@@ -792,8 +1058,28 @@
             ((System.ComponentModel.ISupportInitialize)(this.routeArrow_1_)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.routeArrow_2_)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.routeArrow_3_)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.routeArrow_4_)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.routeArrow_5_)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Dorm21_d)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Hos_d)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Dorm1_d)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Bugao_d)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ColArt_d)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.YouthSquare_d)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ColPE_d)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SWGate_d)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ETC_d)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CAE_d)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Lib_d)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TBd_d)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ex2Bd_d)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SSC_d)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Gym_d)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EGate_d)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ShawBd_d)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ex1Bd_d)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SGate_d)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SEGate_d)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -846,8 +1132,28 @@
         private System.Windows.Forms.PictureBox routeArrow_1_;
         private System.Windows.Forms.PictureBox routeArrow_2_;
         private System.Windows.Forms.PictureBox routeArrow_3_;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox routeArrow_4_;
+        private System.Windows.Forms.PictureBox routeArrow_5_;
+        private System.Windows.Forms.PictureBox Dorm21_d;
+        private System.Windows.Forms.PictureBox Hos_d;
+        private System.Windows.Forms.PictureBox Dorm1_d;
+        private System.Windows.Forms.PictureBox Bugao_d;
+        private System.Windows.Forms.PictureBox ColArt_d;
+        private System.Windows.Forms.PictureBox YouthSquare_d;
+        private System.Windows.Forms.PictureBox ColPE_d;
+        private System.Windows.Forms.PictureBox SWGate_d;
+        private System.Windows.Forms.PictureBox ETC_d;
+        private System.Windows.Forms.PictureBox CAE_d;
+        private System.Windows.Forms.PictureBox Lib_d;
+        private System.Windows.Forms.PictureBox TBd_d;
+        private System.Windows.Forms.PictureBox Ex2Bd_d;
+        private System.Windows.Forms.PictureBox SSC_d;
+        private System.Windows.Forms.PictureBox Gym_d;
+        private System.Windows.Forms.PictureBox EGate_d;
+        private System.Windows.Forms.PictureBox ShawBd_d;
+        private System.Windows.Forms.PictureBox Ex1Bd_d;
+        private System.Windows.Forms.PictureBox SGate_d;
+        private System.Windows.Forms.PictureBox SEGate_d;
     }
 }
 

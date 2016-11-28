@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<GraphEdges>
+  
+  <Edge id="1" v1="Dorm21" v2="SHos" len="550"></Edge>
+  <Edge id="2" v1="SHos" v2="Dorm1" len="180"></Edge>
+  <Edge id="3" v1="BGMt" v2="ColArt" len="300"></Edge>
+  <Edge id="4" v1="ColArt" v2="YSq" len="100"></Edge>
+  <Edge id="5" v1="YSq" v2="ColPE" len="100"></Edge>
+  <Edge id="6" v1="ColPE" v2="SWGate" len="180"></Edge>
+  <Edge id="7" v1="CAE" v2="Lib" len="300"></Edge>
+  <Edge id="8" v1="Lib" v2="TBd1" len="150"></Edge>
+  <Edge id="9" v1="ShawBd" v2="SGate" len="150"></Edge>
+  <Edge id="0" v1="Gym" v2="SEGate" len="400"></Edge>
+
+  <Edge id="_1" v1="SHos" v2="YSq" len="300"></Edge>
+  <Edge id="_2" v1="Dorm1" v2="ColPE" len="500"></Edge>
+  <Edge id="_3" v1="BGMt" v2="ETC" len="450"></Edge>
+  <Edge id="_4" v1="YSq" v2="Lib" len="550"></Edge>
+  <Edge id="_5" v1="Lib" v2="Ex2" len="100"></Edge>
+  <Edge id="_6" v1="TBd1" v2="ShawBd" len="300"></Edge>
+  <Edge id="_7" v1="Ex2" v2="SSCplx" len="500"></Edge>
+  <Edge id="_8" v1="ShawBd" v2="Ex1" len="200"></Edge>
+  <Edge id="_9" v1="SSCplx" v2="EGate" len="200"></Edge>
+  <Edge id="_10" v1="Ex1" v2="Gym" len="350"></Edge>
+
+  <Edge id="_1_" v1="ColPE" v2="TBd1" len="500"></Edge>
+  <Edge id="_2_" v1="ETC" v2="CAE" len="500"></Edge>
+  <Edge id="_3_" v1="CAE" v2="Ex2" len="150"></Edge>
+  <Edge id="_4_" v1="SSCplx" v2="Gym" len="350"></Edge>
+  <Edge id="_5_" v1="Gym" v2="EGate" len="400"></Edge>
+  
+</GraphEdges>

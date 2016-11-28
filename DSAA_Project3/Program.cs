@@ -16,7 +16,7 @@ namespace DSAA_Project3
         [STAThread]
         static void Main()
         {
-            db = new locDB(Application.StartupPath + "\\locDB.xml");
+            db = new locDB(Application.StartupPath + "\\LocationDB.xml");
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
