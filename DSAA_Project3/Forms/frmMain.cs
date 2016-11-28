@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DSAA_Project3.Forms;
+using System;
 using System.Drawing;
 using System.Windows.Forms;
 
@@ -7,6 +8,7 @@ namespace DSAA_Project3
     public partial class frmMain : Form
     {
         public static frmInfo infoWindow;
+        public static frmRoute routeWindow;
 
         public frmMain()
         {

@@ -64,6 +64,12 @@
     <Compile Include="Forms\frmRoute.Designer.cs">
       <DependentUpon>frmRoute.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\frmRouteElem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmRouteElem.Designer.cs">
+      <DependentUpon>frmRouteElem.cs</DependentUpon>
+    </Compile>
     <Compile Include="Modules\Graph.cs" />
     <Compile Include="Modules\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -80,6 +86,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmRoute.resx">
       <DependentUpon>frmRoute.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmRouteElem.resx">
+      <DependentUpon>frmRouteElem.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -163,6 +172,8 @@
     <Content Include="DBs\Edge.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\Station.jpg" />
+    <None Include="Resources\Road.jpg" />
     <None Include="Resources\Red.jpg" />
     <None Include="Resources\Purple.jpg" />
     <None Include="Resources\Green.jpg" />
