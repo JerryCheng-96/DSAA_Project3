@@ -60,8 +60,10 @@ namespace DSAA_Project3
         {
             frmMain.routeWindow = new Forms.frmRoute();
             frmMain.routeWindow.updateContent(lName.Text);
-            //frmMain.routeWindow.StartPosition = new Point(frmMain.)
+            frmMain.routeWindow.StartPosition = FormStartPosition.Manual;
+            frmMain.routeWindow.Location = new Point(frmMain.nowPosition.X + frmMain.nowSize.X + 15, frmMain.nowPosition.Y);
             frmMain.routeWindow.Show();
+            this.Close();
         }
     }
 }

@@ -61,7 +61,7 @@
             this.domainStart.Items.Add("一舍");
             this.domainStart.Items.Add("艺术学院");
             this.domainStart.Items.Add("综合楼");
-            this.domainStart.Location = new System.Drawing.Point(44, 0);
+            this.domainStart.Location = new System.Drawing.Point(46, 0);
             this.domainStart.Name = "domainStart";
             this.domainStart.ReadOnly = true;
             this.domainStart.Size = new System.Drawing.Size(212, 33);
@@ -94,7 +94,7 @@
             this.domainEnd.Items.Add("一舍");
             this.domainEnd.Items.Add("艺术学院");
             this.domainEnd.Items.Add("综合楼");
-            this.domainEnd.Location = new System.Drawing.Point(44, 23);
+            this.domainEnd.Location = new System.Drawing.Point(46, 23);
             this.domainEnd.Name = "domainEnd";
             this.domainEnd.ReadOnly = true;
             this.domainEnd.Size = new System.Drawing.Size(212, 33);
@@ -105,7 +105,7 @@
             // btnExchange
             // 
             this.btnExchange.Font = new System.Drawing.Font("Microsoft YaHei UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExchange.Location = new System.Drawing.Point(1, -1);
+            this.btnExchange.Location = new System.Drawing.Point(3, -1);
             this.btnExchange.Name = "btnExchange";
             this.btnExchange.Size = new System.Drawing.Size(43, 49);
             this.btnExchange.TabIndex = 2;
@@ -116,7 +116,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft YaHei UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(256, -1);
+            this.button1.Location = new System.Drawing.Point(258, -1);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(43, 49);
             this.button1.TabIndex = 3;
@@ -126,9 +126,10 @@
             // 
             // panel1
             // 
-            this.panel1.Location = new System.Drawing.Point(1, 93);
+            this.panel1.AutoScroll = true;
+            this.panel1.Location = new System.Drawing.Point(3, 93);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(298, 515);
+            this.panel1.Size = new System.Drawing.Size(298, 484);
             this.panel1.TabIndex = 4;
             // 
             // lGlance
@@ -136,7 +137,7 @@
             this.lGlance.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lGlance.Font = new System.Drawing.Font("Microsoft YaHei UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lGlance.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.lGlance.Location = new System.Drawing.Point(3, 48);
+            this.lGlance.Location = new System.Drawing.Point(5, 48);
             this.lGlance.Name = "lGlance";
             this.lGlance.Size = new System.Drawing.Size(295, 42);
             this.lGlance.TabIndex = 6;
@@ -147,7 +148,7 @@
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(300, 600);
+            this.ClientSize = new System.Drawing.Size(304, 579);
             this.Controls.Add(this.lGlance);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.button1);

@@ -69,6 +69,11 @@ namespace DSAA_Project3.Forms
             this.domainEnd.Text = end;
         }
 
+        public void updateContent(int numPos, int dist)
+        {
+            lGlance.Text = "经过 " + numPos.ToString() + " 个地点 · 距离 " + dist.ToString() + " m";
+        }
+
         private void button1_Click_1(object sender, EventArgs e)
         {
 

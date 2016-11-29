@@ -9,11 +9,15 @@ namespace DSAA_Project3
     {
         public static frmInfo infoWindow;
         public static frmRoute routeWindow;
+        public static Point nowPosition;
+        public static Point nowSize;
 
         public frmMain()
         {
             InitializeComponent();
             infoWindow = new frmInfo();
+            nowPosition = new Point(Location.X, Location.Y);
+            nowSize = new Point(Size.Width, Size.Height);
 
             foreach (Vertex l in Program.db.locList)
             {
@@ -62,12 +66,16 @@ namespace DSAA_Project3
             try
             {
                 infoWindow.updateContent(Program.db.locList.Find(delegate (Vertex l) { return l.code == name; }));
+                infoWindow.StartPosition = FormStartPosition.Manual;
+                infoWindow.Location = new Point(nowPosition.X + nowSize.X + 15, nowPosition.Y);
                 infoWindow.Show();
             }
             catch (ObjectDisposedException)
             {
                 infoWindow = new frmInfo();
                 infoWindow.updateContent(Program.db.locList.Find(delegate (Vertex l) { return l.code == name; }));
+                infoWindow.StartPosition = FormStartPosition.Manual;
+                infoWindow.Location = new Point(nowPosition.X + nowSize.X + 15, nowPosition.Y);
                 infoWindow.Show();
             }
             infoWindow.Activate();
@@ -221,6 +229,16 @@ namespace DSAA_Project3
         private void btnGym_MouseLeave(object sender, EventArgs e) { btnGym.FlatAppearance.BorderSize = 0; }
         private void btnSEGate_MouseLeave(object sender, EventArgs e) { btnSEGate.FlatAppearance.BorderSize = 0; }
         private void btnEGate_MouseLeave(object sender, EventArgs e) { btnEGate.FlatAppearance.BorderSize = 0; }
-        #endregion       
+        #endregion
+
+        private void frmMain_LocationChanged(object sender, EventArgs e)
+        {
+            nowPosition = new Point(Location.X, Location.Y);
+        }
+
+        private void frmMain_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
