@@ -118,11 +118,35 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="BGMt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BGMt.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CAE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CAE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ColArt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ColArt.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ColPE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ColPE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Dorm1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Dorm1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Dorm21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dorm21.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="EGate" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\EastGate.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ETC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ETC.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ex1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ex1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ex2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ex2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Gym" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Gym.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -130,13 +154,28 @@
   <data name="Lib" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Lib.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="SEGate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SEGate.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SGate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SGate.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="ShawBd" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ShawBd.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SHos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SHos.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="SSCplx" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SSCplx.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="SWGate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SWGate.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="TBd1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TBd1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="YSq" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\YSq.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
