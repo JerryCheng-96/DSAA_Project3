@@ -33,6 +33,7 @@
             this.btnExchange = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.lGlance = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // domainStart
@@ -121,26 +122,39 @@
             this.button1.TabIndex = 3;
             this.button1.Text = ">>";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // panel1
             // 
-            this.panel1.Location = new System.Drawing.Point(1, 48);
+            this.panel1.Location = new System.Drawing.Point(1, 93);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(298, 560);
+            this.panel1.Size = new System.Drawing.Size(298, 515);
             this.panel1.TabIndex = 4;
+            // 
+            // lGlance
+            // 
+            this.lGlance.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lGlance.Font = new System.Drawing.Font("Microsoft YaHei UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lGlance.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.lGlance.Location = new System.Drawing.Point(3, 48);
+            this.lGlance.Name = "lGlance";
+            this.lGlance.Size = new System.Drawing.Size(295, 42);
+            this.lGlance.TabIndex = 6;
+            this.lGlance.Text = "经过 5 个地点 · 距离 1580 m";
+            this.lGlance.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // frmRoute
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(300, 600);
+            this.Controls.Add(this.lGlance);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnExchange);
             this.Controls.Add(this.domainEnd);
             this.Controls.Add(this.domainStart);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.IsMdiContainer = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.MaximizeBox = false;
             this.Name = "frmRoute";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
@@ -157,5 +171,6 @@
         private System.Windows.Forms.Button btnExchange;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label lGlance;
     }
 }

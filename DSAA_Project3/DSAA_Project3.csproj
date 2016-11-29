@@ -172,6 +172,8 @@
     <Content Include="DBs\Edge.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\Station_Start.jpg" />
+    <None Include="Resources\Station_End.jpg" />
     <None Include="Resources\Station.jpg" />
     <None Include="Resources\Road.jpg" />
     <None Include="Resources\Red.jpg" />

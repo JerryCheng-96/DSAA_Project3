@@ -28,30 +28,30 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.lInfo = new System.Windows.Forms.Label();
+            this.GEIcon = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.GEIcon)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // lInfo
             // 
-            this.pictureBox1.BackgroundImage = global::DSAA_Project3.Properties.Resources.Station;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(60, 60);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.lInfo.AutoSize = true;
+            this.lInfo.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lInfo.Location = new System.Drawing.Point(91, 14);
+            this.lInfo.Name = "lInfo";
+            this.lInfo.Size = new System.Drawing.Size(86, 31);
+            this.lInfo.TabIndex = 1;
+            this.lInfo.Text = "图书馆";
             // 
-            // label1
+            // GEIcon
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label1.Location = new System.Drawing.Point(68, 14);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(86, 31);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "图书馆";
+            this.GEIcon.BackgroundImage = global::DSAA_Project3.Properties.Resources.Station;
+            this.GEIcon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.GEIcon.Location = new System.Drawing.Point(23, 0);
+            this.GEIcon.Name = "GEIcon";
+            this.GEIcon.Size = new System.Drawing.Size(60, 60);
+            this.GEIcon.TabIndex = 0;
+            this.GEIcon.TabStop = false;
             // 
             // frmRouteElem
             // 
@@ -59,12 +59,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(300, 60);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.lInfo);
+            this.Controls.Add(this.GEIcon);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmRouteElem";
             this.Load += new System.EventHandler(this.frmRouteElem_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GEIcon)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -72,7 +72,7 @@
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox GEIcon;
+        private System.Windows.Forms.Label lInfo;
     }
 }

@@ -59,6 +59,7 @@ namespace DSAA_Project3
         private void button1_Click_1(object sender, EventArgs e)
         {
             frmMain.routeWindow = new Forms.frmRoute();
+            frmMain.routeWindow.updateContent(lName.Text);
             //frmMain.routeWindow.StartPosition = new Point(frmMain.)
             frmMain.routeWindow.Show();
         }
