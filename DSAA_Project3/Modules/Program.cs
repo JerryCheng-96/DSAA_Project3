@@ -20,8 +20,8 @@ namespace DSAA_Project3
             edgeDB = new EdgeCollection(Application.StartupPath + "..\\DBs\\Edge.xml");
             theGraph = new Graph(db, edgeDB);
 
-            //Path testPath = theGraph.DijkstraPath(4, 13);
-            Path testPath = theGraph.DijkstraPath(10, 4);
+            Path testPath = theGraph.DijkstraPath(12, 17);
+            //Path testPath = theGraph.DijkstraPath(10, 4);
             testRoute = new Route();
             testRoute.PathToRoute(testPath, theGraph);
 

@@ -138,15 +138,16 @@ namespace DSAA_Project3
 
         public Edge FindEdge(Vertex v1, Vertex v2)
         {
-            return edgeList.Find(delegate (Edge e) { return v1.Equals(e.v1) && v2.Equals(e.v2); });
+            return edgeList.Find(delegate (Edge e) { return (v1.Equals(e.v1) && v2.Equals(e.v2)) || (v1.Equals(e.v2) && v2.Equals(e.v1)); });
         }
     }
 
     public class Route
     {
         public enum posOfLoc { Pass, Start, End };
-
         public List<GraphElem> elemList;
+        public int numVtx = 0;
+        public int dist = 0;
 
         public Route()
         {
@@ -186,6 +187,9 @@ namespace DSAA_Project3
                     nextVtxIndex = vtxIndexQueue.Peek();
                 }
             }
+
+            numVtx = path.vtxPath.Count;
+            dist = path.length;
         }
     }
 

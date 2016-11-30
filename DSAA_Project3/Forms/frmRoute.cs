@@ -105,7 +105,7 @@ namespace DSAA_Project3.Forms
             {
                 nowFrmElem = new frmRouteElem(route.elemList[i]);
                 nowFrmElem.TopLevel = false;
-                nowFrmElem.Location = new Point(prevFrmElem.Location.X, prevFrmElem.Location.Y + 30);
+                nowFrmElem.Location = new Point(prevFrmElem.Location.X, prevFrmElem.Location.Y + 27);
                 panel1.Controls.Add(nowFrmElem);
                 nowFrmElem.Show();
                 prevFrmElem = nowFrmElem;
@@ -114,11 +114,13 @@ namespace DSAA_Project3.Forms
 
             nowFrmElem = new frmRouteElem(route.elemList[route.elemList.Count - 1], Route.posOfLoc.End);
             nowFrmElem.TopLevel = false;
-            nowFrmElem.Location = new Point(prevFrmElem.Location.X, prevFrmElem.Location.Y + 30);
+            nowFrmElem.Location = new Point(prevFrmElem.Location.X, prevFrmElem.Location.Y + 27);
             panel1.Controls.Add(nowFrmElem);
             nowFrmElem.Show();
             prevFrmElem = null;
             nowFrmElem = null;
+
+            updateContent(route.numVtx, route.dist);
 
         }
     }
