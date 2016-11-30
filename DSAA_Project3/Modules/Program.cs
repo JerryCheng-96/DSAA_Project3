@@ -1,15 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace DSAA_Project3
 {
     static class Program
     {
-        public static locDB db;
-        public static Edges edgeDB;
+        public static VertexCollection db;
+        public static EdgeCollection edgeDB;
+        public static Graph theGraph;
 
         /// <summary>
         /// 应用程序的主入口点。
@@ -17,17 +15,15 @@ namespace DSAA_Project3
         [STAThread]
         static void Main()
         {
-            db = new locDB(Application.StartupPath + "\\LocationDB.xml");
-            edgeDB = new Edges(Application.StartupPath + "\\Edge.xml");
+            db = new VertexCollection(Application.StartupPath + "..\\DBs\\LocationDB.xml");
+            edgeDB = new EdgeCollection(Application.StartupPath + "..\\DBs\\Edge.xml");
+            theGraph = new Graph(db, edgeDB);
+
+            Path testPath = theGraph.DijkstraPath(11, 16);
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new frmMain());
-        }
-
-        static void readLocDB()
-        {
-            ;
         }
     }
 }

@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace DSAA_Project3
@@ -19,13 +13,19 @@ namespace DSAA_Project3
             InitializeComponent();
             infoWindow = new frmInfo();
 
-            foreach (Loc l in Program.db.locList)
+            foreach (Vertex l in Program.db.locList)
             {
                 Control[] button = Controls.Find("btn" + l.code, true);
                 foreach (Button item in button) { SetBtnStyle(item); }
 
-                Control[] LocPicBox = Controls.Find(l.code + "_d", true);
-                foreach (PictureBox item in LocPicBox) { l.picDot = item; }
+                Control[] VertexPicBox = Controls.Find(l.code + "_d", true);
+                foreach (PictureBox item in VertexPicBox) { l.picDot = item; }
+            }
+
+            foreach (Edge e in Program.edgeDB.edgeList)
+            {
+                Control[] picBox = Controls.Find("routeArrow" + e.id, true);
+                foreach (PictureBox item in picBox) { e.picEdge = item; }
             }
         }
 
@@ -54,30 +54,25 @@ namespace DSAA_Project3
             btn.FlatAppearance.MouseDownBackColor = Color.Transparent;
         }
 
-        private void AssignPicDot()
-        {
-            Program.db.locList.Find(delegate (Loc l) { return l.code == "ColArt"; }).picDot = ColArt_d;
-        }
-
         public void showInfoWindow(string name)
         {
             GC.Collect();
             try
             {
-                infoWindow.updateContent(Program.db.locList.Find(delegate (Loc l) { return l.code == name; }));
+                infoWindow.updateContent(Program.db.locList.Find(delegate (Vertex l) { return l.code == name; }));
                 infoWindow.Show();
             }
             catch (ObjectDisposedException)
             {
                 infoWindow = new frmInfo();
-                infoWindow.updateContent(Program.db.locList.Find(delegate (Loc l) { return l.code == name; }));
+                infoWindow.updateContent(Program.db.locList.Find(delegate (Vertex l) { return l.code == name; }));
                 infoWindow.Show();
             }
             infoWindow.Activate();
         }
 
         // The Click Behavior of the Location Buttons
-        #region LocBtnClick
+        #region VertexBtnClick
 
         private void btnColArt_Click(object sender, EventArgs e)
         {

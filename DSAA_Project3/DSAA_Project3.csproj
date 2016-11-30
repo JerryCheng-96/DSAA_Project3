@@ -46,31 +46,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmInfo.cs">
+    <Compile Include="Forms\frmInfo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmInfo.Designer.cs">
+    <Compile Include="Forms\frmInfo.Designer.cs">
       <DependentUpon>frmInfo.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmMain.cs">
+    <Compile Include="Forms\frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmMain.Designer.cs">
+    <Compile Include="Forms\frmMain.Designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="Edges.cs" />
-    <Compile Include="Loc.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Modules\Graph.cs" />
+    <Compile Include="Modules\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\InfoImage.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>InfoImage.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="frmInfo.resx">
+    <EmbeddedResource Include="Forms\frmInfo.resx">
       <DependentUpon>frmInfo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmMain.resx">
+    <EmbeddedResource Include="Forms\frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -152,7 +151,7 @@
     <None Include="Resources\Metro_LowRes.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Edge.xml">
+    <Content Include="DBs\Edge.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <None Include="Resources\Red.jpg" />
@@ -166,7 +165,7 @@
     <None Include="Resources\EastGate.jpg" />
     <None Include="Resources\Dorm1.jpg" />
     <None Include="Resources\Metro_New.jpg" />
-    <Content Include="LocationDB.xml">
+    <Content Include="DBs\LocationDB.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
