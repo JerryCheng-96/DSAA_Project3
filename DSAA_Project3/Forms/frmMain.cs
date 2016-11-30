@@ -79,102 +79,102 @@ namespace DSAA_Project3
 
         private void btnColArt_Click(object sender, EventArgs e)
         {
-            showInfoWindow("ColArt");
+            ClickAssist("ColArt");
         }
 
         private void btnSSComplex_Click(object sender, EventArgs e)
         {
-            showInfoWindow("SSCplx");
+            ClickAssist("SSCplx");
         }
 
         private void btnEGate_Click(object sender, EventArgs e)
         {
-            showInfoWindow("EGate");
+            ClickAssist("EGate");
         }
 
         private void btnDorm1_Click(object sender, EventArgs e)
         {
-            showInfoWindow("Dorm1");
+            ClickAssist("Dorm1");
         }
 
         private void btn1Bd_Click(object sender, EventArgs e)
         {
-            showInfoWindow("TBd1");
+            ClickAssist("TBd1");
         }
 
         private void btnLib_Click(object sender, EventArgs e)
         {
-            showInfoWindow("Lib");
+            ClickAssist("Lib");
         }
 
         private void btnShawBd_Click(object sender, EventArgs e)
         {
-            showInfoWindow("ShawBd");
+            ClickAssist("ShawBd");
         }
 
         private void btnGym_Click(object sender, EventArgs e)
         {
-            showInfoWindow("Gym");
+            ClickAssist("Gym");
         }
 
         private void btnDorm21_Click(object sender, EventArgs e)
         {
-            showInfoWindow("Dorm21");
+            ClickAssist("Dorm21");
         }
 
         private void btnHospital_Click(object sender, EventArgs e)
         {
-            showInfoWindow("SHos");
+            ClickAssist("SHos");
         }
 
         private void btnBuGao_Click(object sender, EventArgs e)
         {
-            showInfoWindow("BGMt");
+            ClickAssist("BGMt");
         }
 
         private void btnYouthSqr_Click(object sender, EventArgs e)
         {
-            showInfoWindow("YSq");
+            ClickAssist("YSq");
         }
 
         private void btnColPE_Click(object sender, EventArgs e)
         {
-            showInfoWindow("ColPE");
+            ClickAssist("ColPE");
         }
 
         private void btnTrCtr_Click(object sender, EventArgs e)
         {
-            showInfoWindow("ETC");
+            ClickAssist("ETC");
         }
 
         private void btnColAE_Click(object sender, EventArgs e)
         {
-            showInfoWindow("CAE");
+            ClickAssist("CAE");
         }
 
         private void btn2Ex_Click(object sender, EventArgs e)
         {
-            showInfoWindow("Ex2");
+            ClickAssist("Ex2");
         }
 
         private void btn1Ex_Click(object sender, EventArgs e)
         {
-            showInfoWindow("Ex1");
+            ClickAssist("Ex1");
         }
 
         private void btnSWGate_Click(object sender, EventArgs e)
         {
-            showInfoWindow("SWGate");
+            ClickAssist("SWGate");
         }
 
         private void btnSGate_Click(object sender, EventArgs e)
         {
-            showInfoWindow("SGate");
+            ClickAssist("SGate");
         }
 
         private void btnSEGate_Click(object sender, EventArgs e)
         {
-            showInfoWindow("SEGate");
+            ClickAssist("SEGate");
         }
 
         #endregion
@@ -272,19 +272,41 @@ namespace DSAA_Project3
                 if (startPoint == null)
                 {
                     startPoint = code;
+                    Text = "江安数字平面图 - 从 " + Program.theGraph.vtxCollection.locList.Find(delegate (Vertex v1) { return v1.code == startPoint; }).name;
                 }
                 else if (startPoint != null && endPoint == null)
                 {
                     endPoint = code;
+                    Text = "江安数字平面图 - 从 " + Program.theGraph.vtxCollection.locList.Find(delegate (Vertex v1) { return v1.code == startPoint; }).name + " 到 " + Program.theGraph.vtxCollection.locList.Find(delegate (Vertex v2) { return v2.code == endPoint; }).name;
                     GC.Collect();
                     frmRoute nowRouteWindow = getFrmRoute();
                     nowRouteWindow.StartPosition = FormStartPosition.Manual;
                     nowRouteWindow.updateContent(Program.theGraph.vtxCollection.locList.Find(delegate (Vertex v1) { return v1.code == startPoint; }).name,
                         Program.theGraph.vtxCollection.locList.Find(delegate (Vertex v2) { return v2.code == endPoint; }).name);
+                    startPoint = endPoint = null;
                     nowRouteWindow.Location = new Point(nowPosition.X + nowSize.X + 15, nowPosition.Y);
                     nowRouteWindow.Show();
                 }
             }
+        }
+
+        private void frmMain_KeyUp(object sender, KeyEventArgs e)
+        {
+            startPoint = endPoint = null;
+            Text = "江安数字平面图";
+        }
+
+        private void frmMain_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Control == true)
+            {
+                Text = "江安数字平面图 - 从 ";
+            }
+        }
+
+        private void frmMain_Activated(object sender, EventArgs e)
+        {
+            Text = "江安数字平面图";
         }
     }
 }

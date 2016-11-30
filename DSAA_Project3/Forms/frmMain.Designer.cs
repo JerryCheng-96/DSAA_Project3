@@ -1049,9 +1049,11 @@
             this.MaximizeBox = false;
             this.Name = "frmMain";
             this.Text = "江安数字平面图";
+            this.Activated += new System.EventHandler(this.frmMain_Activated);
             this.Load += new System.EventHandler(this.frmMain_Load);
             this.LocationChanged += new System.EventHandler(this.frmMain_LocationChanged);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.frmMain_KeyDown);
+            this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.frmMain_KeyUp);
             ((System.ComponentModel.ISupportInitialize)(this.picMaskHelp)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.routeArrow1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.routeArrow2)).EndInit();
