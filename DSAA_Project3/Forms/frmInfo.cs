@@ -55,5 +55,15 @@ namespace DSAA_Project3
         {
 
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            frmMain.routeWindow = new Forms.frmRoute();
+            frmMain.routeWindow.updateContent(lName.Text);
+            frmMain.routeWindow.StartPosition = FormStartPosition.Manual;
+            frmMain.routeWindow.Location = new Point(frmMain.nowPosition.X + frmMain.nowSize.X + 15, frmMain.nowPosition.Y);
+            frmMain.routeWindow.Show();
+            this.Close();
+        }
     }
 }

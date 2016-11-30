@@ -4,8 +4,11 @@ using System.Xml;
 
 namespace DSAA_Project3
 {
-    
-    public abstract class GraphElem { }
+    public abstract class GraphElem
+    {
+        public enum eType { Vertex, Edge };       
+        public eType elemType;
+    }
 
     public class Vertex : GraphElem
     {
@@ -16,11 +19,16 @@ namespace DSAA_Project3
         public string type;
         public PictureBox picDot;
 
-        public Vertex() { }
+        public Vertex()
+        {
+            elemType = eType.Vertex;
+        }
+
         public Vertex(string newName, string newEngName)
         {
             name = newName;
             engName = newEngName;
+            elemType = eType.Vertex;
         }
 
         public bool Equals(Vertex target)
@@ -88,6 +96,8 @@ namespace DSAA_Project3
         {
             id = "";
             isDir = false;
+            
+            elemType = eType.Edge;
             len = Graph.INFF;
         }
     }
@@ -129,6 +139,8 @@ namespace DSAA_Project3
 
     public class Route
     {
+        public enum posOfLoc { Pass, Start, End };
+
         public List<GraphElem> elemList;
 
         public Route()
@@ -136,13 +148,14 @@ namespace DSAA_Project3
             elemList = new List<GraphElem>();
         }
 
-        public void addElem(GraphElem ge)
+        public bool addElem(GraphElem ge)
         {
             if (elemList.Count != 0)
             {
-                if (elemList[elemList.Count - 1].GetType() == ge.GetType()) { return; }                
+                if (elemList[elemList.Count - 1].elemType == ge.elemType) { return false; }                
             }
             elemList.Add(ge);
+            return true;
         }
     }
 
