@@ -135,6 +135,11 @@ namespace DSAA_Project3
                 edgeList.Add(nowEdge);
             }
         }
+
+        public Edge FindEdge(Vertex v1, Vertex v2)
+        {
+            return edgeList.Find(delegate (Edge e) { return v1.Equals(e.v1) && v2.Equals(e.v2); });
+        }
     }
 
     public class Route
@@ -156,6 +161,31 @@ namespace DSAA_Project3
             }
             elemList.Add(ge);
             return true;
+        }
+
+        public void PathToRoute(Path path, Graph graph)
+        {
+            Queue<int> vtxIndexQueue = new Queue<int>();
+            int nowVtxIndex = -1;
+            int nextVtxIndex = -1;
+            foreach (int vtx in path.vtxPath)
+            {
+                vtxIndexQueue.Enqueue(vtx);
+            }
+
+            nowVtxIndex = vtxIndexQueue.Dequeue();
+            nextVtxIndex = vtxIndexQueue.Peek();
+            elemList.Add(graph.vtxCollection.locList[nowVtxIndex]);
+            while (vtxIndexQueue.Count != 0)
+            {
+                elemList.Add(graph.egdCollection.FindEdge(graph.vtxCollection.locList[nowVtxIndex], graph.vtxCollection.locList[nextVtxIndex]));
+                elemList.Add(graph.vtxCollection.locList[nextVtxIndex]);
+                nowVtxIndex = vtxIndexQueue.Dequeue();
+                if (vtxIndexQueue.Count != 0)
+                {
+                    nextVtxIndex = vtxIndexQueue.Peek();
+                }
+            }
         }
     }
 

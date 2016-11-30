@@ -20,6 +20,8 @@ namespace DSAA_Project3
             theGraph = new Graph(db, edgeDB);
 
             Path testPath = theGraph.DijkstraPath(11, 16);
+            Route testRoute = new Route();
+            testRoute.PathToRoute(testPath, theGraph);
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
