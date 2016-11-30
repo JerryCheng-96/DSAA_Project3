@@ -163,6 +163,9 @@
   <data name="ShawBd" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ShawBd.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="SHos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SHos.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="SSCplx" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SSCplx.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -174,8 +177,5 @@
   </data>
   <data name="YSq" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\YSq.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="SHos" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SHos.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

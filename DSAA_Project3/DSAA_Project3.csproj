@@ -172,11 +172,11 @@
     <Content Include="DBs\Edge.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <None Include="Resources\SHos.jpg" />
     <None Include="Resources\YSq.jpg" />
     <None Include="Resources\TBd1.jpg" />
     <None Include="Resources\SWGate.jpg" />
     <None Include="Resources\SSCplx.JPG" />
+    <None Include="Resources\SHos.jpg" />
     <None Include="Resources\ShawBd.jpg" />
     <None Include="Resources\SGate.jpg" />
     <None Include="Resources\SEGate.jpg" />
