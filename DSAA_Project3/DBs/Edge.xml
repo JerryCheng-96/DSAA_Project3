@@ -23,7 +23,7 @@
   <Edge id="_9" v1="SSCplx" v2="EGate" len="200"></Edge>
   <Edge id="_10" v1="Ex1" v2="Gym" len="350"></Edge>
 
-  <Edge id="_1_" v1="SWGate" v2="TBd1" len="500"></Edge>
+  <Edge id="_1_" v1="SWGate" v2="TBd1" len="700"></Edge>
   <Edge id="_2_" v1="ETC" v2="CAE" len="500"></Edge>
   <Edge id="_3_" v1="CAE" v2="Ex2" len="150"></Edge>
   <Edge id="_4_" v1="SSCplx" v2="Gym" len="350"></Edge>
