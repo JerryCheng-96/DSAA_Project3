@@ -1051,6 +1051,7 @@
             this.Text = "江安数字平面图";
             this.Load += new System.EventHandler(this.frmMain_Load);
             this.LocationChanged += new System.EventHandler(this.frmMain_LocationChanged);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.frmMain_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.picMaskHelp)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.routeArrow1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.routeArrow2)).EndInit();

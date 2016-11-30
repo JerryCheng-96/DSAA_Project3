@@ -11,6 +11,8 @@ namespace DSAA_Project3
         public static frmRoute routeWindow = null;
         public static Point nowPosition;
         public static Point nowSize;
+        public string startPoint = null;
+        public string endPoint = null;
 
         public frmMain()
         {
@@ -257,6 +259,32 @@ namespace DSAA_Project3
                 routeWindow = new frmRoute();
             }
             return routeWindow;
+        }
+
+        public void ClickAssist(string code)
+        {
+            if (ModifierKeys != Keys.Control)
+            {
+                showInfoWindow(code);
+            }
+            else
+            {
+                if (startPoint == null)
+                {
+                    startPoint = code;
+                }
+                else if (startPoint != null && endPoint == null)
+                {
+                    endPoint = code;
+                    GC.Collect();
+                    frmRoute nowRouteWindow = getFrmRoute();
+                    nowRouteWindow.StartPosition = FormStartPosition.Manual;
+                    nowRouteWindow.updateContent(Program.theGraph.vtxCollection.locList.Find(delegate (Vertex v1) { return v1.code == startPoint; }).name,
+                        Program.theGraph.vtxCollection.locList.Find(delegate (Vertex v2) { return v2.code == endPoint; }).name);
+                    nowRouteWindow.Location = new Point(nowPosition.X + nowSize.X + 15, nowPosition.Y);
+                    nowRouteWindow.Show();
+                }
+            }
         }
     }
 }

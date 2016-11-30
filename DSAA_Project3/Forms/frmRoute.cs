@@ -46,6 +46,9 @@ namespace DSAA_Project3.Forms
         {
             this.domainStart.Text = start;
             this.domainEnd.Text = end;
+            Text = domainStart.Text + " -> " + domainEnd.Text;
+            updateRoute(domainStart.Text, domainEnd.Text);
+            refreshShow();
         }
 
         public void updateContent(int numPos, int dist)
