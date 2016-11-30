@@ -96,6 +96,7 @@
             this.Ex1_d = new System.Windows.Forms.PictureBox();
             this.SGate_d = new System.Windows.Forms.PictureBox();
             this.SEGate_d = new System.Windows.Forms.PictureBox();
+            this.btnRoute = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picMaskHelp)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.routeArrow1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.routeArrow2)).BeginInit();
@@ -953,6 +954,19 @@
             this.SEGate_d.TabIndex = 67;
             this.SEGate_d.TabStop = false;
             // 
+            // btnRoute
+            // 
+            this.btnRoute.BackColor = System.Drawing.Color.White;
+            this.btnRoute.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRoute.Font = new System.Drawing.Font("Microsoft YaHei UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRoute.Location = new System.Drawing.Point(1040, 12);
+            this.btnRoute.Name = "btnRoute";
+            this.btnRoute.Size = new System.Drawing.Size(131, 52);
+            this.btnRoute.TabIndex = 68;
+            this.btnRoute.Text = "寻找路线";
+            this.btnRoute.UseVisualStyleBackColor = false;
+            this.btnRoute.Click += new System.EventHandler(this.button1_Click_1);
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
@@ -961,6 +975,7 @@
             this.BackgroundImage = global::DSAA_Project3.Properties.Resources.Metro_New;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1256, 644);
+            this.Controls.Add(this.btnRoute);
             this.Controls.Add(this.SEGate_d);
             this.Controls.Add(this.SGate_d);
             this.Controls.Add(this.Ex1_d);
@@ -1156,6 +1171,7 @@
         private System.Windows.Forms.PictureBox Ex1_d;
         private System.Windows.Forms.PictureBox SGate_d;
         private System.Windows.Forms.PictureBox SEGate_d;
+        private System.Windows.Forms.Button btnRoute;
     }
 }
 

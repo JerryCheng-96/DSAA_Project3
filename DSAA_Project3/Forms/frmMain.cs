@@ -7,15 +7,14 @@ namespace DSAA_Project3
 {
     public partial class frmMain : Form
     {
-        public static frmInfo infoWindow;
-        public static frmRoute routeWindow;
+        public static frmInfo infoWindow = null;
+        public static frmRoute routeWindow = null;
         public static Point nowPosition;
         public static Point nowSize;
 
         public frmMain()
         {
             InitializeComponent();
-            infoWindow = new frmInfo();
             nowPosition = new Point(Location.X, Location.Y);
             nowSize = new Point(Size.Width, Size.Height);
 
@@ -39,6 +38,7 @@ namespace DSAA_Project3
         {
             picMaskHelp.BackColor = Color.Transparent;
             btnHelp.Visible = false;
+            btnRoute.Visible = false;
             btnHelpOK.Visible = true;
         }
 
@@ -46,6 +46,7 @@ namespace DSAA_Project3
         {
             btnHelpOK.Visible = false;
             picMaskHelp.BackColor = Color.White;
+            btnRoute.Visible = true;
             btnHelp.Visible = true;
             
         }
@@ -63,22 +64,12 @@ namespace DSAA_Project3
         public void showInfoWindow(string name)
         {
             GC.Collect();
-            try
-            {
-                infoWindow.updateContent(Program.db.locList.Find(delegate (Vertex l) { return l.code == name; }));
-                infoWindow.StartPosition = FormStartPosition.Manual;
-                infoWindow.Location = new Point(nowPosition.X + nowSize.X + 15, nowPosition.Y);
-                infoWindow.Show();
-            }
-            catch (ObjectDisposedException)
-            {
-                infoWindow = new frmInfo();
-                infoWindow.updateContent(Program.db.locList.Find(delegate (Vertex l) { return l.code == name; }));
-                infoWindow.StartPosition = FormStartPosition.Manual;
-                infoWindow.Location = new Point(nowPosition.X + nowSize.X + 15, nowPosition.Y);
-                infoWindow.Show();
-            }
-            infoWindow.Activate();
+            frmInfo nowInfoWindow = getFrmInfo();
+            nowInfoWindow.updateContent(Program.db.locList.Find(delegate (Vertex l) { return l.code == name; }));
+            nowInfoWindow.StartPosition = FormStartPosition.Manual;
+            nowInfoWindow.Location = new Point(nowPosition.X + nowSize.X + 15, nowPosition.Y);
+            nowInfoWindow.Show();
+            nowInfoWindow.Activate();
         }
 
         // The Click Behavior of the Location Buttons
@@ -239,6 +230,33 @@ namespace DSAA_Project3
         private void frmMain_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            GC.Collect();
+            frmRoute nowRouteWindow = getFrmRoute();
+            nowRouteWindow.StartPosition = FormStartPosition.Manual;
+            nowRouteWindow.Location = new Point(nowPosition.X + nowSize.X + 15, nowPosition.Y);
+            nowRouteWindow.Show();
+        }
+
+        public static frmInfo getFrmInfo()
+        {
+            if (infoWindow == null || infoWindow.IsDisposed)
+            {
+                infoWindow = new frmInfo();
+            }
+            return infoWindow;
+        }
+
+        public static frmRoute getFrmRoute()
+        {
+            if (routeWindow == null || routeWindow.IsDisposed)
+            {
+                routeWindow = new frmRoute();
+            }
+            return routeWindow;
         }
     }
 }

@@ -12,38 +12,12 @@ namespace DSAA_Project3.Forms
 {
     public partial class frmRoute : Form
     {
-        
+        public Route theRoute = null;
+
         public frmRoute()
         {
             InitializeComponent();
-            showRoute(Program.testRoute);
-            /*
-            routeElemQueue = new Queue<frmRouteElem>();
-            frmRouteElem elem = new frmRouteElem(Program.theGraph.vtxCollection.locList[0], Route.posOfLoc.Start);
-            elem.TopLevel = false;
-            panel1.Controls.Add(elem);
-            elem.Show();
-            frmRouteElem elem2 = new frmRouteElem(Program.theGraph.egdCollection.edgeList[0]);
-            elem2.TopLevel = false;
-            elem2.Location = new Point(elem.Location.X, elem.Location.Y + 39);
-            panel1.Controls.Add(elem2);
-            elem2.Show();
-            frmRouteElem elem3 = new frmRouteElem(Program.theGraph.vtxCollection.locList[2]);
-            elem3.TopLevel = false;
-            elem3.Location = new Point(elem.Location.X, elem2.Location.Y + 39);
-            panel1.Controls.Add(elem3);
-            elem3.Show();
-            frmRouteElem elem4 = new frmRouteElem(Program.theGraph.egdCollection.edgeList[1]);
-            elem4.TopLevel = false;
-            elem4.Location = new Point(elem.Location.X, elem3.Location.Y + 39);
-            panel1.Controls.Add(elem4);
-            elem4.Show();
-            frmRouteElem elem5 = new frmRouteElem(Program.theGraph.vtxCollection.locList[1], Route.posOfLoc.End);
-            elem5.TopLevel = false;
-            elem5.Location = new Point(elem.Location.X, elem4.Location.Y + 39);
-            panel1.Controls.Add(elem5);
-            elem5.Show();
-            */
+            theRoute = new Route();
         }
 
         private void frmRoute_Load(object sender, EventArgs e)
@@ -59,8 +33,8 @@ namespace DSAA_Project3.Forms
                 temp = domainEnd.Text;
                 domainEnd.Text = domainStart.Text;
                 domainStart.Text = temp;
-                this.Text = domainStart.Text + " -> " + domainEnd.Text;
-            } 
+                button1_Click_1(sender, e);
+            }
         }
 
         public void updateContent(string start)
@@ -84,44 +58,72 @@ namespace DSAA_Project3.Forms
 
             if (domainEnd.Text != "（终点）" && domainStart.Text != "（起点）")
             {
-                this.Text = domainStart.Text + " -> " + domainEnd.Text;
+                Text = domainStart.Text + " -> " + domainEnd.Text;
+                updateRoute(domainStart.Text, domainEnd.Text);
+                refreshShow();
+            }
+            else
+            {
+                lGlance.Text = "请选择起点与终点";
             }
         }
 
         private void showRoute(Route route)
-        {
-            frmRouteElem prevFrmElem;
+        { frmRouteElem prevFrmElem;
             frmRouteElem nowFrmElem;
 
             nowFrmElem = new frmRouteElem(route.elemList[0], Route.posOfLoc.Start);
             nowFrmElem.TopLevel = false;
-            //elem2.Location = new Point(elem.Location.X, elem.Location.Y + 39);
+            nowFrmElem.Location = new Point(30, 0);
             panel1.Controls.Add(nowFrmElem);
             nowFrmElem.Show();
             prevFrmElem = nowFrmElem;
             nowFrmElem = null;
 
-            for (int i = 1; i < route.elemList.Count - 1; i++)
+            if (route.numVtx != 1)
             {
-                nowFrmElem = new frmRouteElem(route.elemList[i]);
+
+                for (int i = 1; i < route.elemList.Count - 1; i++)
+                {
+                    nowFrmElem = new frmRouteElem(route.elemList[i]);
+                    nowFrmElem.TopLevel = false;
+                    nowFrmElem.Location = new Point(prevFrmElem.Location.X, prevFrmElem.Location.Y + 27);
+                    panel1.Controls.Add(nowFrmElem);
+                    nowFrmElem.Show();
+                    prevFrmElem = nowFrmElem;
+                    nowFrmElem = null;
+                }
+
+                nowFrmElem = new frmRouteElem(route.elemList[route.elemList.Count - 1], Route.posOfLoc.End);
                 nowFrmElem.TopLevel = false;
                 nowFrmElem.Location = new Point(prevFrmElem.Location.X, prevFrmElem.Location.Y + 27);
                 panel1.Controls.Add(nowFrmElem);
                 nowFrmElem.Show();
-                prevFrmElem = nowFrmElem;
+                prevFrmElem = null;
                 nowFrmElem = null;
             }
 
-            nowFrmElem = new frmRouteElem(route.elemList[route.elemList.Count - 1], Route.posOfLoc.End);
-            nowFrmElem.TopLevel = false;
-            nowFrmElem.Location = new Point(prevFrmElem.Location.X, prevFrmElem.Location.Y + 27);
-            panel1.Controls.Add(nowFrmElem);
-            nowFrmElem.Show();
-            prevFrmElem = null;
-            nowFrmElem = null;
-
             updateContent(route.numVtx, route.dist);
+        }
 
+        public void showRoute()
+        {
+            showRoute(theRoute);
+        }
+
+        public void updateRoute(string start, string end)
+        {
+            theRoute = new Route();
+            theRoute.PathToRoute(Program.theGraph.DijkstraPath(
+                Program.theGraph.vtxCollection.locList.Find(delegate (Vertex v1) { return v1.name == start; }),
+                Program.theGraph.vtxCollection.locList.Find(delegate (Vertex v2) { return v2.name == end; })), 
+                Program.theGraph);
+        }
+
+        public void refreshShow()
+        {
+            panel1.Controls.Clear();
+            showRoute();
         }
     }
 }

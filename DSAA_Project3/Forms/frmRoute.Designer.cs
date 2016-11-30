@@ -141,7 +141,7 @@
             this.lGlance.Name = "lGlance";
             this.lGlance.Size = new System.Drawing.Size(295, 42);
             this.lGlance.TabIndex = 6;
-            this.lGlance.Text = "经过 5 个地点 · 距离 1580 m";
+            this.lGlance.Text = "请选择起点与终点";
             this.lGlance.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // frmRoute
@@ -155,7 +155,7 @@
             this.Controls.Add(this.btnExchange);
             this.Controls.Add(this.domainEnd);
             this.Controls.Add(this.domainStart);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "frmRoute";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;

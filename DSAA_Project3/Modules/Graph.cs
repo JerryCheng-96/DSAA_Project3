@@ -166,6 +166,10 @@ namespace DSAA_Project3
 
         public void PathToRoute(Path path, Graph graph)
         {
+            if (path == null || graph == null)
+            {
+                return;
+            }
             Queue<int> vtxIndexQueue = new Queue<int>();
             int nowVtxIndex = -1;
             int nextVtxIndex = -1;
@@ -174,20 +178,26 @@ namespace DSAA_Project3
                 vtxIndexQueue.Enqueue(vtx);
             }
 
-            nowVtxIndex = vtxIndexQueue.Dequeue();
-            nextVtxIndex = vtxIndexQueue.Peek();
-            elemList.Add(graph.vtxCollection.locList[nowVtxIndex]);
-            while (vtxIndexQueue.Count != 0)
+            if (path.vtxPath.Count != 1)
             {
-                elemList.Add(graph.egdCollection.FindEdge(graph.vtxCollection.locList[nowVtxIndex], graph.vtxCollection.locList[nextVtxIndex]));
-                elemList.Add(graph.vtxCollection.locList[nextVtxIndex]);
                 nowVtxIndex = vtxIndexQueue.Dequeue();
-                if (vtxIndexQueue.Count != 0)
+                nextVtxIndex = vtxIndexQueue.Peek();
+                elemList.Add(graph.vtxCollection.locList[nowVtxIndex]);
+                while (vtxIndexQueue.Count != 0)
                 {
-                    nextVtxIndex = vtxIndexQueue.Peek();
+                    elemList.Add(graph.egdCollection.FindEdge(graph.vtxCollection.locList[nowVtxIndex], graph.vtxCollection.locList[nextVtxIndex]));
+                    elemList.Add(graph.vtxCollection.locList[nextVtxIndex]);
+                    nowVtxIndex = vtxIndexQueue.Dequeue();
+                    if (vtxIndexQueue.Count != 0)
+                    {
+                        nextVtxIndex = vtxIndexQueue.Peek();
+                    }
                 }
             }
-
+            else
+            {
+                elemList.Add(graph.vtxCollection.locList[vtxIndexQueue.Dequeue()]);
+            }
             numVtx = path.vtxPath.Count;
             dist = path.length;
         }
@@ -286,6 +296,10 @@ namespace DSAA_Project3
 
         public Path DijkstraPath(Vertex start, Vertex end)
         {
+            if (start == null || end == null)
+            {
+                return null;
+            }
             return DijkstraPath(vtxCollection.locList.FindIndex(delegate (Vertex v) { return v == start; }),
                 vtxCollection.locList.FindIndex(delegate (Vertex v) { return v == end; }));
         }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DSAA_Project3.Forms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -58,12 +59,23 @@ namespace DSAA_Project3
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            frmMain.routeWindow = new Forms.frmRoute();
-            frmMain.routeWindow.updateContent(lName.Text);
-            frmMain.routeWindow.StartPosition = FormStartPosition.Manual;
-            frmMain.routeWindow.Location = new Point(frmMain.nowPosition.X + frmMain.nowSize.X + 15, frmMain.nowPosition.Y);
-            frmMain.routeWindow.Show();
-            this.Close();
+            try
+            {
+                GC.Collect();
+                frmRoute nowRouteWindow = frmMain.getFrmRoute();
+                nowRouteWindow.updateContent(lName.Text);
+                nowRouteWindow.StartPosition = FormStartPosition.Manual;
+                nowRouteWindow.Location = new Point(frmMain.nowPosition.X + frmMain.nowSize.X + 15, frmMain.nowPosition.Y);
+                nowRouteWindow.Text = "从 " + lName.Text + " 出发";
+                nowRouteWindow.Show();
+                this.Close();
+            }
+            catch (Exception)
+            {
+                frmRoute nowRouteWindow = frmMain.getFrmRoute();
+                throw;
+            }
+            
         }
     }
 }
