@@ -12,9 +12,13 @@ namespace DSAA_Project3.Forms
 {
     public partial class frmRoute : Form
     {
+        
         public frmRoute()
         {
             InitializeComponent();
+            showRoute(Program.testRoute);
+            /*
+            routeElemQueue = new Queue<frmRouteElem>();
             frmRouteElem elem = new frmRouteElem(Program.theGraph.vtxCollection.locList[0], Route.posOfLoc.Start);
             elem.TopLevel = false;
             panel1.Controls.Add(elem);
@@ -39,6 +43,7 @@ namespace DSAA_Project3.Forms
             elem5.Location = new Point(elem.Location.X, elem4.Location.Y + 39);
             panel1.Controls.Add(elem5);
             elem5.Show();
+            */
         }
 
         private void frmRoute_Load(object sender, EventArgs e)
@@ -81,6 +86,40 @@ namespace DSAA_Project3.Forms
             {
                 this.Text = domainStart.Text + " -> " + domainEnd.Text;
             }
+        }
+
+        private void showRoute(Route route)
+        {
+            frmRouteElem prevFrmElem;
+            frmRouteElem nowFrmElem;
+
+            nowFrmElem = new frmRouteElem(route.elemList[0], Route.posOfLoc.Start);
+            nowFrmElem.TopLevel = false;
+            //elem2.Location = new Point(elem.Location.X, elem.Location.Y + 39);
+            panel1.Controls.Add(nowFrmElem);
+            nowFrmElem.Show();
+            prevFrmElem = nowFrmElem;
+            nowFrmElem = null;
+
+            for (int i = 1; i < route.elemList.Count - 1; i++)
+            {
+                nowFrmElem = new frmRouteElem(route.elemList[i]);
+                nowFrmElem.TopLevel = false;
+                nowFrmElem.Location = new Point(prevFrmElem.Location.X, prevFrmElem.Location.Y + 30);
+                panel1.Controls.Add(nowFrmElem);
+                nowFrmElem.Show();
+                prevFrmElem = nowFrmElem;
+                nowFrmElem = null;
+            }
+
+            nowFrmElem = new frmRouteElem(route.elemList[route.elemList.Count - 1], Route.posOfLoc.End);
+            nowFrmElem.TopLevel = false;
+            nowFrmElem.Location = new Point(prevFrmElem.Location.X, prevFrmElem.Location.Y + 30);
+            panel1.Controls.Add(nowFrmElem);
+            nowFrmElem.Show();
+            prevFrmElem = null;
+            nowFrmElem = null;
+
         }
     }
 }
