@@ -19,6 +19,8 @@ namespace DSAA_Project3
             edgeDB = new EdgeCollection(Application.StartupPath + "..\\DBs\\Edge.xml");
             theGraph = new Graph(db, edgeDB);
 
+            Path testPath = theGraph.DijkstraPath(11, 16);
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new frmMain());

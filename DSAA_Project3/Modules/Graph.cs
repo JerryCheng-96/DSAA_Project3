@@ -4,6 +4,7 @@ using System.Xml;
 
 namespace DSAA_Project3
 {
+    
     public abstract class GraphElem { }
 
     public class Vertex : GraphElem
@@ -87,7 +88,7 @@ namespace DSAA_Project3
         {
             id = "";
             isDir = false;
-            len = 100000;
+            len = Graph.INFF;
         }
     }
 
@@ -145,11 +146,61 @@ namespace DSAA_Project3
         }
     }
 
+    public class Path
+    {
+        public List<int> vtxPath;
+        public int length;
+
+        public Path()
+        {
+            vtxPath = new List<int>();
+            length = 0;
+        }
+
+        public Path(int initIndex)
+        {
+            vtxPath = new List<int>();
+            length = 0;
+            vtxPath.Add(initIndex);
+        }
+
+        public Path(Path oriPath)
+        {
+            vtxPath = new List<int>();
+            length = 0;
+            this.Copy(oriPath);
+        }
+
+        public Path(Path oriPath, int nextIndex, int secWeight)
+        {
+            vtxPath = new List<int>();
+            length = 0;
+            this.Copy(oriPath);
+            this.AddVertex(nextIndex, secWeight);
+        }
+
+        public void Copy(Path oriPath)
+        {
+            foreach (int vtx in oriPath.vtxPath)
+            {
+                vtxPath.Add(vtx);
+            }
+            length = oriPath.length;
+        }
+
+        public void AddVertex(int vtxIndex, int secWeight)
+        {
+            vtxPath.Add(vtxIndex);
+            length += secWeight;
+        }
+    }
+
     public class Graph
     {
         public VertexCollection vtxCollection;
         public EdgeCollection egdCollection;
-        public int[,] adjMat; 
+        public int[,] adjMat;
+        public const int INFF = 100000;
 
         public Graph() { }
 
@@ -161,7 +212,7 @@ namespace DSAA_Project3
 
             for (int i = 0; i < vc.locList.Count; i++)
             {
-                for (int j = 0; j < vc.locList.Count; j++) { adjMat[i, j] = 0; }
+                for (int j = 0; j < vc.locList.Count; j++) { adjMat[i, j] = INFF; }
             }
 
             this.genAdjMat();
@@ -185,6 +236,62 @@ namespace DSAA_Project3
         {
             return null;
         }
-    }
 
+        public Path DijkstraPath(Vertex start, Vertex end)
+        {
+            return DijkstraPath(vtxCollection.locList.FindIndex(delegate (Vertex v) { return v == start; }),
+                vtxCollection.locList.FindIndex(delegate (Vertex v) { return v == end; }));
+        }
+
+        public Path DijkstraPath(int startIndex, int endIndex)
+        {
+            List<int> vtxRemain = new List<int>();
+            for (int i = 0; i < vtxCollection.locList.Count; i++)
+            {
+                vtxRemain.Add(i);
+            }
+
+            List<Path> pathList = new List<Path>();
+            pathList.Add(new Path(startIndex));
+            if (startIndex == endIndex)
+            {
+                return pathList[0];
+            }
+
+            int nowFront = startIndex;
+            int nowMinLen = INFF;
+            Path nowMinPath = pathList[0];
+
+            vtxRemain.Remove(nowFront);
+
+            do
+            {
+                foreach (int vtxIndex in vtxRemain)
+                {
+                    if (nowMinPath.length + adjMat[nowFront, vtxIndex] < INFF)
+                    {
+                        pathList.Add(new Path(nowMinPath, vtxIndex, adjMat[nowFront, vtxIndex]));
+                    }
+                }
+                pathList.Remove(nowMinPath);
+                nowMinPath = null;
+                nowMinLen = INFF;
+                foreach (Path nowPath in pathList)
+                {
+                    if (nowPath.length < nowMinLen)
+                    {
+                        nowMinPath = nowPath;
+                        nowMinLen = nowPath.length;
+                    }
+                }
+                if (nowMinLen >= INFF)
+                {
+                    return null;
+                }
+                nowFront = nowMinPath.vtxPath[nowMinPath.vtxPath.Count - 1];
+                vtxRemain.Remove(nowFront);
+            } while (nowFront != endIndex);
+            return nowMinPath;
+        }
+    }
 }
