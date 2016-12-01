@@ -7,7 +7,7 @@
   <Edge id="4" v1="ColArt" v2="YSq" len="100"></Edge>
   <Edge id="5" v1="YSq" v2="ColPE" len="100"></Edge>
   <Edge id="6" v1="ColPE" v2="SWGate" len="180"></Edge>
-  <Edge id="7" v1="CAE" v2="Lib" len="300"></Edge>
+  <Edge id="7" v1="CAE" v2="Lib" len="200"></Edge>
   <Edge id="8" v1="Lib" v2="TBd1" len="150"></Edge>
   <Edge id="9" v1="ShawBd" v2="SGate" len="150"></Edge>
   <Edge id="0" v1="Gym" v2="SEGate" len="400"></Edge>
