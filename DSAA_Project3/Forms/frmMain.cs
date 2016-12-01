@@ -238,6 +238,7 @@ namespace DSAA_Project3
         {
             GC.Collect();
             frmRoute nowRouteWindow = getFrmRoute();
+            nowRouteWindow.clearView();
             nowRouteWindow.StartPosition = FormStartPosition.Manual;
             nowRouteWindow.Location = new Point(nowPosition.X + nowSize.X + 15, nowPosition.Y);
             nowRouteWindow.Show();
@@ -281,11 +282,13 @@ namespace DSAA_Project3
                     GC.Collect();
                     frmRoute nowRouteWindow = getFrmRoute();
                     nowRouteWindow.StartPosition = FormStartPosition.Manual;
+                    nowRouteWindow.clearView();
                     nowRouteWindow.updateContent(Program.theGraph.vtxCollection.locList.Find(delegate (Vertex v1) { return v1.code == startPoint; }).name,
                         Program.theGraph.vtxCollection.locList.Find(delegate (Vertex v2) { return v2.code == endPoint; }).name);
                     startPoint = endPoint = null;
                     nowRouteWindow.Location = new Point(nowPosition.X + nowSize.X + 15, nowPosition.Y);
                     nowRouteWindow.Show();
+                    nowRouteWindow.Activate();
                 }
             }
         }
@@ -306,6 +309,7 @@ namespace DSAA_Project3
 
         private void frmMain_Activated(object sender, EventArgs e)
         {
+            startPoint = endPoint = null;
             Text = "江安数字平面图";
         }
     }

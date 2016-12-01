@@ -104,24 +104,32 @@
             // 
             // btnExchange
             // 
-            this.btnExchange.Font = new System.Drawing.Font("Microsoft YaHei UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExchange.Location = new System.Drawing.Point(3, -1);
+            this.btnExchange.BackColor = System.Drawing.Color.SeaGreen;
+            this.btnExchange.FlatAppearance.BorderSize = 0;
+            this.btnExchange.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnExchange.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExchange.ForeColor = System.Drawing.Color.White;
+            this.btnExchange.Location = new System.Drawing.Point(5, -1);
             this.btnExchange.Name = "btnExchange";
-            this.btnExchange.Size = new System.Drawing.Size(43, 49);
+            this.btnExchange.Size = new System.Drawing.Size(39, 49);
             this.btnExchange.TabIndex = 2;
             this.btnExchange.Text = "↑↓";
-            this.btnExchange.UseVisualStyleBackColor = true;
+            this.btnExchange.UseVisualStyleBackColor = false;
             this.btnExchange.Click += new System.EventHandler(this.btnExchange_Click);
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft YaHei UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(258, -1);
+            this.button1.BackColor = System.Drawing.Color.SteelBlue;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(260, -1);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(43, 49);
+            this.button1.Size = new System.Drawing.Size(40, 49);
             this.button1.TabIndex = 3;
-            this.button1.Text = ">>";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Text = ">";
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // panel1
@@ -137,7 +145,7 @@
             this.lGlance.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lGlance.Font = new System.Drawing.Font("Microsoft YaHei UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lGlance.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.lGlance.Location = new System.Drawing.Point(5, 48);
+            this.lGlance.Location = new System.Drawing.Point(5, 50);
             this.lGlance.Name = "lGlance";
             this.lGlance.Size = new System.Drawing.Size(295, 42);
             this.lGlance.TabIndex = 6;

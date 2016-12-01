@@ -128,5 +128,14 @@ namespace DSAA_Project3.Forms
             panel1.Controls.Clear();
             showRoute();
         }
+
+        public void clearView()
+        {
+            panel1.Controls.Clear();
+            Text = "寻找路线";
+            domainEnd.Text = "（终点）";
+            domainStart.Text = "（起点）";
+            lGlance.Text = "请选择起点与终点";
+        }
     }
 }

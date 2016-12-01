@@ -63,6 +63,7 @@ namespace DSAA_Project3
             {
                 GC.Collect();
                 frmRoute nowRouteWindow = frmMain.getFrmRoute();
+                nowRouteWindow.clearView();
                 nowRouteWindow.updateContent(lName.Text);
                 nowRouteWindow.StartPosition = FormStartPosition.Manual;
                 nowRouteWindow.Location = new Point(frmMain.nowPosition.X + frmMain.nowSize.X + 15, frmMain.nowPosition.Y);
