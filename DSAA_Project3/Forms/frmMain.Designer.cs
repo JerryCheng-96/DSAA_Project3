@@ -449,9 +449,9 @@
             // picMaskHelp
             // 
             this.picMaskHelp.BackColor = System.Drawing.Color.White;
-            this.picMaskHelp.Location = new System.Drawing.Point(758, 0);
+            this.picMaskHelp.Location = new System.Drawing.Point(861, 0);
             this.picMaskHelp.Name = "picMaskHelp";
-            this.picMaskHelp.Size = new System.Drawing.Size(500, 92);
+            this.picMaskHelp.Size = new System.Drawing.Size(397, 73);
             this.picMaskHelp.TabIndex = 20;
             this.picMaskHelp.TabStop = false;
             // 
@@ -473,7 +473,7 @@
             this.btnHelpOK.BackColor = System.Drawing.Color.White;
             this.btnHelpOK.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHelpOK.Font = new System.Drawing.Font("Microsoft YaHei UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHelpOK.Location = new System.Drawing.Point(1118, 79);
+            this.btnHelpOK.Location = new System.Drawing.Point(1112, 79);
             this.btnHelpOK.Name = "btnHelpOK";
             this.btnHelpOK.Size = new System.Drawing.Size(131, 52);
             this.btnHelpOK.TabIndex = 22;
