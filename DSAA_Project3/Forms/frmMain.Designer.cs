@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
             this.btnColArt = new System.Windows.Forms.Button();
             this.btnBGMt = new System.Windows.Forms.Button();
             this.btnETC = new System.Windows.Forms.Button();
@@ -1045,6 +1046,7 @@
             this.Controls.Add(this.routeArrow_4_);
             this.Controls.Add(this.routeArrow_5_);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.Name = "frmMain";
