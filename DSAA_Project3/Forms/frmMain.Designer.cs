@@ -89,7 +89,7 @@
             this.Lib_d = new System.Windows.Forms.PictureBox();
             this.TBd1_d = new System.Windows.Forms.PictureBox();
             this.Ex2_d = new System.Windows.Forms.PictureBox();
-            this.SSC_d = new System.Windows.Forms.PictureBox();
+            this.SSCplx_d = new System.Windows.Forms.PictureBox();
             this.Gym_d = new System.Windows.Forms.PictureBox();
             this.EGate_d = new System.Windows.Forms.PictureBox();
             this.ShawBd_d = new System.Windows.Forms.PictureBox();
@@ -136,7 +136,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.Lib_d)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TBd1_d)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Ex2_d)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SSC_d)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SSCplx_d)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Gym_d)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.EGate_d)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ShawBd_d)).BeginInit();
@@ -420,7 +420,7 @@
             this.btnSEGate.BackColor = System.Drawing.Color.Transparent;
             this.btnSEGate.FlatAppearance.BorderSize = 0;
             this.btnSEGate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSEGate.Location = new System.Drawing.Point(1141, 640);
+            this.btnSEGate.Location = new System.Drawing.Point(1139, 640);
             this.btnSEGate.Margin = new System.Windows.Forms.Padding(2);
             this.btnSEGate.Name = "btnSEGate";
             this.btnSEGate.Size = new System.Drawing.Size(272, 103);
@@ -837,7 +837,7 @@
             // ETC_d
             // 
             this.ETC_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ETC_d.Location = new System.Drawing.Point(498, 84);
+            this.ETC_d.Location = new System.Drawing.Point(496, 84);
             this.ETC_d.Margin = new System.Windows.Forms.Padding(2);
             this.ETC_d.Name = "ETC_d";
             this.ETC_d.Size = new System.Drawing.Size(23, 23);
@@ -847,7 +847,7 @@
             // CAE_d
             // 
             this.CAE_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.CAE_d.Location = new System.Drawing.Point(637, 227);
+            this.CAE_d.Location = new System.Drawing.Point(635, 227);
             this.CAE_d.Margin = new System.Windows.Forms.Padding(2);
             this.CAE_d.Name = "CAE_d";
             this.CAE_d.Size = new System.Drawing.Size(23, 23);
@@ -857,7 +857,7 @@
             // Lib_d
             // 
             this.Lib_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Lib_d.Location = new System.Drawing.Point(637, 371);
+            this.Lib_d.Location = new System.Drawing.Point(634, 371);
             this.Lib_d.Margin = new System.Windows.Forms.Padding(2);
             this.Lib_d.Name = "Lib_d";
             this.Lib_d.Size = new System.Drawing.Size(23, 23);
@@ -867,7 +867,7 @@
             // TBd1_d
             // 
             this.TBd1_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.TBd1_d.Location = new System.Drawing.Point(637, 514);
+            this.TBd1_d.Location = new System.Drawing.Point(634, 514);
             this.TBd1_d.Margin = new System.Windows.Forms.Padding(2);
             this.TBd1_d.Name = "TBd1_d";
             this.TBd1_d.Size = new System.Drawing.Size(23, 23);
@@ -877,27 +877,27 @@
             // Ex2_d
             // 
             this.Ex2_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Ex2_d.Location = new System.Drawing.Point(807, 371);
+            this.Ex2_d.Location = new System.Drawing.Point(803, 371);
             this.Ex2_d.Margin = new System.Windows.Forms.Padding(2);
             this.Ex2_d.Name = "Ex2_d";
             this.Ex2_d.Size = new System.Drawing.Size(23, 23);
             this.Ex2_d.TabIndex = 60;
             this.Ex2_d.TabStop = false;
             // 
-            // SSC_d
+            // SSCplx_d
             // 
-            this.SSC_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.SSC_d.Location = new System.Drawing.Point(980, 371);
-            this.SSC_d.Margin = new System.Windows.Forms.Padding(2);
-            this.SSC_d.Name = "SSC_d";
-            this.SSC_d.Size = new System.Drawing.Size(23, 23);
-            this.SSC_d.TabIndex = 61;
-            this.SSC_d.TabStop = false;
+            this.SSCplx_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.SSCplx_d.Location = new System.Drawing.Point(976, 371);
+            this.SSCplx_d.Margin = new System.Windows.Forms.Padding(2);
+            this.SSCplx_d.Name = "SSCplx_d";
+            this.SSCplx_d.Size = new System.Drawing.Size(23, 23);
+            this.SSCplx_d.TabIndex = 61;
+            this.SSCplx_d.TabStop = false;
             // 
             // Gym_d
             // 
             this.Gym_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Gym_d.Location = new System.Drawing.Point(1155, 514);
+            this.Gym_d.Location = new System.Drawing.Point(1149, 514);
             this.Gym_d.Margin = new System.Windows.Forms.Padding(2);
             this.Gym_d.Name = "Gym_d";
             this.Gym_d.Size = new System.Drawing.Size(23, 23);
@@ -907,7 +907,7 @@
             // EGate_d
             // 
             this.EGate_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.EGate_d.Location = new System.Drawing.Point(1336, 371);
+            this.EGate_d.Location = new System.Drawing.Point(1328, 371);
             this.EGate_d.Margin = new System.Windows.Forms.Padding(2);
             this.EGate_d.Name = "EGate_d";
             this.EGate_d.Size = new System.Drawing.Size(23, 23);
@@ -917,7 +917,7 @@
             // ShawBd_d
             // 
             this.ShawBd_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ShawBd_d.Location = new System.Drawing.Point(807, 514);
+            this.ShawBd_d.Location = new System.Drawing.Point(803, 514);
             this.ShawBd_d.Margin = new System.Windows.Forms.Padding(2);
             this.ShawBd_d.Name = "ShawBd_d";
             this.ShawBd_d.Size = new System.Drawing.Size(23, 23);
@@ -927,7 +927,7 @@
             // Ex1_d
             // 
             this.Ex1_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Ex1_d.Location = new System.Drawing.Point(980, 514);
+            this.Ex1_d.Location = new System.Drawing.Point(976, 514);
             this.Ex1_d.Margin = new System.Windows.Forms.Padding(2);
             this.Ex1_d.Name = "Ex1_d";
             this.Ex1_d.Size = new System.Drawing.Size(23, 23);
@@ -937,7 +937,7 @@
             // SGate_d
             // 
             this.SGate_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.SGate_d.Location = new System.Drawing.Point(807, 658);
+            this.SGate_d.Location = new System.Drawing.Point(804, 658);
             this.SGate_d.Margin = new System.Windows.Forms.Padding(2);
             this.SGate_d.Name = "SGate_d";
             this.SGate_d.Size = new System.Drawing.Size(23, 23);
@@ -947,7 +947,7 @@
             // SEGate_d
             // 
             this.SEGate_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.SEGate_d.Location = new System.Drawing.Point(1155, 658);
+            this.SEGate_d.Location = new System.Drawing.Point(1149, 658);
             this.SEGate_d.Margin = new System.Windows.Forms.Padding(2);
             this.SEGate_d.Name = "SEGate_d";
             this.SEGate_d.Size = new System.Drawing.Size(23, 23);
@@ -982,7 +982,7 @@
             this.Controls.Add(this.ShawBd_d);
             this.Controls.Add(this.EGate_d);
             this.Controls.Add(this.Gym_d);
-            this.Controls.Add(this.SSC_d);
+            this.Controls.Add(this.SSCplx_d);
             this.Controls.Add(this.Ex2_d);
             this.Controls.Add(this.TBd1_d);
             this.Controls.Add(this.Lib_d);
@@ -1093,7 +1093,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.Lib_d)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TBd1_d)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Ex2_d)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SSC_d)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SSCplx_d)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Gym_d)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.EGate_d)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ShawBd_d)).EndInit();
@@ -1167,7 +1167,7 @@
         private System.Windows.Forms.PictureBox Lib_d;
         private System.Windows.Forms.PictureBox TBd1_d;
         private System.Windows.Forms.PictureBox Ex2_d;
-        private System.Windows.Forms.PictureBox SSC_d;
+        private System.Windows.Forms.PictureBox SSCplx_d;
         private System.Windows.Forms.PictureBox Gym_d;
         private System.Windows.Forms.PictureBox EGate_d;
         private System.Windows.Forms.PictureBox ShawBd_d;

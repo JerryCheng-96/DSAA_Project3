@@ -34,6 +34,7 @@ namespace DSAA_Project3.Forms
                             GEIcon.BackgroundImage = null;
                             break;
                     }
+                    frmMain.getFrmMain().showDot((Vertex)ge, pos);
                     lInfo.Text = ((Vertex)ge).name;
                     break;
                 case GraphElem.eType.Edge:

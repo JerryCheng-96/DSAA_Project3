@@ -21,7 +21,7 @@ namespace DSAA_Project3
             nowPosition = new Point(Location.X, Location.Y);
             nowSize = new Point(Size.Width, Size.Height);
             theFrmMain = this;
-            assignPicBox(Program.edgeDB);
+            assignPicBox(Program.edgeDB, Program.db);
 
             foreach (Vertex l in Program.db.locList)
             {
@@ -315,6 +315,7 @@ namespace DSAA_Project3
             startPoint = endPoint = null;
             Text = "江安数字平面图";
             clearArrows(Program.edgeDB);
+            clearDots(Program.db);
         }
 
         //public void showArrow(Edge theEdge)
@@ -396,6 +397,22 @@ namespace DSAA_Project3
             }
         }
 
+        public void showDot(Vertex v, Route.posOfLoc pos)
+        {
+            if (pos == Route.posOfLoc.Start)
+            {
+                v.picDot.BackgroundImage = Properties.Resources.Purple;
+            }
+            else if (pos == Route.posOfLoc.Pass)
+            {
+                v.picDot.BackgroundImage = Properties.Resources.Green;
+            }
+            else if (pos == Route.posOfLoc.End)
+            {
+                v.picDot.BackgroundImage = Properties.Resources.Red;
+            }
+        }
+
         public void clearArrows(EdgeCollection ec)
         {
             foreach (Edge e in ec.edgeList)
@@ -404,16 +421,33 @@ namespace DSAA_Project3
             }
         }
 
-        private void assignPicBox(EdgeCollection egc)
+        public void clearDots(VertexCollection vc)
+        {
+            foreach (Vertex v in vc.locList)
+            {
+                v.picDot.BackgroundImage = null;
+            }
+        }
+
+        private void assignPicBox(EdgeCollection ec, VertexCollection vc)
         {
             Control[] thePicBox = null;
 
-            foreach (Edge e in egc.edgeList)
+            foreach (Edge e in ec.edgeList)
             {
                 thePicBox = Controls.Find("routeArrow" + e.id, true);
                 foreach (PictureBox picBox in thePicBox)
                 {
                     e.picEdge = picBox;
+                }
+            }
+
+            foreach (Vertex v in vc.locList)
+            {
+                thePicBox = Controls.Find(v.code + "_d", true);
+                foreach (PictureBox picBox in thePicBox)
+                {
+                    v.picDot = picBox;
                 }
             }
         }
