@@ -13,12 +13,15 @@ namespace DSAA_Project3
         public static Point nowSize;
         public string startPoint = null;
         public string endPoint = null;
+        public static frmMain theFrmMain = null;
 
         public frmMain()
         {
             InitializeComponent();
             nowPosition = new Point(Location.X, Location.Y);
             nowSize = new Point(Size.Width, Size.Height);
+            theFrmMain = this;
+            assignPicBox(Program.edgeDB);
 
             foreach (Vertex l in Program.db.locList)
             {
@@ -311,6 +314,113 @@ namespace DSAA_Project3
         {
             startPoint = endPoint = null;
             Text = "江安数字平面图";
+            clearArrows(Program.edgeDB);
+        }
+
+        //public void showArrow(Edge theEdge)
+        //{
+        //    Control[] picBox = Controls.Find("routeArrow" + theEdge.id, true);
+        //    int temp = new int();
+
+        //    if (int.TryParse(theEdge.id.Substring(theEdge.id.Length - 1), out temp))
+        //    {
+        //        if (theEdge.id[0] == '_')
+        //        {
+        //            if (Program.db.locList.FindIndex(delegate (Vertex v1) { return v1 == theEdge.v1; }) 
+        //                < Program.db.locList.FindIndex(delegate (Vertex v2) { return v2 == theEdge.v2; }))
+        //            {
+        //                foreach (PictureBox thePicBox in picBox)
+        //                {
+        //                    thePicBox.BackgroundImage = Properties.Resources.Arrow_Right;
+        //                }
+        //            }
+        //            else
+        //            {
+        //                foreach (PictureBox thePicBox in picBox)
+        //                {
+        //                    thePicBox.BackgroundImage = Properties.Resources.Arrow_Left;
+        //                }
+        //            }
+        //        }
+        //        else
+        //        {
+        //            if (Program.db.locList.FindIndex(delegate (Vertex v1) { return v1 == theEdge.v1; })
+        //                < Program.db.locList.FindIndex(delegate (Vertex v2) { return v2 == theEdge.v2; }))
+        //            {
+        //                foreach (PictureBox thePicBox in picBox)
+        //                {
+        //                    thePicBox.BackgroundImage = Properties.Resources.Arrow_Down;
+        //                }
+        //            }
+        //            else
+        //            {
+        //                foreach (PictureBox thePicBox in picBox)
+        //                {
+        //                    thePicBox.BackgroundImage = Properties.Resources.Arrow_Up;
+        //                }
+        //            }
+        //        }
+        //    }
+        //}
+
+        public void showArrow(Edge theEdge)
+        {
+            int temp = new int();
+
+            if (int.TryParse(theEdge.id.Substring(theEdge.id.Length - 1), out temp))
+            {
+                if (theEdge.id[0] == '_')
+                {
+                    if (Program.db.locList.FindIndex(delegate (Vertex v1) { return v1 == theEdge.v1; })
+                        < Program.db.locList.FindIndex(delegate (Vertex v2) { return v2 == theEdge.v2; }))
+                    {
+                        theEdge.picEdge.BackgroundImage = Properties.Resources.Arrow_Right;
+                    }
+                    else
+                    {
+                        theEdge.picEdge.BackgroundImage = Properties.Resources.Arrow_Left;
+                    }
+                }
+                else
+                {
+                    if (Program.db.locList.FindIndex(delegate (Vertex v1) { return v1 == theEdge.v1; })
+                        < Program.db.locList.FindIndex(delegate (Vertex v2) { return v2 == theEdge.v2; }))
+                    {
+                        theEdge.picEdge.BackgroundImage = Properties.Resources.Arrow_Down;                       
+                    }
+                    else
+                    {
+                        theEdge.picEdge.BackgroundImage = Properties.Resources.Arrow_Up;
+                    }
+                }
+            }
+        }
+
+        public void clearArrows(EdgeCollection ec)
+        {
+            foreach (Edge e in ec.edgeList)
+            {
+                e.picEdge.BackgroundImage = null;
+            }
+        }
+
+        private void assignPicBox(EdgeCollection egc)
+        {
+            Control[] thePicBox = null;
+
+            foreach (Edge e in egc.edgeList)
+            {
+                thePicBox = Controls.Find("routeArrow" + e.id, true);
+                foreach (PictureBox picBox in thePicBox)
+                {
+                    e.picEdge = picBox;
+                }
+            }
+        }
+
+        public static frmMain getFrmMain()
+        {
+            return theFrmMain;
         }
     }
 }

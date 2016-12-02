@@ -40,6 +40,7 @@ namespace DSAA_Project3.Forms
                     GEIcon.BackgroundImage = Properties.Resources.Road;
                     lInfo.ForeColor = System.Drawing.Color.Gray;
                     lInfo.Text = ((Edge)ge).len.ToString() + " m";
+                    frmMain.getFrmMain().showArrow((Edge)ge);
                     break;
                 default:
                     GEIcon.BackgroundImage = null;
