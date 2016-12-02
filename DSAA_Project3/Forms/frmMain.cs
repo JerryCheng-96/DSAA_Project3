@@ -245,6 +245,7 @@ namespace DSAA_Project3
             nowRouteWindow.StartPosition = FormStartPosition.Manual;
             nowRouteWindow.Location = new Point(nowPosition.X + nowSize.X + 15, nowPosition.Y);
             nowRouteWindow.Show();
+            nowRouteWindow.Activate();
         }
 
         public static frmInfo getFrmInfo()
