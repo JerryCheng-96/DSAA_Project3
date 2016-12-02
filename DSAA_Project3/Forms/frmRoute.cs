@@ -58,6 +58,8 @@ namespace DSAA_Project3.Forms
 
         private void button1_Click_1(object sender, EventArgs e)
         {
+            frmMain.getFrmMain().clearArrows(Program.edgeDB);
+            frmMain.getFrmMain().clearDots(Program.db);
 
             if (domainEnd.Text != "（终点）" && domainStart.Text != "（起点）")
             {
