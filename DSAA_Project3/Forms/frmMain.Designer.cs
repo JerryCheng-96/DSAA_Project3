@@ -848,7 +848,7 @@
             // CAE_d
             // 
             this.CAE_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.CAE_d.Location = new System.Drawing.Point(546, 195);
+            this.CAE_d.Location = new System.Drawing.Point(547, 195);
             this.CAE_d.Margin = new System.Windows.Forms.Padding(2);
             this.CAE_d.Name = "CAE_d";
             this.CAE_d.Size = new System.Drawing.Size(20, 20);
@@ -858,7 +858,7 @@
             // Lib_d
             // 
             this.Lib_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Lib_d.Location = new System.Drawing.Point(545, 318);
+            this.Lib_d.Location = new System.Drawing.Point(546, 318);
             this.Lib_d.Margin = new System.Windows.Forms.Padding(2);
             this.Lib_d.Name = "Lib_d";
             this.Lib_d.Size = new System.Drawing.Size(20, 20);
@@ -868,7 +868,7 @@
             // TBd1_d
             // 
             this.TBd1_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.TBd1_d.Location = new System.Drawing.Point(545, 441);
+            this.TBd1_d.Location = new System.Drawing.Point(546, 441);
             this.TBd1_d.Margin = new System.Windows.Forms.Padding(2);
             this.TBd1_d.Name = "TBd1_d";
             this.TBd1_d.Size = new System.Drawing.Size(20, 20);

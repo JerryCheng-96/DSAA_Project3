@@ -5,7 +5,7 @@
     <Code>Dorm21</Code>
     <Name>二十一舍</Name>
     <EngName>Dorm. #21</EngName>
-    <Intro></Intro>
+    <Intro>       江安校区学生宿舍（西园）二十一舍，目前居住有生命科学学院等学院2016及2015级学生，也是目前距离教学区最远的围合之一。</Intro>
     <ImgAdd></ImgAdd>
   </loc>
 
@@ -13,7 +13,7 @@
     <Code>SHos</Code>
     <Name>校医院</Name>
     <EngName>Hospital</EngName>
-    <Intro></Intro>
+    <Intro>       四川大学江安医院，位于商业街西端，旁有西园二餐厅。</Intro>
     <ImgAdd>Hos</ImgAdd>
   </loc>
 
@@ -21,7 +21,7 @@
     <Code>Dorm1</Code>
     <Name>一舍</Name>
     <EngName>Dorm. #1</EngName>
-    <Intro></Intro>
+    <Intro>       江安校区学生宿舍（西园）一舍，目前居住有生命科学学院、物理学院、华西临床医学院等学院2016及2015级学生，位于校园的西南角。</Intro>
     <ImgAdd>Dorm1</ImgAdd>
   </loc>
 
@@ -29,7 +29,7 @@
     <Code>BGMt</Code>
     <Name>不高山</Name>
     <EngName>Bugao Mountain</EngName>
-    <Intro>The introduction to Bugao Mountain.</Intro>
+    <Intro>       不高山位于川大江安校区西北角的一个小丘，江安河以一道优美的曲线划过此处，据说由校内明远湖修建时挖出的湖泥积成。不高山是江安校区的标志景点之一。山不在高，有仙则名。不高山真的只是个小丘，无名地藏在川大，命名者以“不高”名之，或许正是以此寓“求学者”，要追求山的稳重，而不是自高自大。不高山附近的河，名为“不深河”，有“水不在深，有龙则灵”之意。</Intro>
     <ImgAdd>BGMt</ImgAdd>
   </loc>
 
@@ -37,7 +37,7 @@
     <Code>ColArt</Code>
     <Name>艺术学院</Name>
     <EngName>College of Arts</EngName>
-    <Intro>The introduction to the College of Arts.</Intro>
+    <Intro>       艺术学院楼占地18.3亩，建筑面积1.4万平方米，大楼由国内著名设计家张风秋院士设计，整体简约大方，富有艺术气质，灰色的外墙与半斜坡式草坪屋顶彰显出东方的建筑风格，深受好评。</Intro>
     <ImgAdd>ColArt</ImgAdd>
   </loc>
 
@@ -45,7 +45,7 @@
     <Code>YSq</Code>
     <Name>青春广场</Name>
     <EngName>Youth Square</EngName>
-    <Intro>The introduction to Youth Square.</Intro>
+    <Intro>       江安校区青春广场是开展学生活动的重要场地，旨在引导川大青年学子通过开展丰富多彩、健康向上的校园学生活动，推动校园文化的繁荣发展，促进青年学生德智体美劳全面发展。</Intro>
     <ImgAdd>YSq</ImgAdd>
   </loc>
 
@@ -53,7 +53,7 @@
     <Code>ColPE</Code>
     <Name>体育学院</Name>
     <EngName>College of PE</EngName>
-    <Intro></Intro>
+    <Intro>       四川大学体育学院，旁有临江安河的二号体育场，是体育课教学的场所。</Intro>
     <ImgAdd></ImgAdd>
   </loc>
 
@@ -61,7 +61,7 @@
     <Code>SWGate</Code>
     <Name>西南门</Name>
     <EngName>Southwest Gate</EngName>
-    <Intro></Intro>
+    <Intro>       江安校区西南门，是距离学生生活区最近的校门，环形大道西端起点。</Intro>
     <ImgAdd></ImgAdd>
   </loc>
 
@@ -69,7 +69,7 @@
     <Code>ETC</Code>
     <Name>工程训练中心</Name>
     <EngName>Engineering Training Center</EngName>
-    <Intro></Intro>
+    <Intro>       位于明远湖北侧，环形大道北端。工科学生开展工程实践课程学习的场所。其中有车床等教学用设备。</Intro>
     <ImgAdd></ImgAdd>
   </loc>
   
@@ -77,7 +77,7 @@
     <Code>CAE</Code>
     <Name>建环学院</Name>
     <EngName>College of Architecture and Environment</EngName>
-    <Intro></Intro>
+    <Intro>       建筑与环境学院是在新四川大学成立之际，以学科融合为契机组建而成的实体型学院，前身是经由教育部批准、成立于1988年的城建环保学院。学院现设力学科学与工程系、土木工程系、环境科学及工程系和建筑系；有固体力学、岩土工程、生物医学工程三个国家重点学科。</Intro>
     <ImgAdd></ImgAdd>
   </loc>
 
@@ -85,7 +85,8 @@
     <Code>Lib</Code>
     <Name>图书馆</Name>
     <EngName>Jiang'an Library</EngName>
-    <Intro></Intro>
+    <Intro>       江安图书馆由加拿大方舟设计公司设计师阿穆莱德先生设计，位于校园中心地带，是学校的标志性建筑之一。图书馆建筑面积约2万2千余平方米，外形呈火炬状，总藏书量为90万册，有普通阅览室座位近3000座，电子阅览室座位642座，馆内安装了上千个数字化接口。现代化、信息化、人性化的江安校区图书馆是学生和教职工理想的学习场所。
+    </Intro>
     <ImgAdd>Lib</ImgAdd>
   </loc>
 
@@ -93,8 +94,7 @@
     <Code>TBd1</Code>
     <Name>一教</Name>
     <EngName>1st Teaching Bd.</EngName>
-    <Intro>
-      近代中国人之移译西学典籍，如果自一八六二年京师同文馆设立算起，已逾一百二十余年。其间规模较大者，解放前有商务印书馆、国立编译馆及中华教育文化基金会等的工作，解放后则先有五十年代中拟定的编译出版世界名著十二年规划，至“文革”后而有商务印书馆的“汉译世界学术名著丛书”。
+    <Intro>       第一教学楼位于环形大道内的教学实验区内，与校区图书馆遥遥相对。该教学楼由同济大学建筑设计院设计，总建筑面积约4万余平方米，内有1万7千余个座位，由A、B、C、D四座楼组成群楼，楼与楼之间有风雨连廊；水上报告厅建在明远湖上，有近五百个座位；在报告厅北面观景廊上可以观赏湖光山色；报告厅南面镶嵌楠木雕刻的《劝学篇》，此景增加了百年名校的文化积淀。
     </Intro>
     <ImgAdd>TBd1</ImgAdd>
   </loc>
@@ -103,7 +103,7 @@
     <Code>Ex2</Code>
     <Name>二基楼</Name>
     <EngName>2nd Experiment Building</EngName>
-    <Intro></Intro>
+    <Intro>       第二基础实验楼（“二基楼”）位于环形大道内景观水道北侧，由东南大学建筑设计研究院设计。总建筑面积为4万余平方米，内设电子、物理类实验室，还有软件学院、物理实验中心、语音实验室、计算机教学中心、110 校园红外监控平台等部门。</Intro>
     <ImgAdd></ImgAdd>
   </loc>
 
@@ -111,7 +111,7 @@
     <Code>ShawBd</Code>
     <Name>综合楼</Name>
     <EngName>Shaw Bd.</EngName>
-    <Intro></Intro>
+    <Intro>       综合楼分为B座以及C座，是江安校区最早的教学楼。综合楼群中亦有江安校区较高的建筑之一——行政楼，为学校各部门以及各学院在江安的办公场所。</Intro>
     <ImgAdd>ShawBd</ImgAdd>
   </loc>
 
@@ -119,7 +119,7 @@
     <Code>SGate</Code>
     <Name>南门</Name>
     <EngName>South Gate</EngName>
-    <Intro></Intro>
+    <Intro>       位于川大路上的南大门是江安校区的主校门，九株伟岸、挺拔、古老的银杏树屹立于南大门内的中心花坛，暗喻了川大百年名校的悠久历史；七彩斑斓的彩光喷泉展示了学校的友好与热情。南大门东侧更有精致的仿壶口瀑布和黄龙的水景观。</Intro>
     <ImgAdd></ImgAdd>
   </loc>
 
@@ -127,7 +127,8 @@
     <Code>SSCplx</Code>
     <Name>文科楼</Name>
     <EngName>Social Science Complex</EngName>
-    <Intro></Intro>
+    <Intro>       文科楼群。法学院，历史文化（旅游）学院及外国语学院设于此处，且兼作教室之用。旁设学生宿舍（东园）。
+    </Intro>
     <ImgAdd>SSCplx</ImgAdd>
   </loc>
 
@@ -135,7 +136,7 @@
     <Code>Ex1</Code>
     <Name>一基楼</Name>
     <EngName>1st Experiment Building</EngName>
-    <Intro></Intro>
+    <Intro>       第一基础实验楼（“一基楼”）位于东南门入口西侧，紧临黄河路。该大楼由华南理工大学建筑设计研究院何镜堂院士设计，建筑面积约4万2千余平方米，主要是化学、化工、生物、医学类实验室。</Intro>
     <ImgAdd></ImgAdd>
   </loc>
 
@@ -143,7 +144,7 @@
     <Code>Gym</Code>
     <Name>体育馆</Name>
     <EngName>Jiang'an Gymnasium</EngName>
-    <Intro></Intro>
+    <Intro>       江安体育馆，位于环形大道东段，在景观水道旁与文科楼群相对。平时主要作体育课教学场所，也是江安校区举办大型活动的场所。</Intro>
     <ImgAdd>Gym</ImgAdd>
   </loc>
 
@@ -151,7 +152,7 @@
     <Code>SEGate</Code>
     <Name>东南门</Name>
     <EngName>Southeast Gate</EngName>
-    <Intro></Intro>
+    <Intro>       江安校区东南校门，是环形大道东端终点。</Intro>
     <ImgAdd></ImgAdd>
   </loc>
 
@@ -159,7 +160,7 @@
     <Code>EGate</Code>
     <Name>东门</Name>
     <EngName>East Gate</EngName>
-    <Intro></Intro>
+    <Intro>       江安校区东门为仿古校门，门内700米长的景观水道分9级台阶流入明远湖。</Intro>
     <ImgAdd>EastGate</ImgAdd>
   </loc>
   
