@@ -362,15 +362,5 @@ namespace DSAA_Project3.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-
-
-        /// <summary>
-        ///   按资源名称查找
-        /// </summary>
-        internal static System.Drawing.Bitmap FindImg(string name)
-        {
-            object obj = ResourceManager.GetObject(name, resourceCulture);
-            return ((System.Drawing.Bitmap)(obj));
-        }
     }
 }
