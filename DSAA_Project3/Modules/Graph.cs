@@ -100,6 +100,26 @@ namespace DSAA_Project3
             elemType = eType.Edge;
             len = Graph.INFF;
         }
+
+        public Edge(Edge ori, bool isReverse = false)
+        {
+            id = ori.id;
+            isDir = ori.isDir;
+            len = ori.len;
+            picEdge = ori.picEdge;
+            elemType = eType.Edge;
+
+            if (isReverse)
+            {
+                v1 = ori.v2;
+                v2 = ori.v1;
+            }
+            else
+            {
+                v1 = ori.v1;
+                v2 = ori.v2;
+            }
+        }
     }
 
     public class EdgeCollection
@@ -138,7 +158,16 @@ namespace DSAA_Project3
 
         public Edge FindEdge(Vertex v1, Vertex v2)
         {
-            return edgeList.Find(delegate (Edge e) { return (v1.Equals(e.v1) && v2.Equals(e.v2)) || (v1.Equals(e.v2) && v2.Equals(e.v1)); });
+            Edge nowEdge = edgeList.Find(delegate (Edge e1) { return (v1.Equals(e1.v1) && v2.Equals(e1.v2)); });
+            if (nowEdge != null)
+            {
+                return nowEdge;
+            }
+            else
+            {
+                nowEdge = edgeList.Find(delegate (Edge e2) { return (v1.Equals(e2.v2) && v2.Equals(e2.v1)); });
+                return new Edge(nowEdge, true);
+            }
         }
     }
 

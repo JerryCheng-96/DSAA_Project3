@@ -16,7 +16,7 @@ namespace DSAA_Project3
         [STAThread]
         static void Main()
         {
-            db = new VertexCollection(Application.StartupPath + "..\\DBs\\LocationDB.xml");
+            db = new VertexCollection(Application.StartupPath + "..\\DBs\\LocationDBNew.xml");
             edgeDB = new EdgeCollection(Application.StartupPath + "..\\DBs\\Edge.xml");
             theGraph = new Graph(db, edgeDB);
 
