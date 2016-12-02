@@ -150,10 +150,10 @@
             this.btnColArt.BackColor = System.Drawing.Color.Transparent;
             this.btnColArt.FlatAppearance.BorderSize = 0;
             this.btnColArt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnColArt.Location = new System.Drawing.Point(308, 208);
+            this.btnColArt.Location = new System.Drawing.Point(264, 178);
             this.btnColArt.Margin = new System.Windows.Forms.Padding(2);
             this.btnColArt.Name = "btnColArt";
-            this.btnColArt.Size = new System.Drawing.Size(210, 65);
+            this.btnColArt.Size = new System.Drawing.Size(180, 56);
             this.btnColArt.TabIndex = 0;
             this.btnColArt.UseVisualStyleBackColor = false;
             this.btnColArt.Click += new System.EventHandler(this.btnColArt_Click);
@@ -165,10 +165,10 @@
             this.btnBGMt.BackColor = System.Drawing.Color.Transparent;
             this.btnBGMt.FlatAppearance.BorderSize = 0;
             this.btnBGMt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBGMt.Location = new System.Drawing.Point(308, 10);
+            this.btnBGMt.Location = new System.Drawing.Point(264, 9);
             this.btnBGMt.Margin = new System.Windows.Forms.Padding(2);
             this.btnBGMt.Name = "btnBGMt";
-            this.btnBGMt.Size = new System.Drawing.Size(167, 117);
+            this.btnBGMt.Size = new System.Drawing.Size(143, 100);
             this.btnBGMt.TabIndex = 1;
             this.btnBGMt.UseVisualStyleBackColor = false;
             this.btnBGMt.Click += new System.EventHandler(this.btnBuGao_Click);
@@ -180,10 +180,10 @@
             this.btnETC.BackColor = System.Drawing.Color.Transparent;
             this.btnETC.FlatAppearance.BorderSize = 0;
             this.btnETC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnETC.Location = new System.Drawing.Point(485, 10);
+            this.btnETC.Location = new System.Drawing.Point(416, 9);
             this.btnETC.Margin = new System.Windows.Forms.Padding(2);
             this.btnETC.Name = "btnETC";
-            this.btnETC.Size = new System.Drawing.Size(345, 114);
+            this.btnETC.Size = new System.Drawing.Size(296, 98);
             this.btnETC.TabIndex = 2;
             this.btnETC.UseVisualStyleBackColor = false;
             this.btnETC.Click += new System.EventHandler(this.btnTrCtr_Click);
@@ -195,10 +195,10 @@
             this.btnCAE.BackColor = System.Drawing.Color.Transparent;
             this.btnCAE.FlatAppearance.BorderSize = 0;
             this.btnCAE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCAE.Location = new System.Drawing.Point(624, 153);
+            this.btnCAE.Location = new System.Drawing.Point(535, 131);
             this.btnCAE.Margin = new System.Windows.Forms.Padding(2);
             this.btnCAE.Name = "btnCAE";
-            this.btnCAE.Size = new System.Drawing.Size(453, 114);
+            this.btnCAE.Size = new System.Drawing.Size(388, 98);
             this.btnCAE.TabIndex = 3;
             this.btnCAE.UseVisualStyleBackColor = false;
             this.btnCAE.Click += new System.EventHandler(this.btnColAE_Click);
@@ -210,10 +210,10 @@
             this.btnYSq.BackColor = System.Drawing.Color.Transparent;
             this.btnYSq.FlatAppearance.BorderSize = 0;
             this.btnYSq.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnYSq.Location = new System.Drawing.Point(308, 356);
+            this.btnYSq.Location = new System.Drawing.Point(264, 305);
             this.btnYSq.Margin = new System.Windows.Forms.Padding(2);
             this.btnYSq.Name = "btnYSq";
-            this.btnYSq.Size = new System.Drawing.Size(210, 111);
+            this.btnYSq.Size = new System.Drawing.Size(180, 95);
             this.btnYSq.TabIndex = 4;
             this.btnYSq.UseVisualStyleBackColor = false;
             this.btnYSq.Click += new System.EventHandler(this.btnYouthSqr_Click);
@@ -225,10 +225,10 @@
             this.btnColPE.BackColor = System.Drawing.Color.Transparent;
             this.btnColPE.FlatAppearance.BorderSize = 0;
             this.btnColPE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnColPE.Location = new System.Drawing.Point(308, 495);
+            this.btnColPE.Location = new System.Drawing.Point(264, 424);
             this.btnColPE.Margin = new System.Windows.Forms.Padding(2);
             this.btnColPE.Name = "btnColPE";
-            this.btnColPE.Size = new System.Drawing.Size(210, 66);
+            this.btnColPE.Size = new System.Drawing.Size(180, 57);
             this.btnColPE.TabIndex = 5;
             this.btnColPE.UseVisualStyleBackColor = false;
             this.btnColPE.Click += new System.EventHandler(this.btnColPE_Click);
@@ -240,10 +240,10 @@
             this.btnDorm1.BackColor = System.Drawing.Color.Transparent;
             this.btnDorm1.FlatAppearance.BorderSize = 0;
             this.btnDorm1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDorm1.Location = new System.Drawing.Point(13, 495);
+            this.btnDorm1.Location = new System.Drawing.Point(11, 424);
             this.btnDorm1.Margin = new System.Windows.Forms.Padding(2);
             this.btnDorm1.Name = "btnDorm1";
-            this.btnDorm1.Size = new System.Drawing.Size(187, 66);
+            this.btnDorm1.Size = new System.Drawing.Size(160, 57);
             this.btnDorm1.TabIndex = 6;
             this.btnDorm1.UseVisualStyleBackColor = false;
             this.btnDorm1.Click += new System.EventHandler(this.btnDorm1_Click);
@@ -255,10 +255,10 @@
             this.btnSHos.BackColor = System.Drawing.Color.Transparent;
             this.btnSHos.FlatAppearance.BorderSize = 0;
             this.btnSHos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSHos.Location = new System.Drawing.Point(13, 350);
+            this.btnSHos.Location = new System.Drawing.Point(11, 300);
             this.btnSHos.Margin = new System.Windows.Forms.Padding(2);
             this.btnSHos.Name = "btnSHos";
-            this.btnSHos.Size = new System.Drawing.Size(187, 66);
+            this.btnSHos.Size = new System.Drawing.Size(160, 57);
             this.btnSHos.TabIndex = 7;
             this.btnSHos.UseVisualStyleBackColor = false;
             this.btnSHos.Click += new System.EventHandler(this.btnHospital_Click);
@@ -270,10 +270,10 @@
             this.btnDorm21.BackColor = System.Drawing.Color.Transparent;
             this.btnDorm21.FlatAppearance.BorderSize = 0;
             this.btnDorm21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDorm21.Location = new System.Drawing.Point(3, 208);
+            this.btnDorm21.Location = new System.Drawing.Point(3, 178);
             this.btnDorm21.Margin = new System.Windows.Forms.Padding(2);
             this.btnDorm21.Name = "btnDorm21";
-            this.btnDorm21.Size = new System.Drawing.Size(196, 66);
+            this.btnDorm21.Size = new System.Drawing.Size(168, 57);
             this.btnDorm21.TabIndex = 8;
             this.btnDorm21.UseVisualStyleBackColor = false;
             this.btnDorm21.Click += new System.EventHandler(this.btnDorm21_Click);
@@ -285,10 +285,10 @@
             this.btnSWGate.BackColor = System.Drawing.Color.Transparent;
             this.btnSWGate.FlatAppearance.BorderSize = 0;
             this.btnSWGate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSWGate.Location = new System.Drawing.Point(308, 640);
+            this.btnSWGate.Location = new System.Drawing.Point(264, 549);
             this.btnSWGate.Margin = new System.Windows.Forms.Padding(2);
             this.btnSWGate.Name = "btnSWGate";
-            this.btnSWGate.Size = new System.Drawing.Size(226, 98);
+            this.btnSWGate.Size = new System.Drawing.Size(194, 84);
             this.btnSWGate.TabIndex = 9;
             this.btnSWGate.UseVisualStyleBackColor = false;
             this.btnSWGate.Click += new System.EventHandler(this.btnSWGate_Click);
@@ -300,10 +300,10 @@
             this.btnLib.BackColor = System.Drawing.Color.Transparent;
             this.btnLib.FlatAppearance.BorderSize = 0;
             this.btnLib.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLib.Location = new System.Drawing.Point(615, 350);
+            this.btnLib.Location = new System.Drawing.Point(527, 300);
             this.btnLib.Margin = new System.Windows.Forms.Padding(2);
             this.btnLib.Name = "btnLib";
-            this.btnLib.Size = new System.Drawing.Size(139, 114);
+            this.btnLib.Size = new System.Drawing.Size(119, 98);
             this.btnLib.TabIndex = 10;
             this.btnLib.UseVisualStyleBackColor = false;
             this.btnLib.Click += new System.EventHandler(this.btnLib_Click);
@@ -315,10 +315,10 @@
             this.btnTBd1.BackColor = System.Drawing.Color.Transparent;
             this.btnTBd1.FlatAppearance.BorderSize = 0;
             this.btnTBd1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTBd1.Location = new System.Drawing.Point(617, 495);
+            this.btnTBd1.Location = new System.Drawing.Point(529, 424);
             this.btnTBd1.Margin = new System.Windows.Forms.Padding(2);
             this.btnTBd1.Name = "btnTBd1";
-            this.btnTBd1.Size = new System.Drawing.Size(176, 133);
+            this.btnTBd1.Size = new System.Drawing.Size(151, 114);
             this.btnTBd1.TabIndex = 11;
             this.btnTBd1.UseVisualStyleBackColor = false;
             this.btnTBd1.Click += new System.EventHandler(this.btn1Bd_Click);
@@ -330,10 +330,10 @@
             this.btnEx2.BackColor = System.Drawing.Color.Transparent;
             this.btnEx2.FlatAppearance.BorderSize = 0;
             this.btnEx2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEx2.Location = new System.Drawing.Point(793, 295);
+            this.btnEx2.Location = new System.Drawing.Point(680, 253);
             this.btnEx2.Margin = new System.Windows.Forms.Padding(2);
             this.btnEx2.Name = "btnEx2";
-            this.btnEx2.Size = new System.Drawing.Size(131, 121);
+            this.btnEx2.Size = new System.Drawing.Size(112, 104);
             this.btnEx2.TabIndex = 12;
             this.btnEx2.UseVisualStyleBackColor = false;
             this.btnEx2.Click += new System.EventHandler(this.btn2Ex_Click);
@@ -345,10 +345,10 @@
             this.btnSSCplx.BackColor = System.Drawing.Color.Transparent;
             this.btnSSCplx.FlatAppearance.BorderSize = 0;
             this.btnSSCplx.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSSCplx.Location = new System.Drawing.Point(968, 293);
+            this.btnSSCplx.Location = new System.Drawing.Point(830, 251);
             this.btnSSCplx.Margin = new System.Windows.Forms.Padding(2);
             this.btnSSCplx.Name = "btnSSCplx";
-            this.btnSSCplx.Size = new System.Drawing.Size(266, 120);
+            this.btnSSCplx.Size = new System.Drawing.Size(228, 103);
             this.btnSSCplx.TabIndex = 13;
             this.btnSSCplx.UseVisualStyleBackColor = false;
             this.btnSSCplx.Click += new System.EventHandler(this.btnSSComplex_Click);
@@ -360,10 +360,10 @@
             this.btnShawBd.BackColor = System.Drawing.Color.Transparent;
             this.btnShawBd.FlatAppearance.BorderSize = 0;
             this.btnShawBd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnShawBd.Location = new System.Drawing.Point(794, 498);
+            this.btnShawBd.Location = new System.Drawing.Point(681, 427);
             this.btnShawBd.Margin = new System.Windows.Forms.Padding(2);
             this.btnShawBd.Name = "btnShawBd";
-            this.btnShawBd.Size = new System.Drawing.Size(143, 103);
+            this.btnShawBd.Size = new System.Drawing.Size(123, 88);
             this.btnShawBd.TabIndex = 14;
             this.btnShawBd.UseVisualStyleBackColor = false;
             this.btnShawBd.Click += new System.EventHandler(this.btnShawBd_Click);
@@ -375,10 +375,10 @@
             this.btnSGate.BackColor = System.Drawing.Color.Transparent;
             this.btnSGate.FlatAppearance.BorderSize = 0;
             this.btnSGate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSGate.Location = new System.Drawing.Point(793, 640);
+            this.btnSGate.Location = new System.Drawing.Point(680, 549);
             this.btnSGate.Margin = new System.Windows.Forms.Padding(2);
             this.btnSGate.Name = "btnSGate";
-            this.btnSGate.Size = new System.Drawing.Size(176, 103);
+            this.btnSGate.Size = new System.Drawing.Size(151, 88);
             this.btnSGate.TabIndex = 15;
             this.btnSGate.UseVisualStyleBackColor = false;
             this.btnSGate.Click += new System.EventHandler(this.btnSGate_Click);
@@ -390,10 +390,10 @@
             this.btnEx1.BackColor = System.Drawing.Color.Transparent;
             this.btnEx1.FlatAppearance.BorderSize = 0;
             this.btnEx1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEx1.Location = new System.Drawing.Point(969, 499);
+            this.btnEx1.Location = new System.Drawing.Point(831, 428);
             this.btnEx1.Margin = new System.Windows.Forms.Padding(2);
             this.btnEx1.Name = "btnEx1";
-            this.btnEx1.Size = new System.Drawing.Size(143, 103);
+            this.btnEx1.Size = new System.Drawing.Size(123, 88);
             this.btnEx1.TabIndex = 16;
             this.btnEx1.UseVisualStyleBackColor = false;
             this.btnEx1.Click += new System.EventHandler(this.btn1Ex_Click);
@@ -405,10 +405,10 @@
             this.btnGym.BackColor = System.Drawing.Color.Transparent;
             this.btnGym.FlatAppearance.BorderSize = 0;
             this.btnGym.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnGym.Location = new System.Drawing.Point(1141, 499);
+            this.btnGym.Location = new System.Drawing.Point(978, 428);
             this.btnGym.Margin = new System.Windows.Forms.Padding(2);
             this.btnGym.Name = "btnGym";
-            this.btnGym.Size = new System.Drawing.Size(272, 103);
+            this.btnGym.Size = new System.Drawing.Size(233, 88);
             this.btnGym.TabIndex = 17;
             this.btnGym.UseVisualStyleBackColor = false;
             this.btnGym.Click += new System.EventHandler(this.btnGym_Click);
@@ -420,10 +420,10 @@
             this.btnSEGate.BackColor = System.Drawing.Color.Transparent;
             this.btnSEGate.FlatAppearance.BorderSize = 0;
             this.btnSEGate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSEGate.Location = new System.Drawing.Point(1139, 640);
+            this.btnSEGate.Location = new System.Drawing.Point(976, 549);
             this.btnSEGate.Margin = new System.Windows.Forms.Padding(2);
             this.btnSEGate.Name = "btnSEGate";
-            this.btnSEGate.Size = new System.Drawing.Size(272, 103);
+            this.btnSEGate.Size = new System.Drawing.Size(233, 88);
             this.btnSEGate.TabIndex = 18;
             this.btnSEGate.UseVisualStyleBackColor = false;
             this.btnSEGate.Click += new System.EventHandler(this.btnSEGate_Click);
@@ -435,10 +435,10 @@
             this.btnEGate.BackColor = System.Drawing.Color.Transparent;
             this.btnEGate.FlatAppearance.BorderSize = 0;
             this.btnEGate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEGate.Location = new System.Drawing.Point(1319, 289);
+            this.btnEGate.Location = new System.Drawing.Point(1131, 248);
             this.btnEGate.Margin = new System.Windows.Forms.Padding(2);
             this.btnEGate.Name = "btnEGate";
-            this.btnEGate.Size = new System.Drawing.Size(135, 124);
+            this.btnEGate.Size = new System.Drawing.Size(116, 106);
             this.btnEGate.TabIndex = 19;
             this.btnEGate.UseVisualStyleBackColor = false;
             this.btnEGate.Click += new System.EventHandler(this.btnEGate_Click);
@@ -448,9 +448,9 @@
             // picMaskHelp
             // 
             this.picMaskHelp.BackColor = System.Drawing.Color.White;
-            this.picMaskHelp.Location = new System.Drawing.Point(884, 0);
+            this.picMaskHelp.Location = new System.Drawing.Point(758, 0);
             this.picMaskHelp.Name = "picMaskHelp";
-            this.picMaskHelp.Size = new System.Drawing.Size(583, 107);
+            this.picMaskHelp.Size = new System.Drawing.Size(500, 92);
             this.picMaskHelp.TabIndex = 20;
             this.picMaskHelp.TabStop = false;
             // 
@@ -459,9 +459,9 @@
             this.btnHelp.BackColor = System.Drawing.Color.White;
             this.btnHelp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHelp.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHelp.Location = new System.Drawing.Point(1391, 14);
+            this.btnHelp.Location = new System.Drawing.Point(1192, 12);
             this.btnHelp.Name = "btnHelp";
-            this.btnHelp.Size = new System.Drawing.Size(61, 61);
+            this.btnHelp.Size = new System.Drawing.Size(52, 52);
             this.btnHelp.TabIndex = 21;
             this.btnHelp.Text = "?";
             this.btnHelp.UseVisualStyleBackColor = false;
@@ -472,9 +472,9 @@
             this.btnHelpOK.BackColor = System.Drawing.Color.White;
             this.btnHelpOK.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHelpOK.Font = new System.Drawing.Font("Microsoft YaHei UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHelpOK.Location = new System.Drawing.Point(1304, 92);
+            this.btnHelpOK.Location = new System.Drawing.Point(1118, 79);
             this.btnHelpOK.Name = "btnHelpOK";
-            this.btnHelpOK.Size = new System.Drawing.Size(153, 61);
+            this.btnHelpOK.Size = new System.Drawing.Size(131, 52);
             this.btnHelpOK.TabIndex = 22;
             this.btnHelpOK.Text = "隐藏帮助";
             this.btnHelpOK.UseVisualStyleBackColor = false;
@@ -484,20 +484,20 @@
             // routeArrow1
             // 
             this.routeArrow1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.routeArrow1.Location = new System.Drawing.Point(184, 293);
+            this.routeArrow1.Location = new System.Drawing.Point(158, 251);
             this.routeArrow1.Margin = new System.Windows.Forms.Padding(2);
             this.routeArrow1.Name = "routeArrow1";
-            this.routeArrow1.Size = new System.Drawing.Size(35, 35);
+            this.routeArrow1.Size = new System.Drawing.Size(30, 30);
             this.routeArrow1.TabIndex = 23;
             this.routeArrow1.TabStop = false;
             // 
             // routeArrow2
             // 
             this.routeArrow2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.routeArrow2.Location = new System.Drawing.Point(184, 439);
+            this.routeArrow2.Location = new System.Drawing.Point(158, 376);
             this.routeArrow2.Margin = new System.Windows.Forms.Padding(2);
             this.routeArrow2.Name = "routeArrow2";
-            this.routeArrow2.Size = new System.Drawing.Size(35, 35);
+            this.routeArrow2.Size = new System.Drawing.Size(30, 30);
             this.routeArrow2.TabIndex = 24;
             this.routeArrow2.TabStop = false;
             // 
@@ -505,10 +505,10 @@
             // 
             this.routeArrow3.BackColor = System.Drawing.Color.Transparent;
             this.routeArrow3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.routeArrow3.Location = new System.Drawing.Point(275, 149);
+            this.routeArrow3.Location = new System.Drawing.Point(236, 128);
             this.routeArrow3.Margin = new System.Windows.Forms.Padding(2);
             this.routeArrow3.Name = "routeArrow3";
-            this.routeArrow3.Size = new System.Drawing.Size(35, 35);
+            this.routeArrow3.Size = new System.Drawing.Size(30, 30);
             this.routeArrow3.TabIndex = 25;
             this.routeArrow3.TabStop = false;
             // 
@@ -516,10 +516,10 @@
             // 
             this.routeArrow4.BackColor = System.Drawing.Color.Transparent;
             this.routeArrow4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.routeArrow4.Location = new System.Drawing.Point(275, 293);
+            this.routeArrow4.Location = new System.Drawing.Point(236, 251);
             this.routeArrow4.Margin = new System.Windows.Forms.Padding(2);
             this.routeArrow4.Name = "routeArrow4";
-            this.routeArrow4.Size = new System.Drawing.Size(35, 35);
+            this.routeArrow4.Size = new System.Drawing.Size(30, 30);
             this.routeArrow4.TabIndex = 26;
             this.routeArrow4.TabStop = false;
             // 
@@ -527,10 +527,10 @@
             // 
             this.routeArrow5.BackColor = System.Drawing.Color.Transparent;
             this.routeArrow5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.routeArrow5.Location = new System.Drawing.Point(275, 439);
+            this.routeArrow5.Location = new System.Drawing.Point(236, 376);
             this.routeArrow5.Margin = new System.Windows.Forms.Padding(2);
             this.routeArrow5.Name = "routeArrow5";
-            this.routeArrow5.Size = new System.Drawing.Size(35, 35);
+            this.routeArrow5.Size = new System.Drawing.Size(30, 30);
             this.routeArrow5.TabIndex = 27;
             this.routeArrow5.TabStop = false;
             // 
@@ -538,10 +538,10 @@
             // 
             this.routeArrow6.BackColor = System.Drawing.Color.Transparent;
             this.routeArrow6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.routeArrow6.Location = new System.Drawing.Point(275, 566);
+            this.routeArrow6.Location = new System.Drawing.Point(236, 485);
             this.routeArrow6.Margin = new System.Windows.Forms.Padding(2);
             this.routeArrow6.Name = "routeArrow6";
-            this.routeArrow6.Size = new System.Drawing.Size(35, 35);
+            this.routeArrow6.Size = new System.Drawing.Size(30, 30);
             this.routeArrow6.TabIndex = 28;
             this.routeArrow6.TabStop = false;
             // 
@@ -549,10 +549,10 @@
             // 
             this.routeArrow7.BackColor = System.Drawing.Color.Transparent;
             this.routeArrow7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.routeArrow7.Location = new System.Drawing.Point(579, 293);
+            this.routeArrow7.Location = new System.Drawing.Point(496, 251);
             this.routeArrow7.Margin = new System.Windows.Forms.Padding(2);
             this.routeArrow7.Name = "routeArrow7";
-            this.routeArrow7.Size = new System.Drawing.Size(35, 35);
+            this.routeArrow7.Size = new System.Drawing.Size(30, 30);
             this.routeArrow7.TabIndex = 29;
             this.routeArrow7.TabStop = false;
             // 
@@ -560,10 +560,10 @@
             // 
             this.routeArrow8.BackColor = System.Drawing.Color.Transparent;
             this.routeArrow8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.routeArrow8.Location = new System.Drawing.Point(579, 458);
+            this.routeArrow8.Location = new System.Drawing.Point(496, 393);
             this.routeArrow8.Margin = new System.Windows.Forms.Padding(2);
             this.routeArrow8.Name = "routeArrow8";
-            this.routeArrow8.Size = new System.Drawing.Size(35, 35);
+            this.routeArrow8.Size = new System.Drawing.Size(30, 30);
             this.routeArrow8.TabIndex = 30;
             this.routeArrow8.TabStop = false;
             // 
@@ -571,10 +571,10 @@
             // 
             this.routeArrow9.BackColor = System.Drawing.Color.Transparent;
             this.routeArrow9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.routeArrow9.Location = new System.Drawing.Point(843, 604);
+            this.routeArrow9.Location = new System.Drawing.Point(723, 518);
             this.routeArrow9.Margin = new System.Windows.Forms.Padding(2);
             this.routeArrow9.Name = "routeArrow9";
-            this.routeArrow9.Size = new System.Drawing.Size(35, 35);
+            this.routeArrow9.Size = new System.Drawing.Size(30, 30);
             this.routeArrow9.TabIndex = 31;
             this.routeArrow9.TabStop = false;
             // 
@@ -582,10 +582,10 @@
             // 
             this.routeArrow0.BackColor = System.Drawing.Color.Transparent;
             this.routeArrow0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.routeArrow0.Location = new System.Drawing.Point(1202, 603);
+            this.routeArrow0.Location = new System.Drawing.Point(1030, 517);
             this.routeArrow0.Margin = new System.Windows.Forms.Padding(2);
             this.routeArrow0.Name = "routeArrow0";
-            this.routeArrow0.Size = new System.Drawing.Size(35, 35);
+            this.routeArrow0.Size = new System.Drawing.Size(30, 30);
             this.routeArrow0.TabIndex = 32;
             this.routeArrow0.TabStop = false;
             // 
@@ -593,10 +593,10 @@
             // 
             this.routeArrow_1.BackColor = System.Drawing.Color.Transparent;
             this.routeArrow_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.routeArrow_1.Location = new System.Drawing.Point(227, 394);
+            this.routeArrow_1.Location = new System.Drawing.Point(195, 338);
             this.routeArrow_1.Margin = new System.Windows.Forms.Padding(2);
             this.routeArrow_1.Name = "routeArrow_1";
-            this.routeArrow_1.Size = new System.Drawing.Size(35, 35);
+            this.routeArrow_1.Size = new System.Drawing.Size(30, 30);
             this.routeArrow_1.TabIndex = 33;
             this.routeArrow_1.TabStop = false;
             // 
@@ -604,10 +604,10 @@
             // 
             this.routeArrow_2.BackColor = System.Drawing.Color.Transparent;
             this.routeArrow_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.routeArrow_2.Location = new System.Drawing.Point(227, 478);
+            this.routeArrow_2.Location = new System.Drawing.Point(195, 410);
             this.routeArrow_2.Margin = new System.Windows.Forms.Padding(2);
             this.routeArrow_2.Name = "routeArrow_2";
-            this.routeArrow_2.Size = new System.Drawing.Size(35, 35);
+            this.routeArrow_2.Size = new System.Drawing.Size(30, 30);
             this.routeArrow_2.TabIndex = 34;
             this.routeArrow_2.TabStop = false;
             // 
@@ -615,10 +615,10 @@
             // 
             this.routeArrow_3.BackColor = System.Drawing.Color.Transparent;
             this.routeArrow_3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.routeArrow_3.Location = new System.Drawing.Point(460, 124);
+            this.routeArrow_3.Location = new System.Drawing.Point(394, 106);
             this.routeArrow_3.Margin = new System.Windows.Forms.Padding(2);
             this.routeArrow_3.Name = "routeArrow_3";
-            this.routeArrow_3.Size = new System.Drawing.Size(29, 29);
+            this.routeArrow_3.Size = new System.Drawing.Size(25, 25);
             this.routeArrow_3.TabIndex = 35;
             this.routeArrow_3.TabStop = false;
             // 
@@ -626,10 +626,10 @@
             // 
             this.routeArrow_4.BackColor = System.Drawing.Color.Transparent;
             this.routeArrow_4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.routeArrow_4.Location = new System.Drawing.Point(539, 394);
+            this.routeArrow_4.Location = new System.Drawing.Point(462, 338);
             this.routeArrow_4.Margin = new System.Windows.Forms.Padding(2);
             this.routeArrow_4.Name = "routeArrow_4";
-            this.routeArrow_4.Size = new System.Drawing.Size(35, 35);
+            this.routeArrow_4.Size = new System.Drawing.Size(30, 30);
             this.routeArrow_4.TabIndex = 36;
             this.routeArrow_4.TabStop = false;
             // 
@@ -637,10 +637,10 @@
             // 
             this.routeArrow_5.BackColor = System.Drawing.Color.Transparent;
             this.routeArrow_5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.routeArrow_5.Location = new System.Drawing.Point(758, 394);
+            this.routeArrow_5.Location = new System.Drawing.Point(650, 338);
             this.routeArrow_5.Margin = new System.Windows.Forms.Padding(2);
             this.routeArrow_5.Name = "routeArrow_5";
-            this.routeArrow_5.Size = new System.Drawing.Size(35, 35);
+            this.routeArrow_5.Size = new System.Drawing.Size(30, 30);
             this.routeArrow_5.TabIndex = 37;
             this.routeArrow_5.TabStop = false;
             // 
@@ -648,10 +648,10 @@
             // 
             this.routeArrow_6.BackColor = System.Drawing.Color.Transparent;
             this.routeArrow_6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.routeArrow_6.Location = new System.Drawing.Point(758, 458);
+            this.routeArrow_6.Location = new System.Drawing.Point(650, 393);
             this.routeArrow_6.Margin = new System.Windows.Forms.Padding(2);
             this.routeArrow_6.Name = "routeArrow_6";
-            this.routeArrow_6.Size = new System.Drawing.Size(35, 35);
+            this.routeArrow_6.Size = new System.Drawing.Size(30, 30);
             this.routeArrow_6.TabIndex = 38;
             this.routeArrow_6.TabStop = false;
             // 
@@ -659,10 +659,10 @@
             // 
             this.routeArrow_7.BackColor = System.Drawing.Color.Transparent;
             this.routeArrow_7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.routeArrow_7.Location = new System.Drawing.Point(929, 394);
+            this.routeArrow_7.Location = new System.Drawing.Point(796, 338);
             this.routeArrow_7.Margin = new System.Windows.Forms.Padding(2);
             this.routeArrow_7.Name = "routeArrow_7";
-            this.routeArrow_7.Size = new System.Drawing.Size(35, 35);
+            this.routeArrow_7.Size = new System.Drawing.Size(30, 30);
             this.routeArrow_7.TabIndex = 39;
             this.routeArrow_7.TabStop = false;
             // 
@@ -670,10 +670,10 @@
             // 
             this.routeArrow_8.BackColor = System.Drawing.Color.Transparent;
             this.routeArrow_8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.routeArrow_8.Location = new System.Drawing.Point(930, 603);
+            this.routeArrow_8.Location = new System.Drawing.Point(797, 517);
             this.routeArrow_8.Margin = new System.Windows.Forms.Padding(2);
             this.routeArrow_8.Name = "routeArrow_8";
-            this.routeArrow_8.Size = new System.Drawing.Size(35, 35);
+            this.routeArrow_8.Size = new System.Drawing.Size(30, 30);
             this.routeArrow_8.TabIndex = 40;
             this.routeArrow_8.TabStop = false;
             // 
@@ -681,10 +681,10 @@
             // 
             this.routeArrow_9.BackColor = System.Drawing.Color.Transparent;
             this.routeArrow_9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.routeArrow_9.Location = new System.Drawing.Point(1280, 335);
+            this.routeArrow_9.Location = new System.Drawing.Point(1097, 287);
             this.routeArrow_9.Margin = new System.Windows.Forms.Padding(2);
             this.routeArrow_9.Name = "routeArrow_9";
-            this.routeArrow_9.Size = new System.Drawing.Size(35, 35);
+            this.routeArrow_9.Size = new System.Drawing.Size(30, 30);
             this.routeArrow_9.TabIndex = 41;
             this.routeArrow_9.TabStop = false;
             // 
@@ -692,10 +692,10 @@
             // 
             this.routeArrow_10.BackColor = System.Drawing.Color.Transparent;
             this.routeArrow_10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.routeArrow_10.Location = new System.Drawing.Point(1078, 604);
+            this.routeArrow_10.Location = new System.Drawing.Point(924, 518);
             this.routeArrow_10.Margin = new System.Windows.Forms.Padding(2);
             this.routeArrow_10.Name = "routeArrow_10";
-            this.routeArrow_10.Size = new System.Drawing.Size(35, 35);
+            this.routeArrow_10.Size = new System.Drawing.Size(30, 30);
             this.routeArrow_10.TabIndex = 42;
             this.routeArrow_10.TabStop = false;
             // 
@@ -703,10 +703,10 @@
             // 
             this.routeArrow_1_.BackColor = System.Drawing.Color.Transparent;
             this.routeArrow_1_.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.routeArrow_1_.Location = new System.Drawing.Point(579, 573);
+            this.routeArrow_1_.Location = new System.Drawing.Point(496, 491);
             this.routeArrow_1_.Margin = new System.Windows.Forms.Padding(2);
             this.routeArrow_1_.Name = "routeArrow_1_";
-            this.routeArrow_1_.Size = new System.Drawing.Size(35, 35);
+            this.routeArrow_1_.Size = new System.Drawing.Size(30, 30);
             this.routeArrow_1_.TabIndex = 43;
             this.routeArrow_1_.TabStop = false;
             // 
@@ -714,10 +714,10 @@
             // 
             this.routeArrow_2_.BackColor = System.Drawing.Color.Transparent;
             this.routeArrow_2_.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.routeArrow_2_.Location = new System.Drawing.Point(584, 127);
+            this.routeArrow_2_.Location = new System.Drawing.Point(501, 109);
             this.routeArrow_2_.Margin = new System.Windows.Forms.Padding(2);
             this.routeArrow_2_.Name = "routeArrow_2_";
-            this.routeArrow_2_.Size = new System.Drawing.Size(35, 35);
+            this.routeArrow_2_.Size = new System.Drawing.Size(30, 30);
             this.routeArrow_2_.TabIndex = 44;
             this.routeArrow_2_.TabStop = false;
             // 
@@ -725,10 +725,10 @@
             // 
             this.routeArrow_3_.BackColor = System.Drawing.Color.Transparent;
             this.routeArrow_3_.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.routeArrow_3_.Location = new System.Drawing.Point(740, 268);
+            this.routeArrow_3_.Location = new System.Drawing.Point(634, 230);
             this.routeArrow_3_.Margin = new System.Windows.Forms.Padding(2);
             this.routeArrow_3_.Name = "routeArrow_3_";
-            this.routeArrow_3_.Size = new System.Drawing.Size(35, 35);
+            this.routeArrow_3_.Size = new System.Drawing.Size(30, 30);
             this.routeArrow_3_.TabIndex = 45;
             this.routeArrow_3_.TabStop = false;
             // 
@@ -736,10 +736,10 @@
             // 
             this.routeArrow_4_.BackColor = System.Drawing.Color.Transparent;
             this.routeArrow_4_.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.routeArrow_4_.Location = new System.Drawing.Point(1081, 412);
+            this.routeArrow_4_.Location = new System.Drawing.Point(927, 353);
             this.routeArrow_4_.Margin = new System.Windows.Forms.Padding(2);
             this.routeArrow_4_.Name = "routeArrow_4_";
-            this.routeArrow_4_.Size = new System.Drawing.Size(31, 31);
+            this.routeArrow_4_.Size = new System.Drawing.Size(27, 27);
             this.routeArrow_4_.TabIndex = 46;
             this.routeArrow_4_.TabStop = false;
             // 
@@ -747,210 +747,210 @@
             // 
             this.routeArrow_5_.BackColor = System.Drawing.Color.Transparent;
             this.routeArrow_5_.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.routeArrow_5_.Location = new System.Drawing.Point(1260, 471);
+            this.routeArrow_5_.Location = new System.Drawing.Point(1080, 404);
             this.routeArrow_5_.Margin = new System.Windows.Forms.Padding(2);
             this.routeArrow_5_.Name = "routeArrow_5_";
-            this.routeArrow_5_.Size = new System.Drawing.Size(31, 31);
+            this.routeArrow_5_.Size = new System.Drawing.Size(27, 27);
             this.routeArrow_5_.TabIndex = 47;
             this.routeArrow_5_.TabStop = false;
             // 
             // Dorm21_d
             // 
             this.Dorm21_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Dorm21_d.Location = new System.Drawing.Point(150, 227);
+            this.Dorm21_d.Location = new System.Drawing.Point(129, 195);
             this.Dorm21_d.Margin = new System.Windows.Forms.Padding(2);
             this.Dorm21_d.Name = "Dorm21_d";
-            this.Dorm21_d.Size = new System.Drawing.Size(23, 23);
+            this.Dorm21_d.Size = new System.Drawing.Size(20, 20);
             this.Dorm21_d.TabIndex = 48;
             this.Dorm21_d.TabStop = false;
             // 
             // SHos_d
             // 
             this.SHos_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.SHos_d.Location = new System.Drawing.Point(150, 371);
+            this.SHos_d.Location = new System.Drawing.Point(129, 318);
             this.SHos_d.Margin = new System.Windows.Forms.Padding(2);
             this.SHos_d.Name = "SHos_d";
-            this.SHos_d.Size = new System.Drawing.Size(23, 23);
+            this.SHos_d.Size = new System.Drawing.Size(20, 20);
             this.SHos_d.TabIndex = 49;
             this.SHos_d.TabStop = false;
             // 
             // Dorm1_d
             // 
             this.Dorm1_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Dorm1_d.Location = new System.Drawing.Point(150, 514);
+            this.Dorm1_d.Location = new System.Drawing.Point(129, 441);
             this.Dorm1_d.Margin = new System.Windows.Forms.Padding(2);
             this.Dorm1_d.Name = "Dorm1_d";
-            this.Dorm1_d.Size = new System.Drawing.Size(23, 23);
+            this.Dorm1_d.Size = new System.Drawing.Size(20, 20);
             this.Dorm1_d.TabIndex = 50;
             this.Dorm1_d.TabStop = false;
             // 
             // BGMt_d
             // 
             this.BGMt_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BGMt_d.Location = new System.Drawing.Point(324, 84);
+            this.BGMt_d.Location = new System.Drawing.Point(278, 72);
             this.BGMt_d.Margin = new System.Windows.Forms.Padding(2);
             this.BGMt_d.Name = "BGMt_d";
-            this.BGMt_d.Size = new System.Drawing.Size(23, 23);
+            this.BGMt_d.Size = new System.Drawing.Size(20, 20);
             this.BGMt_d.TabIndex = 51;
             this.BGMt_d.TabStop = false;
             // 
             // ColArt_d
             // 
             this.ColArt_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ColArt_d.Location = new System.Drawing.Point(324, 227);
+            this.ColArt_d.Location = new System.Drawing.Point(278, 195);
             this.ColArt_d.Margin = new System.Windows.Forms.Padding(2);
             this.ColArt_d.Name = "ColArt_d";
-            this.ColArt_d.Size = new System.Drawing.Size(23, 23);
+            this.ColArt_d.Size = new System.Drawing.Size(20, 20);
             this.ColArt_d.TabIndex = 52;
             this.ColArt_d.TabStop = false;
             // 
             // YSq_d
             // 
             this.YSq_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.YSq_d.Location = new System.Drawing.Point(324, 371);
+            this.YSq_d.Location = new System.Drawing.Point(278, 318);
             this.YSq_d.Margin = new System.Windows.Forms.Padding(2);
             this.YSq_d.Name = "YSq_d";
-            this.YSq_d.Size = new System.Drawing.Size(23, 23);
+            this.YSq_d.Size = new System.Drawing.Size(20, 20);
             this.YSq_d.TabIndex = 53;
             this.YSq_d.TabStop = false;
             // 
             // ColPE_d
             // 
             this.ColPE_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ColPE_d.Location = new System.Drawing.Point(324, 514);
+            this.ColPE_d.Location = new System.Drawing.Point(278, 441);
             this.ColPE_d.Margin = new System.Windows.Forms.Padding(2);
             this.ColPE_d.Name = "ColPE_d";
-            this.ColPE_d.Size = new System.Drawing.Size(23, 23);
+            this.ColPE_d.Size = new System.Drawing.Size(20, 20);
             this.ColPE_d.TabIndex = 54;
             this.ColPE_d.TabStop = false;
             // 
             // SWGate_d
             // 
             this.SWGate_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.SWGate_d.Location = new System.Drawing.Point(324, 658);
+            this.SWGate_d.Location = new System.Drawing.Point(278, 564);
             this.SWGate_d.Margin = new System.Windows.Forms.Padding(2);
             this.SWGate_d.Name = "SWGate_d";
-            this.SWGate_d.Size = new System.Drawing.Size(23, 23);
+            this.SWGate_d.Size = new System.Drawing.Size(20, 20);
             this.SWGate_d.TabIndex = 55;
             this.SWGate_d.TabStop = false;
             // 
             // ETC_d
             // 
             this.ETC_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ETC_d.Location = new System.Drawing.Point(496, 84);
+            this.ETC_d.Location = new System.Drawing.Point(428, 72);
             this.ETC_d.Margin = new System.Windows.Forms.Padding(2);
             this.ETC_d.Name = "ETC_d";
-            this.ETC_d.Size = new System.Drawing.Size(23, 23);
+            this.ETC_d.Size = new System.Drawing.Size(20, 20);
             this.ETC_d.TabIndex = 56;
             this.ETC_d.TabStop = false;
             // 
             // CAE_d
             // 
             this.CAE_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.CAE_d.Location = new System.Drawing.Point(635, 227);
+            this.CAE_d.Location = new System.Drawing.Point(546, 195);
             this.CAE_d.Margin = new System.Windows.Forms.Padding(2);
             this.CAE_d.Name = "CAE_d";
-            this.CAE_d.Size = new System.Drawing.Size(23, 23);
+            this.CAE_d.Size = new System.Drawing.Size(20, 20);
             this.CAE_d.TabIndex = 57;
             this.CAE_d.TabStop = false;
             // 
             // Lib_d
             // 
             this.Lib_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Lib_d.Location = new System.Drawing.Point(634, 371);
+            this.Lib_d.Location = new System.Drawing.Point(545, 318);
             this.Lib_d.Margin = new System.Windows.Forms.Padding(2);
             this.Lib_d.Name = "Lib_d";
-            this.Lib_d.Size = new System.Drawing.Size(23, 23);
+            this.Lib_d.Size = new System.Drawing.Size(20, 20);
             this.Lib_d.TabIndex = 58;
             this.Lib_d.TabStop = false;
             // 
             // TBd1_d
             // 
             this.TBd1_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.TBd1_d.Location = new System.Drawing.Point(634, 514);
+            this.TBd1_d.Location = new System.Drawing.Point(545, 441);
             this.TBd1_d.Margin = new System.Windows.Forms.Padding(2);
             this.TBd1_d.Name = "TBd1_d";
-            this.TBd1_d.Size = new System.Drawing.Size(23, 23);
+            this.TBd1_d.Size = new System.Drawing.Size(20, 20);
             this.TBd1_d.TabIndex = 59;
             this.TBd1_d.TabStop = false;
             // 
             // Ex2_d
             // 
             this.Ex2_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Ex2_d.Location = new System.Drawing.Point(803, 371);
+            this.Ex2_d.Location = new System.Drawing.Point(691, 318);
             this.Ex2_d.Margin = new System.Windows.Forms.Padding(2);
             this.Ex2_d.Name = "Ex2_d";
-            this.Ex2_d.Size = new System.Drawing.Size(23, 23);
+            this.Ex2_d.Size = new System.Drawing.Size(20, 20);
             this.Ex2_d.TabIndex = 60;
             this.Ex2_d.TabStop = false;
             // 
             // SSCplx_d
             // 
             this.SSCplx_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.SSCplx_d.Location = new System.Drawing.Point(976, 371);
+            this.SSCplx_d.Location = new System.Drawing.Point(841, 318);
             this.SSCplx_d.Margin = new System.Windows.Forms.Padding(2);
             this.SSCplx_d.Name = "SSCplx_d";
-            this.SSCplx_d.Size = new System.Drawing.Size(23, 23);
+            this.SSCplx_d.Size = new System.Drawing.Size(20, 20);
             this.SSCplx_d.TabIndex = 61;
             this.SSCplx_d.TabStop = false;
             // 
             // Gym_d
             // 
             this.Gym_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Gym_d.Location = new System.Drawing.Point(1149, 514);
+            this.Gym_d.Location = new System.Drawing.Point(990, 441);
             this.Gym_d.Margin = new System.Windows.Forms.Padding(2);
             this.Gym_d.Name = "Gym_d";
-            this.Gym_d.Size = new System.Drawing.Size(23, 23);
+            this.Gym_d.Size = new System.Drawing.Size(20, 20);
             this.Gym_d.TabIndex = 62;
             this.Gym_d.TabStop = false;
             // 
             // EGate_d
             // 
             this.EGate_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.EGate_d.Location = new System.Drawing.Point(1328, 371);
+            this.EGate_d.Location = new System.Drawing.Point(1145, 318);
             this.EGate_d.Margin = new System.Windows.Forms.Padding(2);
             this.EGate_d.Name = "EGate_d";
-            this.EGate_d.Size = new System.Drawing.Size(23, 23);
+            this.EGate_d.Size = new System.Drawing.Size(20, 20);
             this.EGate_d.TabIndex = 63;
             this.EGate_d.TabStop = false;
             // 
             // ShawBd_d
             // 
             this.ShawBd_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ShawBd_d.Location = new System.Drawing.Point(803, 514);
+            this.ShawBd_d.Location = new System.Drawing.Point(691, 441);
             this.ShawBd_d.Margin = new System.Windows.Forms.Padding(2);
             this.ShawBd_d.Name = "ShawBd_d";
-            this.ShawBd_d.Size = new System.Drawing.Size(23, 23);
+            this.ShawBd_d.Size = new System.Drawing.Size(20, 20);
             this.ShawBd_d.TabIndex = 64;
             this.ShawBd_d.TabStop = false;
             // 
             // Ex1_d
             // 
             this.Ex1_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Ex1_d.Location = new System.Drawing.Point(976, 514);
+            this.Ex1_d.Location = new System.Drawing.Point(841, 441);
             this.Ex1_d.Margin = new System.Windows.Forms.Padding(2);
             this.Ex1_d.Name = "Ex1_d";
-            this.Ex1_d.Size = new System.Drawing.Size(23, 23);
+            this.Ex1_d.Size = new System.Drawing.Size(20, 20);
             this.Ex1_d.TabIndex = 65;
             this.Ex1_d.TabStop = false;
             // 
             // SGate_d
             // 
             this.SGate_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.SGate_d.Location = new System.Drawing.Point(804, 658);
+            this.SGate_d.Location = new System.Drawing.Point(691, 564);
             this.SGate_d.Margin = new System.Windows.Forms.Padding(2);
             this.SGate_d.Name = "SGate_d";
-            this.SGate_d.Size = new System.Drawing.Size(23, 23);
+            this.SGate_d.Size = new System.Drawing.Size(20, 20);
             this.SGate_d.TabIndex = 66;
             this.SGate_d.TabStop = false;
             // 
             // SEGate_d
             // 
             this.SEGate_d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.SEGate_d.Location = new System.Drawing.Point(1149, 658);
+            this.SEGate_d.Location = new System.Drawing.Point(990, 564);
             this.SEGate_d.Margin = new System.Windows.Forms.Padding(2);
             this.SEGate_d.Name = "SEGate_d";
-            this.SEGate_d.Size = new System.Drawing.Size(23, 23);
+            this.SEGate_d.Size = new System.Drawing.Size(20, 20);
             this.SEGate_d.TabIndex = 67;
             this.SEGate_d.TabStop = false;
             // 
@@ -959,9 +959,9 @@
             this.btnRoute.BackColor = System.Drawing.Color.White;
             this.btnRoute.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRoute.Font = new System.Drawing.Font("Microsoft YaHei UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRoute.Location = new System.Drawing.Point(1213, 14);
+            this.btnRoute.Location = new System.Drawing.Point(1040, 12);
             this.btnRoute.Name = "btnRoute";
-            this.btnRoute.Size = new System.Drawing.Size(153, 61);
+            this.btnRoute.Size = new System.Drawing.Size(131, 52);
             this.btnRoute.TabIndex = 68;
             this.btnRoute.Text = "寻找路线";
             this.btnRoute.UseVisualStyleBackColor = false;
@@ -969,12 +969,12 @@
             // 
             // frmMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(168F, 168F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::DSAA_Project3.Properties.Resources.Metro_New;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1465, 751);
+            this.ClientSize = new System.Drawing.Size(1256, 644);
             this.Controls.Add(this.btnRoute);
             this.Controls.Add(this.SEGate_d);
             this.Controls.Add(this.SGate_d);

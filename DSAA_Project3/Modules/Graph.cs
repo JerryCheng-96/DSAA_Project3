@@ -46,18 +46,19 @@ namespace DSAA_Project3
             locList = new List<Vertex>();
         }
 
-        public VertexCollection(string path)
+        public VertexCollection(string xml)
         {
             locList = new List<Vertex>();
-            initVertexList(path);
+            initVertexList(xml);
         }
 
-        public void initVertexList(string path)
+        public void initVertexList(string xml)
         {
             XmlDocument VertexCollection = new XmlDocument();
+
             try
             {
-                VertexCollection.Load(path);
+                VertexCollection.Load(new System.IO.StringReader(xml));
             }
             catch (System.IO.FileNotFoundException)
             {
@@ -127,12 +128,12 @@ namespace DSAA_Project3
         public List<Edge> edgeList = new List<Edge>();
 
         public EdgeCollection() { }
-        public EdgeCollection(string path)
+        public EdgeCollection(string xml)
         {
             XmlDocument VertexCollection = new XmlDocument();
             try
             {
-                VertexCollection.Load(path);
+                VertexCollection.Load(new System.IO.StringReader(xml));
             }
             catch (System.IO.FileNotFoundException)
             {

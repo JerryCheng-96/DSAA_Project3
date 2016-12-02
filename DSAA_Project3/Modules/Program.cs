@@ -16,8 +16,8 @@ namespace DSAA_Project3
         [STAThread]
         static void Main()
         {
-            db = new VertexCollection(Application.StartupPath + "..\\DBs\\LocationDBNew.xml");
-            edgeDB = new EdgeCollection(Application.StartupPath + "..\\DBs\\Edge.xml");
+            db = new VertexCollection(Properties.Resources.LocationDBNew);
+            edgeDB = new EdgeCollection(Properties.Resources.Edge);
             theGraph = new Graph(db, edgeDB);
 
             Path testPath = theGraph.DijkstraPath(12, 17);

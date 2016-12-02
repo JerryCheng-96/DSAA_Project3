@@ -64,6 +64,7 @@ namespace DSAA_Project3.Forms
             if (domainEnd.Text != "（终点）" && domainStart.Text != "（起点）")
             {
                 Text = domainStart.Text + " -> " + domainEnd.Text;
+                frmMain.getFrmMain().Text = "江安数字平面图 - 从 " + domainStart.Text + " 到 " + domainEnd.Text;
                 updateRoute(domainStart.Text, domainEnd.Text);
                 refreshShow();
             }

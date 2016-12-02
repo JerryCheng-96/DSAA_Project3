@@ -56,7 +56,7 @@ namespace DSAA_Project3.Forms
 
         private void lInfo_Click(object sender, EventArgs e)
         {
-
         }
     }
 }
+    

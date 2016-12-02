@@ -201,12 +201,65 @@ namespace DSAA_Project3.Properties {
         }
         
         /// <summary>
+        ///   查找类似 &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt;
+        ///&lt;GraphEdgeCollection&gt;
+        ///  
+        ///  &lt;Edge id=&quot;1&quot; v1=&quot;Dorm21&quot; v2=&quot;SHos&quot; len=&quot;550&quot;&gt;&lt;/Edge&gt;
+        ///  &lt;Edge id=&quot;2&quot; v1=&quot;SHos&quot; v2=&quot;Dorm1&quot; len=&quot;180&quot;&gt;&lt;/Edge&gt;
+        ///  &lt;Edge id=&quot;3&quot; v1=&quot;BGMt&quot; v2=&quot;ColArt&quot; len=&quot;300&quot;&gt;&lt;/Edge&gt;
+        ///  &lt;Edge id=&quot;4&quot; v1=&quot;ColArt&quot; v2=&quot;YSq&quot; len=&quot;100&quot;&gt;&lt;/Edge&gt;
+        ///  &lt;Edge id=&quot;5&quot; v1=&quot;YSq&quot; v2=&quot;ColPE&quot; len=&quot;100&quot;&gt;&lt;/Edge&gt;
+        ///  &lt;Edge id=&quot;6&quot; v1=&quot;ColPE&quot; v2=&quot;SWGate&quot; len=&quot;180&quot;&gt;&lt;/Edge&gt;
+        ///  &lt;Edge id=&quot;7&quot; v1=&quot;CAE&quot; v2=&quot;Lib&quot; len=&quot;200&quot;&gt;&lt;/Edge&gt;
+        ///  &lt;Edge id=&quot;8&quot; v1=&quot;Lib&quot; v2=&quot;TBd1&quot; len=&quot;150&quot;&gt;&lt;/Edge&gt;
+        ///  &lt;Edg [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        /// </summary>
+        internal static string Edge {
+            get {
+                return ResourceManager.GetString("Edge", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
         internal static System.Drawing.Bitmap Green {
             get {
                 object obj = ResourceManager.GetObject("Green", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt;
+        ///&lt;Locations&gt;
+        ///  
+        ///  &lt;loc Type=&quot;生活&quot;&gt;
+        ///    &lt;Code&gt;Dorm21&lt;/Code&gt;
+        ///    &lt;Name&gt;二十一舍&lt;/Name&gt;
+        ///    &lt;EngName&gt;Dorm. #21&lt;/EngName&gt;
+        ///    &lt;Intro&gt;&lt;/Intro&gt;
+        ///    &lt;ImgAdd&gt;&lt;/ImgAdd&gt;
+        ///  &lt;/loc&gt;
+        ///
+        ///  &lt;loc Type=&quot;生活&quot;&gt;
+        ///    &lt;Code&gt;SHos&lt;/Code&gt;
+        ///    &lt;Name&gt;校医院&lt;/Name&gt;
+        ///    &lt;EngName&gt;Hospital&lt;/EngName&gt;
+        ///    &lt;Intro&gt;&lt;/Intro&gt;
+        ///    &lt;ImgAdd&gt;Hos&lt;/ImgAdd&gt;
+        ///  &lt;/loc&gt;
+        ///
+        ///  &lt;loc Type=&quot;生活&quot;&gt;
+        ///    &lt;Code&gt;Dorm1&lt;/Code&gt;
+        ///    &lt;Name&gt;一舍&lt;/Name&gt;
+        ///    &lt;EngName&gt;Dorm. #1&lt;/EngName&gt;
+        ///    &lt;Intro&gt;&lt;/Intro&gt;
+        ///    &lt;ImgAdd&gt;Dorm1&lt;/ImgA [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        /// </summary>
+        internal static string LocationDBNew {
+            get {
+                return ResourceManager.GetString("LocationDBNew", resourceCulture);
             }
         }
         
@@ -309,6 +362,7 @@ namespace DSAA_Project3.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+
 
         /// <summary>
         ///   按资源名称查找
