@@ -395,6 +395,18 @@ namespace DSAA_Project3
                     }
                 }
             }
+            else
+            {
+                if (Program.db.locList.FindIndex(delegate (Vertex v1) { return v1 == theEdge.v1; })
+                        > Program.db.locList.FindIndex(delegate (Vertex v2) { return v2 == theEdge.v2; }))
+                {
+                    theEdge.picEdge.BackgroundImage = Properties.Resources.FindImg("Arrow" + theEdge.id + "Left");
+                }
+                else
+                {
+                    theEdge.picEdge.BackgroundImage = Properties.Resources.FindImg("Arrow" + theEdge.id + "Right");
+                };
+            }
         }
 
         public void showDot(Vertex v, Route.posOfLoc pos)

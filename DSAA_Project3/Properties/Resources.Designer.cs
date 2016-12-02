@@ -63,9 +63,9 @@ namespace DSAA_Project3.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap Arrow_0_Down {
+        internal static System.Drawing.Bitmap Arrow_1_Left {
             get {
-                object obj = ResourceManager.GetObject("Arrow_0_Down", resourceCulture);
+                object obj = ResourceManager.GetObject("Arrow_1_Left", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace DSAA_Project3.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap Arrow_0_Down1 {
+        internal static System.Drawing.Bitmap Arrow_1_Right {
             get {
-                object obj = ResourceManager.GetObject("Arrow_0_Down1", resourceCulture);
+                object obj = ResourceManager.GetObject("Arrow_1_Right", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace DSAA_Project3.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap Arrow_0_Up {
+        internal static System.Drawing.Bitmap Arrow_2_Left {
             get {
-                object obj = ResourceManager.GetObject("Arrow_0_Up", resourceCulture);
+                object obj = ResourceManager.GetObject("Arrow_2_Left", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace DSAA_Project3.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap Arrow_1_Down {
+        internal static System.Drawing.Bitmap Arrow_2_Right {
             get {
-                object obj = ResourceManager.GetObject("Arrow_1_Down", resourceCulture);
+                object obj = ResourceManager.GetObject("Arrow_2_Right", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace DSAA_Project3.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap Arrow_1_Up {
+        internal static System.Drawing.Bitmap Arrow_3_Left {
             get {
-                object obj = ResourceManager.GetObject("Arrow_1_Up", resourceCulture);
+                object obj = ResourceManager.GetObject("Arrow_3_Left", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +113,9 @@ namespace DSAA_Project3.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap Arrow_2_Down {
+        internal static System.Drawing.Bitmap Arrow_3_Right {
             get {
-                object obj = ResourceManager.GetObject("Arrow_2_Down", resourceCulture);
+                object obj = ResourceManager.GetObject("Arrow_3_Right", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +123,9 @@ namespace DSAA_Project3.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap Arrow_2_Up {
+        internal static System.Drawing.Bitmap Arrow_4_Left {
             get {
-                object obj = ResourceManager.GetObject("Arrow_2_Up", resourceCulture);
+                object obj = ResourceManager.GetObject("Arrow_4_Left", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +133,9 @@ namespace DSAA_Project3.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap Arrow_3_Down {
+        internal static System.Drawing.Bitmap Arrow_4_Right {
             get {
-                object obj = ResourceManager.GetObject("Arrow_3_Down", resourceCulture);
+                object obj = ResourceManager.GetObject("Arrow_4_Right", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,9 +143,9 @@ namespace DSAA_Project3.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap Arrow_3_Up {
+        internal static System.Drawing.Bitmap Arrow_5_Left {
             get {
-                object obj = ResourceManager.GetObject("Arrow_3_Up", resourceCulture);
+                object obj = ResourceManager.GetObject("Arrow_5_Left", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -153,19 +153,9 @@ namespace DSAA_Project3.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap Arrow_4_Down {
+        internal static System.Drawing.Bitmap Arrow_5_Right {
             get {
-                object obj = ResourceManager.GetObject("Arrow_4_Down", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
-        /// </summary>
-        internal static System.Drawing.Bitmap Arrow_4_Up {
-            get {
-                object obj = ResourceManager.GetObject("Arrow_4_Up", resourceCulture);
+                object obj = ResourceManager.GetObject("Arrow_5_Right", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
